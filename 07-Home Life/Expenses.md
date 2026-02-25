@@ -14,8 +14,8 @@
 | Utilities | $0 | $0 | - |
 | Entertainment | $0 | $0 | - |
 | Healthcare | $0 | $0 | - |
-| Moving Costs | $0 | $0 | Australia move expenses |
-| **Total** | **$0** | **$0** | - |
+| Moving Costs | $5051.16 | $5051.16 | Australia move expenses |
+| **Total** | **$5051.16** | **$5051.16** | - |
 
 ---
 
@@ -71,7 +71,8 @@
 
 | Date | Description | Category | Amount | Notes |
 |------|-------------|----------|--------|-------|
-| - | - | - | $0 | - |
+| 2026-02-23 | Grace removals | Moving | $1494.42 | Property removal |
+| 2026-02-23 | Grace removals | Moving | $3556.74 | Property removal |
 
 ---
 
