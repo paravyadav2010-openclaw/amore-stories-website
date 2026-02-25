@@ -36,53 +36,17 @@ Add whatever helps you do your job. This is your cheat sheet.
 - **Remote:** https://github.com/paravyadav2010-openclaw/openclaw-workspace.git
 - **Status:** ✅ Working - automated backups every 2 hours
 - **Issue resolved:** Created new repo after old one was deleted (had exposed API keys)
-- **Last push:** 2026-02-25 15:XX NZT
+- **Last push:** 2026-02-25 22:47 PM NZT (workspace + Obsidian vault)
 
 ## Obsidian Vault
 - **Location:** ~/Documents/Obsidian Notes
-- **Status:** Git-based sync (manual setup needed)
-- **GitHub Repo:** https://github.com/paravyadav2010-openclaw/openclaw-workspace.git
-
-### Setup Instructions
-
-#### Desktop (Option A - Recommended - Clone to New Location)
-```bash
-# 1. Clone GitHub repo to sync location
-git clone git@github.com:paravyadav2010-openclaw/openclaw-workspace.git ~/Documents/Obsidian-Sync
-
-# 2. Move existing vault into cloned repo
-mv ~/Documents/"Obsidian Notes"/* ~/Documents/Obsidian-Sync/
-
-# 3. Open Obsidian Settings → Open Folder: ~/Documents/Obsidian-Sync
-```
-
-#### Desktop (Option B - Initialize Git in Place)
-```bash
-# 1. Initialize git in current vault
-cd ~/Documents/"Obsidian Notes"
-git init
-git remote add origin git@github.com:paravyadav2010-openclaw/openclaw-workspace.git
-git add -A
-git commit -m "Initial commit: Obsidian vault"
-git push -u origin main
-```
-
-#### Mobile (iOS/Android)
-1. Install **Obsidian Git** plugin from Community Plugins
-2. Settings → Third-party plugin → Obsidian Git → Enable
-3. Add GitHub repo: `git@github.com:paravyadav2010-openclaw/openclaw-workspace.git`
-4. Generate GitHub Personal Access Token: https://github.com/settings/tokens (classic, repo scope, no expiry)
-5. In Obsidian Git plugin settings → Add Token
-6. Pull to sync from GitHub
-
-### Sync Frequency
-- **Desktop:** Every 2 hours via backup-hourly.sh
-- **Mobile:** Manual pull or auto-sync in Obsidian Git plugin
-
-### Notes
-- Create GitHub token with no expiry for best experience
-- Merge conflicts happen if both devices edit same file - handle manually
-- **Note:** Obsidian vault is in separate git repo and synced first, then workspace
+- **Status:** ✅ Synced to GitHub (initialized as git repository and pushed)
+- **Repository:** https://github.com/paravyadav2010-openclaw/openclaw-workspace.git (same as workspace)
+- **Sync Method:** Manual git sync (vault has own .git now, not part of workspace backup)
+- **Desktop:** Use standard git commands (add, commit, push)
+- **Mobile:** Install Obsidian Git plugin → Connect to repository
+- **Setup Guide:** `OBSIDIAN_SYNC_GUIDE.md` (step-by-step instructions)
+- **Note:** Workspace backup script no longer syncs Obsidian (vault has own git repo)
 
 ---
 
