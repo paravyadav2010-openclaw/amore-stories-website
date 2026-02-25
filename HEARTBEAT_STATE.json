@@ -1,6 +1,8 @@
 {
   "last_checked": "2026-02-24T20:57:35Z",
-  "pending_tasks": [],
+  "pending_tasks": [
+    "Kimi k2.5 via NVIDIA API - connection timeout, endpoint unreachable from macOS VM environment"
+  ],
   "completed_tasks": [
     "Set up git backup system",
     "Create backup-nightly.sh script",
