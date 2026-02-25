@@ -11,14 +11,17 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "05-Goals & Projects/Australia Move Project.md",
-                "mode": "source",
-                "source": false
+                "file": "05-Goals & Projects/Project Board.canvas",
+                "viewState": {
+                  "x": 40,
+                  "y": -60,
+                  "zoom": -0.2459502512082453
+                }
               },
-              "icon": "lucide-file",
-              "title": "Australia Move Project"
+              "icon": "lucide-layout-dashboard",
+              "title": "Project Board"
             }
           }
         ]
@@ -206,9 +209,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "VAULT-RESTRUCTURE-SUMMARY.md",
+    "00-Dashboard/Vault Handbook.md",
+    "05-Goals & Projects/Australia Move Project.md",
     "00-Dashboard/Dashboard.md",
     "00-Home (Dashboard)/Home.md",
-    "Untitled.canvas",
     "00-Dashboard/Home (Dashboard) - FIXED.md",
     "05-Goals & Projects/RCD Cable Sold.md",
     "00-Dashboard/Home (Dashboard).md",
@@ -227,14 +233,10 @@
     "04-Permanent Notes/Zettelkasten/Concepts/Habits are the compound interest of self-improvement.md",
     "04-Permanent Notes/Zettelkasten/Concepts/Deep work creates real value.md",
     "00-Dashboard/Bento Home.md",
-    "05-Goals & Projects/Australia Move Project.md",
     "05-Goals & Projects/Australia Move Checklist.md",
     "05-Goals & Projects/Australia move.md",
     "01-Journal/Journal 2026-02-12.md",
     "01-Journal/Journal 2026-02-11.md",
-    "01-Journal/Journal 2026-02-07.md",
-    "01-Journal/Journal 2026-02-04.md",
-    "01-Journal/Journal 2026-01-28.md",
     "05-Goals & Projects/Project Board.canvas",
     "00-Home (Dashboard)",
     "00-Dashboard",
