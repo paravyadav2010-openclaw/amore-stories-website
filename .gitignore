@@ -1,0 +1,50 @@
+# .gitignore for OpenClaw Workspace
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.production
+
+# API keys and secrets
+*.key
+*secret*
+credentials.json
+config-backup/
+BACKUP_ASSESSMENT.md
+*backup*
+
+# Sensitive files
+*.log
+*.sqlite
+*.db
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Cache
+.cache/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSH
+.ssh/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+memory/

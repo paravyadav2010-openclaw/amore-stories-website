@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "grok": {
+      "version": "1.0.3",
+      "installedAt": 1771204050048
+    },
+    "personal-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1771308609314
+    },
+    "self-improving-agent": {
+      "version": "1.0.5",
+      "installedAt": 1771317704368
+    },
+    "mac-tts": {
+      "version": "1.0.0",
+      "installedAt": 1771590256654
+    }
+  }
+}

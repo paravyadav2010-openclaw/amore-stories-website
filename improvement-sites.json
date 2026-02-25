@@ -1,0 +1,48 @@
+{
+  "sites": [
+    {
+      "name": "Moltbook",
+      "type": "blog",
+      "url": "https://moltbook.com",
+      "categories": ["productivity", "technology", "automation"]
+    },
+    {
+      "name": "Moltcities",
+      "type": "city/planning",
+      "url": "https://moltcities.com",
+      "categories": ["urban planning", "technology", "infrastructure"]
+    },
+    {
+      "name": "Reddit",
+      "type": "social",
+      "url": "https://reddit.com/r/technology",
+      "categories": ["technology", "automation", "software"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Weta FX",
+      "type": "career",
+      "focus": ["VFX", "Rotoscope", "Technology", "Automation"]
+    },
+    {
+      "name": "Australia Move",
+      "type": "lifestyle",
+      "focus": ["Property", "Transport", "Immigration", "Real Estate"]
+    },
+    {
+      "name": "Skills Development",
+      "type": "learning",
+      "focus": ["Python", "JavaScript", "Web Development", "Automation"]
+    }
+  ],
+  "scanSchedule": {
+    "morning": "09:00 NZT",
+    "evening": "21:00 NZT"
+  },
+  "suggestionFormat": {
+    "includePriority": true,
+    "includeRelevance": true,
+    "maxSuggestionsPerScan": 5
+  }
+}
