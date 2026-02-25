@@ -32,11 +32,18 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ---
 
+## Git Backup System
+- **Remote:** https://github.com/paravyadav2010-openclaw/openclaw-workspace.git
+- **Status:** ✅ Working - automated backups every 2 hours
+- **Issue resolved:** Created new repo after old one was deleted (had exposed API keys)
+- **Last push:** 2026-02-25 15:XX NZT
+
 ## Obsidian Vault
 - **Location:** ~/Documents/Obsidian Notes
 - **Status:** Auto-synced via backup-hourly.sh
 - **Backed up to:** https://github.com/paravyadav2010-openclaw/openclaw-workspace (in separate commits)
 - **Sync frequency:** Every 2 hours (with workspace backups)
+- **Note:** Obsidian vault is in separate git repo and synced first, then workspace
 
 ---
 
