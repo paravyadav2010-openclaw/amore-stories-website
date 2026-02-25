@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Zero vs OpenClaw - Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            font-weight: 800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .comparison-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .column-header {
+            text-align: center;
+            flex: 1;
+        }
+        
+        .column-header h2 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .column-header .subtitle {
+            font-size: 0.9em;
+            opacity: 0.85;
+        }
+        
+        .column-header .stats {
+            margin-top: 15px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .divider {
+            width: 2px;
+            background: rgba(255,255,255,0.3);
+            margin: 0 30px;
+        }
+        
+        .card-body {
+            padding: 40px;
+        }
+        
+        .feature-row {
+            display: flex;
+            margin-bottom: 25px;
+            align-items: flex-start;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 25px;
+        }
+        
+        .feature-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        
+        .feature-name {
+            flex: 0 0 200px;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.05em;
+            padding-right: 30px;
+            line-height: 1.6;
+        }
+        
+        .feature-comparison {
+            flex: 1;
+            display: flex;
+            gap: 0;
+        }
+        
+        .feature-value {
+            flex: 1;
+            padding: 15px 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .feature-value:first-child {
+            border-right: 1px solid #eee;
+        }
+        
+        .feature-value strong {
+            color: #667eea;
+        }
+        
+        .feature-value.agent-zero strong {
+            color: #10b981;
+        }
+        
+        .feature-value.openclaw strong {
+            color: #764ba2;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .badge.feature {
+            background: #e0f2fe;
+            color: #0369a1;
+        }
+        
+        .badge.advantage {
+            background: #dcfce7;
+            color: #059669;
+        }
+        
+        .badge.unique {
+            background: #fef3c7;
+            color: #d97706;
+        }
+        
+        .verdict {
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .verdict h3 {
+            color: #92400e;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .verdict p {
+            color: #78350f;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .links a {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 0 10px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .links a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
+        @media (max-width: 900px) {
+            .card-header {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .divider {
+                display: none;
+            }
+            
+            .feature-row {
+                flex-direction: column;
+            }
+            
+            .feature-name {
+                flex: none;
+                margin-bottom: 10px;
+                padding-right: 0;
+            }
+            
+            .feature-comparison {
+                flex-direction: column;
+            }
+            
+            .feature-value {
+                border-right: none !important;
+                border-bottom: 1px solid #eee;
+            }
+            
+            .feature-value:last-child {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agent Zero vs OpenClaw</h1>
+            <p>AI Agent Frameworks Compared</p>
+        </header>
+        
+        <div class="comparison-card">
+            <div class="card-header">
+                <div class="column-header">
+                    <h2>Agent Zero</h2>
+                    <div class="subtitle">Personal, Organic, Learning</div>
+                    <div class="stats">
+                        <span class="stat">⭐ 15.3k Stars</span>
+                        <span class="stat">🍴 3.2k Forks</span>
+                        <span class="stat">🐳 Docker-First</span>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="column-header">
+                    <h2>OpenClaw</h2>
+                    <div class="subtitle">Gateway-Based, Modular, CLI-First</div>
+                    <div class="stats">
+                        <span class="stat">🔌 Gateway Daemon</span>
+                        <span class="stat">📦 NPM Skills</span>
+                        <span class="stat">🤖 Multi-Model</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="feature-row">
+                    <div class="feature-name">Core Philosophy</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge unique">Unique</span>
+                            <strong>Organic Growth Framework</strong><br>
+                            Learns and evolves with use. Prompt-based behavior defined in prompts/default/agent.system.md. Everything is transparent, readable, and fully customizable.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Structured</span>
+                            <strong>Gateway + Session Model</strong><br>
+                            Central gateway daemon manages tools, channels, and sessions. Skills are modular NPM packages loaded dynamically. More structured architecture.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">Skills System</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge advantage">Portability</span>
+                            <strong>SKILL.md Standard</strong><br>
+                            Uses open standard compatible with Claude Code, Cursor, OpenAI Codex, GitHub Copilot. Skills are portable across multiple AI tools. Git-based projects with authentication.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge advantage">Ecosystem</span>
+                            <strong>NPM Packages + ClawHub</strong><br>
+                            Skills are installed via npm with centralized skill marketplace (ClawHub). Easy discovery, versioning, and updates. Custom skills packaged locally.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">Multi-Agent Support</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge unique">Hierarchical</span>
+                            <strong>Cooperative Hierarchy</strong><br>
+                            Superior/subordinate agent structure. Agents create subagents for subtasks. Reports back through chain. Context isolation through delegation.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Sessions</span>
+                            <strong>Session Spawn</strong><br>
+                            Spawn isolated sub-agent sessions that run independently. Main agent stays responsive. Sub-agents auto-announce completion. Parallel execution support.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">Memory System</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge advantage">AI-Powered</span>
+                            <strong>Persistent Learning Memory</strong><br>
+                            Memorizes solutions, code, facts, instructions. Auto-consolidates when saving. Memory dashboard for management. AI-filtered recall.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Structured</span>
+                            <strong>MEMORY.md + Daily Logs</strong><br>
+                            Long-term memory in MEMORY.md (curated). Daily logs in memory/YYYY-MM-DD.md. Semantic search via memory_search tool. Manual organization.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">User Interface</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge advantage">Web UI</span>
+                            <strong>Rich Web Dashboard</strong><br>
+                            Beautiful, real-time streamed output. In-browser file editor. Image viewer. Message queuing. Process groups. Collapsible responses. Very clean and fluid.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">CLI-First</span>
+                            <strong>Terminal + Optional Dashboard</strong><br>
+                            Primary interface is CLI/Telegram. Optional web dashboards (like VidClaw). Focus on command-line efficiency. Channel integration (Telegram, Discord, etc.).
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">AI Provider Support</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge advantage">Flexible</span>
+                            <strong>LiteLLM + 20+ Providers</strong><br>
+                            OpenRouter (default), OpenAI, Anthropic, Azure, local Ollama, Z.AI, Moonshot AI, AWS Bedrock, and more. Provider switching in UI.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Multi-Model</span>
+                            <strong>GLM, OpenAI, Gemini, etc.</strong><br>
+                            Supports multiple models with model aliasing. Model switching via /status. Can use different models for different agents/sessions.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">Code Execution</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge unique">Self-Tooling</span>
+                            <strong>Dynamic Tool Creation</strong><br>
+                            Writes own code and uses terminal to create tools. No hardcoded single-purpose tools. Everything created by agent or extended by user.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Built-in Tools</span>
+                            <strong>Exec, Browser, etc.</strong><br>
+                            Rich set of built-in tools (exec, browser, canvas, nodes, etc.). Skills add new tools. Gateway manages tool availability.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">Deployment</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge advantage">Docker-Native</span>
+                            <strong>One-Command Docker</strong><br>
+                            <code>docker pull agent0ai/agent-zero && docker run</code>. Fully containerized. Includes TTS, STT, browser agent. Microsoft Dev Tunnels for remote access.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Flexible</span>
+                            <strong>Gateway + CLI</strong><br>
+                            Install via npm/brew. Gateway daemon manages background services. Works on macOS, Linux. CLI-centric with optional web UI.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">MCP Support</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge advantage">Server + Client</span>
+                            <strong>Full MCP Integration</strong><br>
+                            Can act as MCP server AND use external MCP servers as tools. Streamable HTTP MCP support. Advanced MCP tools.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">mcporter</span>
+                            <strong>mcporter CLI Tool</strong><br>
+                            Dedicated skill for managing MCP servers. List, configure, auth, and call MCP tools via CLI. Integration through skills ecosystem.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-name">Project Management</div>
+                    <div class="feature-comparison">
+                        <div class="feature-value agent-zero">
+                            <span class="badge unique">Git-Integrated</span>
+                            <strong>Git-Based Projects</strong><br>
+                            Clone public/private repos directly into isolated workspaces. Project-specific memory, secrets, and instructions. Support for GitHub authentication.
+                        </div>
+                        <div class="feature-value openclaw">
+                            <span class="badge feature">Workspace</span>
+                            <strong>Workspace + Git</strong><br>
+                            Designated workspace directory (~/.openclaw/workspace). Git integration for skills/projects. File organization via tools.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="verdict">
+                    <h3>🎯 Bottom Line</h3>
+                    <p>
+                        <strong>Choose Agent Zero if:</strong> You want a personal, learning assistant with beautiful web UI, Git-integrated projects, and organic growth. Great for individual power users who want full transparency and control.<br><br>
+                        <strong>Choose OpenClaw if:</strong> You prefer CLI-first workflow, modular NPM-based skills, Telegram/Discord integration, and structured session management. Great for automation-focused users who want channel-native AI.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="links">
+            <a href="https://github.com/agent0ai/agent-zero" target="_blank">View Agent Zero →</a>
+            <a href="https://github.com/openclaw/openclaw" target="_blank">View OpenClaw →</a>
+        </div>
+    </div>
+</body>
+</html>

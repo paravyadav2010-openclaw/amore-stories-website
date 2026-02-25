@@ -1,0 +1,161 @@
+{
+  "meals": [
+    {
+      "name": "Scrambled Eggs",
+      "ingredients": ["eggs", "butter", "salt", "pepper", "coriander"],
+      "tags": ["breakfast", "quick", "toddler-friendly"],
+      "prep_time": "10 min",
+      "serves": 3,
+      "created_at": "2026-02-22 17:31:06"
+    },
+    {
+      "name": "Poha",
+      "ingredients": ["poha", "onion", "mustard seeds", "turmeric", "peanuts", "green chilli", "coriander"],
+      "tags": ["breakfast", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "15 min",
+      "serves": 3,
+      "created_at": "2026-02-22 17:31:09"
+    },
+    {
+      "name": "Upma",
+      "ingredients": ["semolina/sooji", "mustard seeds", "curry leaves", "green chilli", "onion", "peas", "cashews"],
+      "tags": ["breakfast", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "15 min",
+      "serves": 3,
+      "created_at": "2026-02-22 17:31:11"
+    },
+    {
+      "name": "Chicken Curry",
+      "ingredients": ["chicken", "onion", "tomato", "ginger-garlic paste", "yogurt", "garam masala", "turmeric", "coriander powder", "chilli powder", "oil"],
+      "tags": ["dinner", "north-indian", "non-vegetarian"],
+      "prep_time": "45 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:31:13"
+    },
+    {
+      "name": "Dal Tadka",
+      "ingredients": ["toor dal", "onion", "tomato", "garlic", "cumin", "turmeric", "red chilli powder", "ghee"],
+      "tags": ["dinner", "north-indian", "vegetarian", "toddler-friendly", "tuesday"],
+      "prep_time": "30 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:31:17"
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "ingredients": ["paneer", "tomato", "cashews", "butter", "cream", "garam masala", "fenugreek leaves"],
+      "tags": ["dinner", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "40 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:31:19"
+    },
+    {
+      "name": "Vegetable Pulao",
+      "ingredients": ["basmati rice", "mixed vegetables", "whole spices", "ghee", "ginger-garlic"],
+      "tags": ["lunch", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "30 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:31:21"
+    },
+    {
+      "name": "Chole Masala",
+      "ingredients": ["chickpeas", "onion", "tomato", "ginger-garlic", "chole masala", "tea bags", "ghee"],
+      "tags": ["dinner", "north-indian", "vegetarian", "tuesday"],
+      "prep_time": "50 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:31:24"
+    },
+    {
+      "name": "Aloo Gobi",
+      "ingredients": ["potato", "cauliflower", "onion", "tomato", "turmeric", "cumin", "coriander powder", "garam masala"],
+      "tags": ["dinner", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "30 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:31:26"
+    },
+    {
+      "name": "Rice and Dal",
+      "ingredients": ["basmati rice", "moong dal", "turmeric", "ghee", "cumin"],
+      "tags": ["lunch", "north-indian", "vegetarian", "toddler-friendly", "simple"],
+      "prep_time": "20 min",
+      "serves": 3,
+      "created_at": "2026-02-22 17:31:29"
+    },
+    {
+      "name": "Roti/Paratha",
+      "ingredients": ["whole wheat flour", "water", "ghee/oil"],
+      "tags": ["side", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "20 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:35:00"
+    },
+    {
+      "name": "Plain Curd/Yogurt",
+      "ingredients": ["yogurt", "sugar"],
+      "tags": ["side", "north-indian", "vegetarian", "toddler-friendly", "tuesday"],
+      "prep_time": "5 min",
+      "serves": 3,
+      "created_at": "2026-02-22 17:35:00"
+    },
+    {
+      "name": "Mixed Vegetable Curry",
+      "ingredients": ["carrot", "beans", "peas", "potato", "tomato", "onion", "spices"],
+      "tags": ["dinner", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "35 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:35:00"
+    },
+    {
+      "name": "Simple Vegetable Khichdi",
+      "ingredients": ["rice", "moong dal", "mixed vegetables", "ghee", "cumin", "turmeric"],
+      "tags": ["dinner", "north-indian", "vegetarian", "toddler-friendly", "tuesday"],
+      "prep_time": "25 min",
+      "serves": 4,
+      "created_at": "2026-02-22 17:35:00"
+    },
+    {
+      "name": "Paratha with Potato Stuffing",
+      "ingredients": ["whole wheat flour", "potato", "spices", "ghee"],
+      "tags": ["breakfast", "north-indian", "vegetarian", "toddler-friendly"],
+      "prep_time": "30 min",
+      "serves": 3,
+      "created_at": "2026-02-22 17:35:00"
+    }
+  ],
+  "meal_plan": {
+    "Monday": {
+      "breakfast": "Scrambled Eggs",
+      "lunch": "Vegetable Pulao",
+      "dinner": "Chicken Curry"
+    },
+    "Tuesday": {
+      "breakfast": "Poha",
+      "lunch": "Rice and Dal",
+      "dinner": "Dal Tadka + Roti + Curd"
+    },
+    "Wednesday": {
+      "breakfast": "Paratha with Potato Stuffing",
+      "lunch": "Vegetable Pulao",
+      "dinner": "Paneer Butter Masala"
+    },
+    "Thursday": {
+      "breakfast": "Upma",
+      "lunch": "Rice and Dal",
+      "dinner": "Chicken Curry"
+    },
+    "Friday": {
+      "breakfast": "Scrambled Eggs",
+      "lunch": "Vegetable Pulao",
+      "dinner": "Aloo Gobi + Roti"
+    },
+    "Saturday": {
+      "breakfast": "Paratha with Potato Stuffing",
+      "lunch": "Chole Masala + Roti",
+      "dinner": "Paneer Butter Masala"
+    },
+    "Sunday": {
+      "breakfast": "Poha",
+      "lunch": "Vegetable Pulao",
+      "dinner": "Mixed Vegetable Curry + Roti"
+    }
+  }
+}

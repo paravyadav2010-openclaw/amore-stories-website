@@ -1,0 +1,567 @@
+{
+  "meals": [
+    {
+      "name": "Scrambled Eggs",
+      "ingredients": [
+        "eggs",
+        " butter",
+        " salt",
+        " pepper",
+        " coriander",
+        " green chilli"
+      ],
+      "steps": [
+        "Beat eggs lightly with salt and pepper",
+        "Heat butter in pan on medium heat",
+        "Pour beaten eggs, stir gently",
+        "Cook until soft curds form (2-3 min)",
+        "Add chopped coriander",
+        "Serve hot"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "toddler-friendly"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "5 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Mash slightly, skip green chilli, serve warm"
+    },
+    {
+      "name": "Poha",
+      "ingredients": [
+        "poha",
+        " onion",
+        " mustard seeds",
+        " turmeric",
+        " peanuts",
+        " green chilli",
+        " coriander",
+        " lemon"
+      ],
+      "steps": [
+        "Rinse poha in water, drain",
+        "Heat oil, add mustard seeds",
+        "Add chopped onions, sauté",
+        "Add turmeric, peanuts",
+        "Add poha, mix gently",
+        "Cook for 2-3 minutes",
+        "Garnish with coriander, squeeze lemon"
+      ],
+      "tags": [
+        "breakfast",
+        "north-indian",
+        "vegetarian",
+        "toddler-friendly",
+        "tuesday"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "No green chilli, mash lightly, add extra peanuts for protein"
+    },
+    {
+      "name": "Aloo Paratha",
+      "ingredients": [
+        "whole wheat flour",
+        " potato",
+        " cumin",
+        " red chilli powder",
+        " coriander",
+        " ghee"
+      ],
+      "steps": [
+        "Boil and mash potatoes",
+        "Add cumin, chilli powder, coriander",
+        "Make small dough balls",
+        "Roll out with potato stuffing",
+        "Cook on tawa with ghee",
+        "Flip and cook both sides"
+      ],
+      "tags": [
+        "breakfast",
+        "north-indian",
+        "vegetarian",
+        "toddler-friendly"
+      ],
+      "prep_time": "20 min",
+      "cook_time": "15 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Serve with curd, remove chilli, cut into small pieces"
+    },
+    {
+      "name": "Rajma Chawal",
+      "ingredients": [
+        "rajma/kidney beans",
+        " onion",
+        " tomato",
+        " ginger-garlic paste",
+        " cumin",
+        " turmeric",
+        " garam masala",
+        " coriander",
+        " rice"
+      ],
+      "steps": [
+        "Soak rajma overnight",
+        "Pressure cook rajma until soft",
+        "Heat oil, add cumin",
+        "Add onions, sauté",
+        "Add ginger-garlic paste, cook",
+        "Add tomatoes, cook until soft",
+        "Add turmeric, garam masala",
+        "Add cooked rajma, simmer",
+        "Garnish with coriander",
+        "Serve with rice"
+      ],
+      "tags": [
+        "lunch",
+        "north-indian",
+        "vegetarian",
+        "toddler-friendly"
+      ],
+      "prep_time": "30 min",
+      "cook_time": "45 min",
+      "serves": 4,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Mash rajma well, reduce spice, serve with ghee on rice"
+    },
+    {
+      "name": "Dal Makhani",
+      "ingredients": [
+        "black lentils",
+        " butter",
+        " cream",
+        " tomato",
+        " onion",
+        " ginger-garlic",
+        " garam masala",
+        " fenugreek leaves"
+      ],
+      "steps": [
+        "Soak lentils overnight",
+        "Pressure cook until soft",
+        "Heat butter, add cumin",
+        "Add onions, sauté",
+        "Add ginger-garlic, cook",
+        "Add tomatoes, cook",
+        "Add garam masala",
+        "Add cooked lentils, simmer",
+        "Add cream, mix",
+        "Garnish with fenugreek leaves"
+      ],
+      "tags": [
+        "dinner",
+        "north-indian",
+        "vegetarian",
+        "toddler-friendly",
+        "tuesday"
+      ],
+      "prep_time": "20 min",
+      "cook_time": "60 min",
+      "serves": 4,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Serve with roti, skip extra cream for toddler portion"
+    },
+    {
+      "name": "Palak Paneer",
+      "ingredients": [
+        "spinach",
+        " paneer",
+        " onion",
+        " tomato",
+        " garlic",
+        " cumin",
+        " garam masala",
+        " cream"
+      ],
+      "steps": [
+        "Blanch spinach, blend to puree",
+        "Fry paneer cubes, keep aside",
+        "Heat oil, add cumin",
+        "Add onions, sauté",
+        "Add ginger-garlic",
+        "Add spinach puree",
+        "Cook for 5 minutes",
+        "Add garam masala",
+        "Add paneer cubes",
+        "Add cream, simmer",
+        "Garnish with coriander"
+      ],
+      "tags": [
+        "dinner",
+        "north-indian",
+        "vegetarian",
+        "toddler-friendly"
+      ],
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "serves": 4,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Cut paneer into small cubes, mash spinach well"
+    },
+    {
+      "name": "Butter Chicken",
+      "ingredients": [
+        "chicken",
+        " butter",
+        " tomato",
+        " cream",
+        " ginger-garlic paste",
+        " garam masala",
+        " kasuri methi"
+      ],
+      "steps": [
+        "Marinate chicken with yogurt and spices",
+        "Heat butter, add cumin",
+        "Add ginger-garlic paste",
+        "Add tomatoes, cook",
+        "Add garam masala",
+        "Add chicken, cook",
+        "Add cream, simmer",
+        "Garnish with kasuri methi"
+      ],
+      "tags": [
+        "dinner",
+        "north-indian",
+        "non-vegetarian"
+      ],
+      "prep_time": "30 min",
+      "cook_time": "40 min",
+      "serves": 4,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Reduce spice, serve with rice or roti"
+    },
+    {
+      "name": "Chicken Biryani",
+      "ingredients": [
+        "basmati rice",
+        " chicken",
+        " yogurt",
+        " whole spices",
+        " onion",
+        " tomato",
+        " ginger-garlic",
+        " garam masala",
+        " saffron"
+      ],
+      "steps": [
+        "Marinate chicken with yogurt and spices",
+        "Soak rice for 30 minutes",
+        "Heat oil, add whole spices",
+        "Add onions, fry",
+        "Add chicken, cook",
+        "Add tomatoes, cook",
+        "Layer rice over chicken",
+        "Add saffron milk",
+        "Cover and cook on dum",
+        "Serve hot"
+      ],
+      "tags": [
+        "dinner",
+        "north-indian",
+        "non-vegetarian",
+        "special"
+      ],
+      "prep_time": "30 min",
+      "cook_time": "45 min",
+      "serves": 4,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Remove whole spices before serving, add ghee for toddler"
+    },
+    {
+      "name": "Paneer Do Pyaza",
+      "ingredients": [
+        "paneer",
+        " onion (double quantity)",
+        " tomato",
+        " ginger-garlic",
+        " garam masala",
+        " coriander powder"
+      ],
+      "steps": [
+        "Fry paneer cubes",
+        "Heat oil, add cumin",
+        "Add onions (half quantity), fry",
+        "Add ginger-garlic",
+        "Add tomatoes",
+        "Add garam masala, coriander powder",
+        "Add paneer",
+        "Add remaining onions",
+        "Garnish with coriander"
+      ],
+      "tags": [
+        "dinner",
+        "north-indian",
+        "vegetarian",
+        "toddler-friendly"
+      ],
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "serves": 4,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:06:25",
+      "toddler_tips": "Serve with roti, reduce onion pieces for toddler"
+    },
+    {
+      "name": "Besan Chilla",
+      "ingredients": [
+        "besan/gram flour",
+        " onion",
+        " tomato",
+        " green chilli",
+        " coriander",
+        " salt",
+        " oil"
+      ],
+      "steps": [
+        "Mix besan with water to make batter",
+        "Add chopped onions, tomatoes, chilli",
+        "Add salt, mix",
+        "Heat pan, add oil",
+        "Pour batter, spread thin",
+        "Cook on both sides until golden",
+        "Garnish with coriander"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "vegetarian",
+        "toddler-friendly",
+        "north-indian"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:16:37",
+      "toddler_tips": "No green chilli, make small chillas, serve with curd or chutney"
+    },
+    {
+      "name": "Bread Upma",
+      "ingredients": [
+        "bread slices",
+        " onion",
+        " tomato",
+        " green chilli",
+        " turmeric",
+        " mustard seeds",
+        " oil",
+        " coriander"
+      ],
+      "steps": [
+        "Cut bread into small pieces",
+        "Heat oil, add mustard seeds",
+        "Add chopped onions, sauté",
+        "Add tomatoes, turmeric",
+        "Add bread pieces, mix well",
+        "Cook for 2-3 minutes",
+        "Garnish with coriander"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "vegetarian",
+        "toddler-friendly",
+        "north-indian"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:16:40",
+      "toddler_tips": "Mash bread pieces well, skip green chilli, add extra veggies for nutrition"
+    },
+    {
+      "name": "Rava Dosa",
+      "ingredients": [
+        "semolina/sooji",
+        " curd/yogurt",
+        " water",
+        " salt",
+        " ginger",
+        " green chilli",
+        " oil",
+        " coriander"
+      ],
+      "steps": [
+        "Mix sooji with curd and water, rest 10 min",
+        "Add salt, ginger, chilli",
+        "Heat pan, add oil",
+        "Pour batter, spread thin",
+        "Cook on both sides",
+        "Garnish with coriander",
+        "Serve with chutney"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "vegetarian",
+        "toddler-friendly",
+        "north-indian"
+      ],
+      "prep_time": "15 min rest",
+      "cook_time": "10 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:16:44",
+      "toddler_tips": "Serve with sugar for toddler, no green chilli, make small dosas"
+    },
+    {
+      "name": "Bread Omelette",
+      "ingredients": [
+        "eggs",
+        " bread slices",
+        " onion",
+        " green chilli",
+        " salt",
+        " pepper",
+        " butter/oil"
+      ],
+      "steps": [
+        "Beat eggs with salt and pepper",
+        "Add chopped onions, chilli",
+        "Heat butter in pan",
+        "Pour egg mixture",
+        "Cook until set",
+        "Toast bread slices",
+        "Serve omelette with toast"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "non-vegetarian",
+        "toddler-friendly"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "8 min",
+      "serves": 3,
+      "source": "Family favorite",
+      "created_at": "2026-02-22 19:16:48",
+      "toddler_tips": "Scramble eggs instead of omelette for toddler, remove green chilli"
+    },
+    {
+      "name": "Suji Halwa",
+      "ingredients": [
+        "semolina/sooji",
+        " ghee",
+        " water",
+        " sugar",
+        " cardamom",
+        " cashews",
+        " raisins"
+      ],
+      "steps": [
+        "Heat ghee, roast sooji until golden",
+        "Add water, mix well",
+        "Add sugar, stir",
+        "Add cardamom, cashews, raisins",
+        "Cook until thick",
+        "Serve warm"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "vegetarian",
+        "toddler-friendly",
+        "sweet"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "serves": 3,
+      "source": "Bharat's Kitchen Hindi",
+      "created_at": "2026-02-22 19:16:52",
+      "toddler_tips": "Perfect for toddler! Adjust sugar, add more ghee for energy"
+    },
+    {
+      "name": "Masala Oats",
+      "ingredients": [
+        "oats",
+        " onion",
+        " tomato",
+        " green chilli",
+        " peas",
+        " turmeric",
+        " cumin",
+        " water",
+        " oil"
+      ],
+      "steps": [
+        "Heat oil, add cumin",
+        "Add chopped onions, sauté",
+        "Add tomatoes, chilli, turmeric",
+        "Add peas",
+        "Add oats, mix",
+        "Add water, cook until done",
+        "Garnish with coriander",
+        "Serve hot"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "vegetarian",
+        "toddler-friendly",
+        "healthy"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "serves": 3,
+      "source": "Healthy option",
+      "created_at": "2026-02-22 19:16:56",
+      "toddler_tips": "Mash oats well, reduce turmeric for color, skip green chilli"
+    },
+    {
+      "name": "Avocado Toast with Poached Egg",
+      "ingredients": [
+        "avocado",
+        " bread slices",
+        " eggs",
+        " salt",
+        " pepper",
+        " lemon juice",
+        " butter/oil"
+      ],
+      "steps": [
+        "Toast bread until golden",
+        "Mash avocado with salt, pepper, lemon juice",
+        "Heat water in pan, create gentle swirl",
+        "Crack egg into swirl, poach 3-4 minutes",
+        "Remove when white is set, yolk is well-cooked",
+        "Spread avocado on toast",
+        "Top with poached egg",
+        "Season to taste"
+      ],
+      "tags": [
+        "breakfast",
+        "quick",
+        "non-vegetarian",
+        "healthy",
+        "toddler-friendly"
+      ],
+      "prep_time": "5 min",
+      "cook_time": "8 min",
+      "serves": 2,
+      "source": "Family favorite",
+      "created_at": "2026-02-22 19:38:27",
+      "toddler_tips": "Perfect for toddler! Egg is well-cooked (no runny yolk), mash avocado extra well, cut toast into small pieces"
+    }
+  ],
+  "meal_plan": {},
+  "rotation_settings": {
+    "no_repeats_days": 7,
+    "tuesday_vegetarian": true,
+    "balance_chicken_veg": 3
+  }
+}

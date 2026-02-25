@@ -1,0 +1,2 @@
+These are not the direct links of the properties. These are the filters. I want the direct link to the available rental property so that I can apply it directly.
+Use CRX if you want to use the plugin or whatever plugin suits the best.

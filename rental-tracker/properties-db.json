@@ -1,0 +1,14 @@
+# Property Tracking Database
+# Stores all found properties with status tracking
+
+{
+  "last_updated": "2026-02-20T10:30:00NZT",
+  "search_criteria": {
+    "suburbs": ["Wollert", "Epping", "Reservoir", "South Morang"],
+    "bedrooms": "2+",
+    "max_price": 600,
+    "office": "Suite 3, 452 Johnston Street, Abbotsford",
+    "max_commute": "1 hour"
+  },
+  "properties": []
+}

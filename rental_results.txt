@@ -1,0 +1,100 @@
+🏠 MELBOURNE RENTAL SEARCH RESULTS
+==================================================
+
+📍 Office: 452 Johnston Street, Abbotsford, Melbourne VIC 3067
+💰 Budget: Under $600/week
+🛏️ Bedrooms: 2+
+🚗 Commute: <60 minutes
+
+TOP 10 PROPERTIES (sorted by commute time):
+==================================================
+
+Property 1
+- Address: 14 425 Toorak Road Toorak
+- Price: $550/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Toorak
+- Commute time to office: 20 minutes
+- Link: https://www.domain.com.au/14-425-toorak-road-toorak-vic-3142-18003804
+
+Property 2
+- Address: 10 21 Irving Avenue Prahran
+- Price: $548/week
+- Beds/Baths/Parking: 2/1/0
+- Type: Apartment
+- Suburb: Prahran
+- Commute time to office: 25 minutes
+- Link: https://www.domain.com.au/10-21-irving-avenue-prahran-vic-3181-17994723?topspot=1
+
+Property 3
+- Address: 2 37 Victoria St Elsternwick
+- Price: $580/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Elsternwick
+- Commute time to office: 25 minutes
+- Link: https://www.domain.com.au/2-37-victoria-st-elsternwick-vic-3185-18004716
+
+Property 4
+- Address: 1 15 Kendall Street Elwood
+- Price: $580/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Elwood
+- Commute time to office: 25 minutes
+- Link: https://www.domain.com.au/1-15-kendall-street-elwood-vic-3184-18004414
+
+Property 5
+- Address: 13 157 Brighton Road Elwood
+- Price: $600/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Elwood
+- Commute time to office: 25 minutes
+- Link: https://www.domain.com.au/13-157-brighton-road-elwood-vic-3184-18003186
+
+Property 6
+- Address: 113 7 Dudley Street Caulfield East
+- Price: $520/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Caulfield East
+- Commute time to office: 30 minutes
+- Link: https://www.domain.com.au/113-7-dudley-street-caulfield-east-vic-3145-15723997
+
+Property 7
+- Address: 6 62 64 Truganini Road Carnegie
+- Price: $530/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Carnegie
+- Commute time to office: 30 minutes
+- Link: https://www.domain.com.au/6-62-64-truganini-road-carnegie-vic-3163-18004215
+
+Property 8
+- Address: 205 450 Bell Street Preston
+- Price: $550/week
+- Beds/Baths/Parking: 2/2/1
+- Type: Apartment
+- Suburb: Preston
+- Commute time to office: 30 minutes
+- Link: https://www.domain.com.au/205-450-bell-street-preston-vic-3072-18003453
+
+Property 9
+- Address: 39 Nova Circuit Bundoora
+- Price: $580/week
+- Beds/Baths/Parking: 2/2/1
+- Type: Townhouse
+- Suburb: Bundoora
+- Commute time to office: 35 minutes
+- Link: https://www.domain.com.au/39-nova-circuit-bundoora-vic-3083-18004536
+
+Property 10
+- Address: 2 573 Neerim Road Hughesdale
+- Price: $525/week
+- Beds/Baths/Parking: 2/1/1
+- Type: Apartment
+- Suburb: Hughesdale
+- Commute time to office: 35 minutes
+- Link: https://www.domain.com.au/2-573-neerim-road-hughesdale-vic-3166-18003670
