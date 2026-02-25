@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"todo-col","type":"group","x":-540,"y":-360,"width":360,"height":800,"color":"2","label":"To Do"},
+		{"id":"doing-col","type":"group","x":-140,"y":-360,"width":360,"height":800,"color":"4","label":"In Progress"},
+		{"id":"done-col","type":"group","x":260,"y":-360,"width":360,"height":800,"color":"5","label":"Done"},
+		{"id":"instructions","type":"text","text":"# 🏗️ Project Board\n\nDrag your **Project Notes** from the sidebar into these columns to track them.\n\n- **To Do:** Planned projects.\n- **In Progress:** Active work.\n- **Done:** Completed.","x":-540,"y":-560,"width":1160,"height":100}
+	],
+	"edges":[]
+}

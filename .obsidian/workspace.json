@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-Goals & Projects/Australia Move Project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Australia Move Project"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed723344d78b3d1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd000d67a9697e9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f80b767d0a15c33e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5e4725d4e6890998",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fd293a9067854933",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "097b872f67c9fb26",
+    "type": "split",
+    "children": [
+      {
+        "id": "48b72300c25d51a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e3aa9d473de52ec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "484da3208493f8c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "00969b8fb6d8930f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "28c6ef75b99b8d3d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5f1720e46d06b2bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "X/Deep Work.jpeg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Deep Work"
+            }
+          },
+          {
+            "id": "62b6c3555e0e3644",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "560e54403f63d947",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "00-Dashboard/Dashboard.md",
+    "00-Home (Dashboard)/Home.md",
+    "Untitled.canvas",
+    "00-Dashboard/Home (Dashboard) - FIXED.md",
+    "05-Goals & Projects/RCD Cable Sold.md",
+    "00-Dashboard/Home (Dashboard).md",
+    "02-Inbox/00. Vault Handbook.md",
+    "02-Inbox/Audio Recording 2026-02-12 at 13.47.04.wav",
+    "02-Inbox/ERROR - Audio Recording 2026-02-12 at 13.44.02.wav",
+    "02-Inbox/Home.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Act like the person you want to become.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Attention control creates good life.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Deep work needs systems, not willpower.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Environment design is more powerful than motivation.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Habits Are Proof of Identity.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Neurological argument for deep work.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Quality of work formula.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Philosophical argument for deep work.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Habits are the compound interest of self-improvement.md",
+    "04-Permanent Notes/Zettelkasten/Concepts/Deep work creates real value.md",
+    "00-Dashboard/Bento Home.md",
+    "05-Goals & Projects/Australia Move Project.md",
+    "05-Goals & Projects/Australia Move Checklist.md",
+    "05-Goals & Projects/Australia move.md",
+    "01-Journal/Journal 2026-02-12.md",
+    "01-Journal/Journal 2026-02-11.md",
+    "01-Journal/Journal 2026-02-07.md",
+    "01-Journal/Journal 2026-02-04.md",
+    "01-Journal/Journal 2026-01-28.md",
+    "05-Goals & Projects/Project Board.canvas",
+    "00-Home (Dashboard)",
+    "00-Dashboard",
+    "09-Templates/Scripts/test_rollover.js",
+    "09-Templates/Scripts/WeeklyStats.js",
+    "09-Templates/Scripts/PhotoGallery.js",
+    "09-Templates/Scripts/MoodPicker.js",
+    "09-Templates/Scripts/JournalRollover.js",
+    "09-Templates/Scripts/GameEngine.js",
+    "10-Attachments/Daily Photos/2026-02-06/hero.jpg",
+    "10-Attachments/Daily Photos/2026-02-06/006_1770376356753_IMG_0878.jpeg",
+    "10-Attachments/Daily Photos/2026-02-06/002_1770376353549_IMG_0880.jpeg",
+    "10-Attachments/Daily Photos/2026-02-06/001_1770376353475_IMG_0881.jpeg",
+    "10-Attachments/Daily Photos/2026-02-06/000_1770376353521_IMG_0879.jpeg",
+    "10-Attachments/Daily Photos/2026-02-04/hero.jpg",
+    "10-Attachments/Daily Photos/2026-02-04/003_1770198969553_IMG_3704.jpeg",
+    "10-Attachments/Daily Photos/2026-02-04/001_1770198969207_IMG_3700.jpeg",
+    "10-Attachments/Daily Photos/2026-02-04/000_1770198969154_IMG_3702.jpeg",
+    "10-Attachments/Daily Photos/2026-02-10/hero.jpg",
+    "03-Goals/Project Board.canvas",
+    "02-Goals/Project Board.canvas"
+  ]
+}
