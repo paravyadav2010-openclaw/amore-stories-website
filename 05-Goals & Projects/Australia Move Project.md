@@ -423,12 +423,10 @@ For each property found:
 ### Estimated Costs (AUD)
 | Expense | Estimated Cost | Status |
 |---------|----------------|--------|
-| Moving costs | $5,000-$10,000 AUD | 🔄 In Progress |
+| Moving costs | $5,000-$10,000 AUD | ⏳ Pending |
 | Deposit (rent + bond) | ~$2,500 AUD | ⏳ Pending |
 | Australia setup (SIM, bank, etc.) | ~$500 AUD | ⏳ Pending |
 | Initial grocery/essentials | ~$500 AUD | ⏳ Pending |
-
-**Note:** Moving expenses tracked in `07-Home Life/Expenses.md`
 | Car purchase (after move) | ~$20,000 AUD | ⏳ Pending |
 | **Total Estimated** | **~$28,500 AUD** | ⏳ Pending |
 
