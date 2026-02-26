@@ -11,17 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "05-Goals & Projects/Project Board.canvas",
-                "viewState": {
-                  "x": 40,
-                  "y": -60,
-                  "zoom": -0.2459502512082453
-                }
+                "file": "00-Home (Dashboard)/Home.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Project Board"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -209,6 +206,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "05-Goals & Projects/Project Board.canvas",
     "07-Home Life/Expenses.md",
     "Untitled.canvas",
     "VAULT-RESTRUCTURE-SUMMARY.md",
@@ -237,8 +235,6 @@
     "05-Goals & Projects/Australia Move Checklist.md",
     "05-Goals & Projects/Australia move.md",
     "01-Journal/Journal 2026-02-12.md",
-    "01-Journal/Journal 2026-02-11.md",
-    "05-Goals & Projects/Project Board.canvas",
     "00-Home (Dashboard)",
     "00-Dashboard",
     "09-Templates/Scripts/test_rollover.js",
