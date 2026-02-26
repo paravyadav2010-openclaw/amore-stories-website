@@ -6,16 +6,16 @@
 
 ## 📊 Summary
 
-| Category | Month | YTD | Notes |
-|----------|-------|-----|-------|
-| Housing | $0 | $0 | - |
-| Groceries | $0 | $0 | - |
-| Transport | $0 | $0 | - |
-| Utilities | $0 | $0 | - |
-| Entertainment | $0 | $0 | - |
-| Healthcare | $0 | $0 | - |
-| Moving Costs | $0 | $0 | Australia move expenses |
-| **Total** | **$0** | **$0** | - |
+| Category      | Month  | YTD    | Notes                   |
+| ------------- | ------ | ------ | ----------------------- |
+| Housing       | $0     | $0     | -                       |
+| Groceries     | $0     | $0     | -                       |
+| Transport     | $0     | $0     | -                       |
+| Utilities     | $0     | $0     | -                       |
+| Entertainment | $0     | $0     | -                       |
+| Healthcare    | $0     | $0     | -                       |
+| Moving Costs  | $0     | $0     | Australia move expenses |
+| **Total**     | **$0** | **$0** | -                       |
 
 ---
 
@@ -62,8 +62,8 @@
 ## 🏥 Healthcare
 
 | Date | Description | Category | Amount | Notes |
-|------|-------------|----------|--------|-------|
-| - | - | - | $0 | - |
+| ---- | ----------- | -------- | ------ | ----- |
+| -    | -           | -        | $0     | -     |
 
 ---
 
