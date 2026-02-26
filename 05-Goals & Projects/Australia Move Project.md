@@ -424,12 +424,11 @@ For each property found:
 | Expense | Estimated Cost | Status |
 |---------|----------------|--------|
 | Moving costs | $5,000-$10,000 AUD | 🔄 In Progress |
-| **Grace Removals Payment 1** | **$1,494.42 AUD** | **✅ Paid (2026-02-23)** |
-| **Grace Removals Payment 2** | **$3,556.74 AUD** | **✅ Paid (2026-02-23)** |
-| **Total Moving Costs Paid** | **$5,051.16 AUD** | **✅ Complete** |
 | Deposit (rent + bond) | ~$2,500 AUD | ⏳ Pending |
 | Australia setup (SIM, bank, etc.) | ~$500 AUD | ⏳ Pending |
 | Initial grocery/essentials | ~$500 AUD | ⏳ Pending |
+
+**Note:** Moving expenses tracked in `07-Home Life/Expenses.md`
 | Car purchase (after move) | ~$20,000 AUD | ⏳ Pending |
 | **Total Estimated** | **~$28,500 AUD** | ⏳ Pending |
 
