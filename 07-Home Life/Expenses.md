@@ -6,16 +6,16 @@
 
 ## 📊 Summary
 
-| Category | Month | YTD | Notes |
-|----------|-------|-----|-------|
-| Housing | $0 | $0 | - |
-| Groceries | $0 | $0 | - |
-| Transport | $0 | $0 | - |
-| Utilities | $0 | $0 | - |
-| Entertainment | $0 | $0 | - |
-| Healthcare | $0 | $0 | - |
-| Moving Costs | $5051.16 | $5051.16 | Australia move expenses |
-| **Total** | **$5051.16** | **$5051.16** | - |
+| Category      | Month  | YTD    | Notes                   |
+| ------------- | ------ | ------ | ----------------------- |
+| Housing       | $0     | $0     | -                       |
+| Groceries     | $0     | $0     | -                       |
+| Transport     | $0     | $0     | -                       |
+| Utilities     | $0     | $0     | -                       |
+| Entertainment | $0     | $0     | -                       |
+| Healthcare    | $0     | $0     | -                       |
+| Moving Costs  | $0     | $0     | Australia move expenses |
+| **Total**     | **$0** | **$0** | -                       |
 
 ---
 
@@ -62,8 +62,8 @@
 ## 🏥 Healthcare
 
 | Date | Description | Category | Amount | Notes |
-|------|-------------|----------|--------|-------|
-| - | - | - | $0 | - |
+| ---- | ----------- | -------- | ------ | ----- |
+| -    | -           | -        | $0     | -     |
 
 ---
 
@@ -71,8 +71,7 @@
 
 | Date | Description | Category | Amount | Notes |
 |------|-------------|----------|--------|-------|
-| 2026-02-23 | Grace removals | Moving | $1494.42 | Property removal |
-| 2026-02-23 | Grace removals | Moving | $3556.74 | Property removal |
+| - | - | - | $0 | - |
 
 ---
 

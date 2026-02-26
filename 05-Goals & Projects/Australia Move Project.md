@@ -24,26 +24,24 @@ ai_processed: true
 
 ## 📊 Overall Progress: 78%
 
-| Category | Status | Progress | Deadline |
-|----------|--------|----------|----------|
-| Task | Priority | Deadline | Status |
-|------|----------|----------|--------|-------|
-| **🚗 Car Rental Research** | **🔴 HIGH** | **March 9** | **🔄 In Progress** | Toyota/Honda/Mazda in Melbourne. Research companies: Hertz, Avis, Budget, Thrifty. Create comparison. |
-| 🏠 Rental Search | 🔄 In Progress | 60% | March 9 | Find properties in Thomastown/Lalor/Reservoir/Preston. Contact agents, viewings. |
-| 📦 Logistics | ✅ Booked | 90% | March 2 | Grace Removals March 2nd pickup confirmed. |
-| 💳 Australia Setup | 🏳 Pending | 15% | Ongoing | Banking, SIM, insurance, Medicare, license. |
-| 🏡 Wellington Home | 🔄 Active | 85% | Ongoing | Ronan/Property Scout managing rental. |
-| 👨‍👩‍👧 Family Prep | 🔄 Active | 70% | Ongoing | Nancy interview prep, childcare, social activities. |
-| 💰 Financials | 🔄 Active | 75% | Ongoing | Income tracking, expenses, budgets. |
-| 🗑️ Selling Items | 🔄 In Progress | 50% | Feb 28 | Electronics ~$1,690, furniture ~$4,650 NZD. RCD cable sold ($70). |
-| --- | --- | --- | --- | --- |
-| 🚗 Car Purchase | 🟡 Medium | April 1 | Post-move | Toyota/Honda/Mazda. Budget ~$20k AUD. |
-| 📦 Logistics | ✅ Booked | 90% | March 2 |
-| 💳 Australia Setup | ⏳ Pending | 15% | Ongoing |
-| 🏡 Wellington Home | 🔄 Active | 85% | Ongoing |
-| 👨‍👩‍👧 Family Prep | 🔄 Active | 70% | Ongoing |
-| 💰 Financials | 🔄 Active | 75% | Ongoing |
-| 🗑️ Selling Items | 🔄 In Progress | 40% | Feb 28 |
+| Category                   | Status         | Progress    | Deadline           |                                                                                                       |
+| -------------------------- | -------------- | ----------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| Task                       | Priority       | Deadline    | Status             |                                                                                                       |
+| **🚗 Car Rental Research** | **🔴 HIGH**    | **March 9** | **🔄 In Progress** | Toyota/Honda/Mazda in Melbourne. Research companies: Hertz, Avis, Budget, Thrifty. Create comparison. |
+| 🏠 Rental Search           | 🔄 In Progress | 60%         | March 9            | Find properties in Thomastown/Lalor/Reservoir/Preston. Contact agents, viewings.                      |
+| 📦 Logistics               | ✅ Booked       | 90%         | March 2            | Grace Removals March 2nd pickup confirmed.                                                            |
+| 💳 Australia Setup         | 🏳 Pending     | 15%         | Ongoing            | Banking, SIM, insurance, Medicare, license.                                                           |
+| 🏡 Wellington Home         | 🔄 Active      | 85%         | Ongoing            | Ronan/Property Scout managing rental.                                                                 |
+| 👨‍👩‍👧 Family Prep       | 🔄 Active      | 70%         | Ongoing            | Nancy interview prep, childcare, social activities.                                                   |
+| 💰 Financials              | 🔄 Active      | 75%         | Ongoing            | Income tracking, expenses, budgets.                                                                   |
+| 🗑️ Selling Items          | 🔄 In Progress | 50%         | Feb 28             | Electronics ~$1,690, furniture ~$4,650 NZD. RCD cable sold ($70).                                     |
+| 🚗 Car Purchase            | 🟡 Medium      | April 1     | Post-move          | Toyota/Honda/Mazda. Budget ~$20k AUD.                                                                 |
+| 📦 Logistics               | ✅ Booked       | 90%         | March 2            |                                                                                                       |
+| 💳 Australia Setup         | ⏳ Pending      | 15%         | Ongoing            |                                                                                                       |
+| 🏡 Wellington Home         | 🔄 Active      | 85%         | Ongoing            |                                                                                                       |
+| 👨‍👩‍👧 Family Prep       | 🔄 Active      | 70%         | Ongoing            |                                                                                                       |
+| 💰 Financials              | 🔄 Active      | 75%         | Ongoing            |                                                                                                       |
+| 🗑️ Selling Items          | 🔄 In Progress | 40%         | Feb 28             |                                                                                                       |
 
 ---
 
@@ -65,13 +63,13 @@ ai_processed: true
 **Budget:** $600/week
 **Target Areas:** Thomastown, Lalor, Reservoir, Preston
 
-| Property | Rent | Beds | Baths | Status | Next Step |
-|----------|------|------|-------|--------|-----------|
-| 123 Main Street, Thomastown | $575 | 2 | 1 | ⏳ Pending | Verify & View |
-| 456 Oak Avenue, Lalor | $590 | 2 | 1 | ⏳ Pending | Verify & View |
-| 789 Pine Road, Reservoir | $580 | 2 | 1 | ⏳ Pending | Verify & View |
-| 321 Elm Street, Preston | $595 | 2 | 2 | ⏳ Pending | Verify & View |
-| 654 Maple Drive, Thomastown | $575 | 2 | 1 | ⏳ Pending | Verify & View |
+| Property                    | Rent | Beds | Baths | Status    | Next Step     |
+| --------------------------- | ---- | ---- | ----- | --------- | ------------- |
+| 123 Main Street, Thomastown | $575 | 2    | 1     | ⏳ Pending | Verify & View |
+| 456 Oak Avenue, Lalor       | $590 | 2    | 1     | ⏳ Pending | Verify & View |
+| 789 Pine Road, Reservoir    | $580 | 2    | 1     | ⏳ Pending | Verify & View |
+| 321 Elm Street, Preston     | $595 | 2    | 2     | ⏳ Pending | Verify & View |
+| 654 Maple Drive, Thomastown | $575 | 2    | 1     | ⏳ Pending | Verify & View |
 
 **Search Channels:**
 - [ ] Domain.com.au
@@ -85,20 +83,20 @@ ai_processed: true
 
 ### 🚚 LOGISTICS & MOVING
 
-| Task | Priority | Deadline | Status | Notes |
-|------|----------|----------|--------|-------|
-| Finalize Grace Removals details | 🔴 High | Feb 20 | ⏳ Pending | Confirm pickup date/time |
-| Book removal truck size | 🟡 Medium | Feb 20 | ⏳ Pending | 3-bedroom house |
-| Create packing checklist | 🔴 High | Feb 20 | ✅ Done | See detailed checklist |
-| Declutter & minimize possessions | 🟡 Medium | Feb 25 | ⏳ Pending | Reduce to essentials |
-| Pack room by room | 🟡 Medium | Feb 28 | ⏳ Pending | Kitchen, bedroom, living |
-| Label all boxes clearly | 🟢 Low | Feb 28 | ⏳ Pending | Box labels + room map |
-| Arrange pet shipping | 🟡 Medium | March 1 | ⏳ Pending | Find pet transport service |
-| Set up mail forwarding | 🟡 Medium | Feb 28 | ⏳ Pending | Australia Post service |
-| Cancel NZ utilities (if needed) | 🟢 Low | March 1 | ⏳ Pending | Electricity, internet, etc. |
-| Forward bank statements | 🟡 Medium | Feb 28 | ⏳ Pending | Alert banks of move |
-| Pack essentials bag | 🟡 Medium | March 1 | ⏳ Pending | For first 48 hours |
-| Organize important documents | 🟡 Medium | March 1 | ⏳ Pending | Passports, visas, keys |
+| Task                             | Priority  | Deadline | Status    | Notes                       |
+| -------------------------------- | --------- | -------- | --------- | --------------------------- |
+| Finalize Grace Removals details  | 🔴 High   | Feb 20   | ⏳ Pending | Confirm pickup date/time    |
+| Book removal truck size          | 🟡 Medium | Feb 20   | ⏳ Pending | 3-bedroom house             |
+| Create packing checklist         | 🔴 High   | Feb 20   | ✅ Done    | See detailed checklist      |
+| Declutter & minimize possessions | 🟡 Medium | Feb 25   | ⏳ Pending | Reduce to essentials        |
+| Pack room by room                | 🟡 Medium | Feb 28   | ⏳ Pending | Kitchen, bedroom, living    |
+| Label all boxes clearly          | 🟢 Low    | Feb 28   | ⏳ Pending | Box labels + room map       |
+| Arrange pet shipping             | 🟡 Medium | March 1  | ⏳ Pending | Find pet transport service  |
+| Set up mail forwarding           | 🟡 Medium | Feb 28   | ⏳ Pending | Australia Post service      |
+| Cancel NZ utilities (if needed)  | 🟢 Low    | March 1  | ⏳ Pending | Electricity, internet, etc. |
+| Forward bank statements          | 🟡 Medium | Feb 28   | ⏳ Pending | Alert banks of move         |
+| Pack essentials bag              | 🟡 Medium | March 1  | ⏳ Pending | For first 48 hours          |
+| Organize important documents     | 🟡 Medium | March 1  | ⏳ Pending | Passports, visas, keys      |
 
 ---
 
@@ -423,12 +421,10 @@ For each property found:
 ### Estimated Costs (AUD)
 | Expense | Estimated Cost | Status |
 |---------|----------------|--------|
-| Moving costs | $5,000-$10,000 AUD | 🔄 In Progress |
+| Moving costs | $5,000-$10,000 AUD | ⏳ Pending |
 | Deposit (rent + bond) | ~$2,500 AUD | ⏳ Pending |
 | Australia setup (SIM, bank, etc.) | ~$500 AUD | ⏳ Pending |
 | Initial grocery/essentials | ~$500 AUD | ⏳ Pending |
-
-**Note:** Moving expenses tracked in `07-Home Life/Expenses.md`
 | Car purchase (after move) | ~$20,000 AUD | ⏳ Pending |
 | **Total Estimated** | **~$28,500 AUD** | ⏳ Pending |
 
