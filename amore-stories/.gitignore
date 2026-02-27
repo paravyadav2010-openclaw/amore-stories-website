@@ -51,3 +51,4 @@ temp/
 # IDE
 *.sublime-project
 *.sublime-workspace
+.vercel

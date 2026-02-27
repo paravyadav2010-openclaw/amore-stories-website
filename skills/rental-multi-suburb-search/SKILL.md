@@ -5,9 +5,21 @@ description: Parallel rental property search across multiple suburbs using dedic
 
 # Multi-Suburb Rental Search Skill
 
+## ⚠️ IMPORTANT: NOT RECOMMENDED FOR Domain.com.au
+
+**Critical Limitation:** This skill uses parallel sub-agents, but Domain.com.au requires browser tool access (Chrome extension) which is **only available in the main session**.
+
+**Result:** Sub-agents fail/timeout trying workarounds → **slower** than single agent search (26-30 min per agent vs ~5 min sequential).
+
+**For Domain.com.au searches:** Use single agent (main session) with browser tool instead. See TOOLS.md rental search section.
+
+---
+
 ## 🚀 Purpose
 
 Search rental properties across multiple suburbs simultaneously using dedicated sub-agents for each suburb. Avoids API rate limits and provides comprehensive results.
+
+**Best For:** Non-browser-dependent rental searches (Trade Me, snapshot-based searches, API-accessible sites)
 
 ## 📋 When to Use This Skill
 

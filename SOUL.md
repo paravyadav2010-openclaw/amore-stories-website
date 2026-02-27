@@ -63,12 +63,21 @@ You **MUST**:
 - **Resilience:** If one sub-agent fails, others continue
 
 **When to Deploy Multiple Sub-Agents:**
-- ✅ Searching multiple suburbs/locations
+- ✅ Searching multiple suburbs/locations (unless browser-dependent)
 - ✅ Processing multiple files/documents
 - ✅ Running multiple independent analyses
 - ✅ Any task that can be split into independent units
 
-**How to Deploy:**
+**⚠️ CRITICAL EXCEPTION: Browser-Dependent Tasks**
+
+For tasks requiring browser tool (Chrome extension):
+- ❌ **DON'T use parallel sub-agents** → Browser tool only available in main session
+- ✅ **Use single agent (main session)** → Access to browser extension
+- 📊 **Examples:** Domain.com.au rental searches, web scraping with JS rendering
+
+**Why:** Browser tool requires Chrome extension attachment → Sub-agents can't access it → They fail/timeout trying workarounds
+
+**How to Deploy (for non-browser tasks):**
 ```python
 # Instead of one agent doing all work:
 sessions_spawn(task="Search all suburbs A, B, C, D", timeout=300)  # ❌ Slow, rate-limited
@@ -87,7 +96,8 @@ sessions_spawn(task="Search suburb D", timeout=300)  # ✅ Fast, independent
 - 📊 Better coverage (each task gets dedicated attention)
 
 **Example Use Cases:**
-- Rental search: 1 sub-agent per suburb (Preston, Thornbury, Lalor...)
+- ❌ Rental search (browser-dependent) → Use single agent main session
+- ✅ Document processing: 1 sub-agent per file (Preston, Thornbury, Lalor...)
 - Document processing: 1 sub-agent per file
 - Analysis tasks: 1 sub-agent per dataset/region
 - Web scraping: 1 sub-agent per page/section

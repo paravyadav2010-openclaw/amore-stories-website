@@ -140,18 +140,34 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 **Last updated:** 2026-02-27
 
-### Multi-Suburb Search Workflow
-**Location:** `~/.openclaw/workspace/skills/rental-multi-suburb-search/`
+### ⚠️ RENTAL SEARCH: Use SINGLE Agent Only
 
-**Purpose:** Parallel rental search across multiple suburbs using dedicated sub-agents to avoid API rate limits
+**IMPORTANT:** Due to Domain.com.au browser tool limitations, always use **single agent (main session)** for rental searches.
 
-**AUTO-BEHAVIOR (CRITICAL):** When user asks to "search rentals" or similar, automatically:
-1. Deploy parallel sub-agents for user's preferred suburbs ONLY
-2. Preferred suburbs: **Preston, Thornbury, Regent, Ruthven, Keon Park, Thomastown, Lalor**
-3. EXCLUDE: **Wollert** (user explicitly excluded)
-4. Use exact Domain.com.au URLs (no mock links)
-5. Sort by best value (commute + price)
-6. Return with inspection times and transport details
+**Why single agent:**
+- Browser tool requires Chrome extension attachment → only main session has it
+- Sub-agents cannot access browser, leading to failures/timeouts
+- Parallel attempts take LONGER than single agent (26-30 min vs ~5 min each)
+
+**AUTO-BEHAVIOR (CRITICAL):** When user asks to "search rentals" or similar:
+1. ✅ Use main session browser tool to search Domain.com.au directly
+2. ✅ Search 2-3 suburbs at a time sequentially
+3. ✅ Preferred suburbs: **Preston, Thornbury, Regent, Ruthven, Keon Park, Thomastown, Lalor**
+4. ✅ EXCLUDE: **Wollert** (user explicitly excluded)
+5. ✅ Use exact Domain.com.au URLs (no mock links)
+6. ✅ Sort by best value (commute + price)
+7. ✅ Return with inspection times and transport details
+
+**Search Process:**
+1. Use browser tool to visit Domain.com.au
+2. Search suburb with filters: 2+ beds, under $600/week
+3. Extract exact URLs from search results
+4. Visit each property page for details
+5. Return top 10 properties per suburb
+
+**When to use multi-suburb skill:**
+- ❌ Domain.com.au searches (use single agent main session)
+- ✅ Any rental search that doesn't require browser access
 
 **How to Use:**
 ```bash
