@@ -1,0 +1,298 @@
+[
+  {
+    "company": "PayFlow Solutions",
+    "industry": "FinTech",
+    "size": "50",
+    "location": "San Francisco",
+    "revenue": "$5M",
+    "funding": "$10M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "PayFlow Solutions",
+        "linkedin": "linkedin.com/in/payflow-solutions",
+        "email": "ceo@payflowsolutions.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "PayFlow Solutions",
+        "linkedin": "linkedin.com/in/payflow-solutions",
+        "email": "cto@payflowsolutions.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "PayFlow Solutions",
+        "linkedin": "linkedin.com/in/payflow-solutions",
+        "email": "vp.sales@payflowsolutions.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:46.274455"
+  },
+  {
+    "company": "QuickCredit",
+    "industry": "FinTech",
+    "size": "80",
+    "location": "New York",
+    "revenue": "$12M",
+    "funding": "$25M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "QuickCredit",
+        "linkedin": "linkedin.com/in/quickcredit",
+        "email": "ceo@quickcredit.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "QuickCredit",
+        "linkedin": "linkedin.com/in/quickcredit",
+        "email": "cto@quickcredit.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "QuickCredit",
+        "linkedin": "linkedin.com/in/quickcredit",
+        "email": "vp.sales@quickcredit.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:47.827365"
+  },
+  {
+    "company": "SecureBanking",
+    "industry": "FinTech",
+    "size": "30",
+    "location": "London",
+    "revenue": "$3M",
+    "funding": "$5M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "SecureBanking",
+        "linkedin": "linkedin.com/in/securebanking",
+        "email": "ceo@securebanking.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "SecureBanking",
+        "linkedin": "linkedin.com/in/securebanking",
+        "email": "cto@securebanking.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "SecureBanking",
+        "linkedin": "linkedin.com/in/securebanking",
+        "email": "vp.sales@securebanking.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:48.630287"
+  },
+  {
+    "company": "PayStream",
+    "industry": "FinTech",
+    "size": "100",
+    "location": "Sydney",
+    "revenue": "$15M",
+    "funding": "$30M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "PayStream",
+        "linkedin": "linkedin.com/in/paystream",
+        "email": "ceo@paystream.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "PayStream",
+        "linkedin": "linkedin.com/in/paystream",
+        "email": "cto@paystream.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "PayStream",
+        "linkedin": "linkedin.com/in/paystream",
+        "email": "vp.sales@paystream.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:50.069788"
+  },
+  {
+    "company": "CryptoPay",
+    "industry": "FinTech",
+    "size": "45",
+    "location": "Singapore",
+    "revenue": "$4M",
+    "funding": "$8M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "CryptoPay",
+        "linkedin": "linkedin.com/in/cryptopay",
+        "email": "ceo@cryptopay.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "CryptoPay",
+        "linkedin": "linkedin.com/in/cryptopay",
+        "email": "cto@cryptopay.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "CryptoPay",
+        "linkedin": "linkedin.com/in/cryptopay",
+        "email": "vp.sales@cryptopay.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:51.615467"
+  },
+  {
+    "company": "CloudWorkflow",
+    "industry": "SaaS",
+    "size": "60",
+    "location": "Austin",
+    "revenue": "$8M",
+    "funding": "$15M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "CloudWorkflow",
+        "linkedin": "linkedin.com/in/cloudworkflow",
+        "email": "ceo@cloudworkflow.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "CloudWorkflow",
+        "linkedin": "linkedin.com/in/cloudworkflow",
+        "email": "cto@cloudworkflow.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "CloudWorkflow",
+        "linkedin": "linkedin.com/in/cloudworkflow",
+        "email": "vp.sales@cloudworkflow.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:52.477957"
+  },
+  {
+    "company": "TeamSync",
+    "industry": "SaaS",
+    "size": "90",
+    "location": "Seattle",
+    "revenue": "$14M",
+    "funding": "$20M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "TeamSync",
+        "linkedin": "linkedin.com/in/teamsync",
+        "email": "ceo@teamsync.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "TeamSync",
+        "linkedin": "linkedin.com/in/teamsync",
+        "email": "cto@teamsync.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "TeamSync",
+        "linkedin": "linkedin.com/in/teamsync",
+        "email": "vp.sales@teamsync.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:53.420679"
+  },
+  {
+    "company": "DataDrive",
+    "industry": "SaaS",
+    "size": "40",
+    "location": "Berlin",
+    "revenue": "$6M",
+    "funding": "$12M",
+    "contacts": [
+      {
+        "name": "John Doe",
+        "role": "CEO",
+        "company": "DataDrive",
+        "linkedin": "linkedin.com/in/datadrive",
+        "email": "ceo@datadrive.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "CTO",
+        "company": "DataDrive",
+        "linkedin": "linkedin.com/in/datadrive",
+        "email": "cto@datadrive.com"
+      },
+      {
+        "name": "John Doe",
+        "role": "VP Sales",
+        "company": "DataDrive",
+        "linkedin": "linkedin.com/in/datadrive",
+        "email": "vp.sales@datadrive.com"
+      }
+    ],
+    "qualification_score": 50,
+    "qualification_reasons": [
+      "Funding threshold met",
+      "Revenue threshold met"
+    ],
+    "generated_at": "2026-02-27T19:54:54.131246"
+  }
+]

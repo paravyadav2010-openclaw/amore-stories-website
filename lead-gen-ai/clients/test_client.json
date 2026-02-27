@@ -1,0 +1,19 @@
+{
+  "name": "Test Client",
+  "industry_focus": "FinTech",
+  "company_size": "20-100",
+  "industries": ["FinTech", "SaaS"],
+  "location": "USA,UK,Australia",
+  "size": 20,
+  "target_roles": ["CEO", "CTO", "VP Sales"],
+  "qualification": {
+    "funding": "$1M",
+    "revenue": "$1M"
+  },
+  "tier": "Starter",
+  "monthly_leads": 500,
+  "monthly_fee": 1000,
+  "min_score": 50,
+  "created_at": "2026-02-27T19:00:00",
+  "status": "active"
+}

@@ -1,0 +1,31 @@
+{
+  "api": {
+    "crunchbase_api_key": "",
+    "hunter_api_key": "",
+    "apollo_api_key": "",
+    "clearbit_api_key": ""
+  },
+  "scraping": {
+    "delay_min": 0.5,
+    "delay_max": 1.5,
+    "max_retries": 3,
+    "timeout": 30
+  },
+  "qualification": {
+    "default_min_score": 50,
+    "funding_weight": 0.4,
+    "revenue_weight": 0.3,
+    "size_weight": 0.2,
+    "location_weight": 0.1
+  },
+  "output": {
+    "format": ["json", "csv"],
+    "include_contact_photos": false,
+    "include_company_logo": false
+  },
+  "automation": {
+    "auto_generate": true,
+    "auto_deliver": false,
+    "auto_notify": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "prop1": {
+    "price": "$480/week",
+    "address": "123 Example Street, Reservoir VIC 3073",
+    "bedrooms": "2 beds",
+    "bathrooms": "1 bath",
+    "parking": "1 parking",
+    "link": "https://domain.com.au/property-1",
+    "scannedAt": "2026-02-27T18:00:00",
+    "source": "domain.com.au"
+  },
+  "prop2": {
+    "price": "$520/week",
+    "address": "456 Best Deal Road, Lalor VIC 3075",
+    "bedrooms": "3 beds",
+    "bathrooms": "1 bath",
+    "parking": "2 parking",
+    "link": "https://domain.com.au/property-2",
+    "scannedAt": "2026-02-27T18:00:00",
+    "source": "domain.com.au"
+  },
+  "prop3": {
+    "price": "$550/week",
+    "address": "789 Great Value Avenue, Epping VIC 3076",
+    "bedrooms": "2 beds",
+    "bathrooms": "2 bath",
+    "parking": "1 parking",
+    "link": "https://domain.com.au/property-3",
+    "scannedAt": "2026-02-27T18:00:00",
+    "source": "domain.com.au"
+  },
+  "prop4": {
+    "price": "$580/week",
+    "address": "101 Transport Link, Reservoir VIC 3073",
+    "bedrooms": "2 beds",
+    "bathrooms": "1 bath",
+    "parking": "1 parking",
+    "link": "https://domain.com.au/property-4",
+    "scannedAt": "2026-02-27T18:00:00",
+    "source": "domain.com.au"
+  },
+  "prop5": {
+    "price": "$500/week",
+    "address": "222 Family Close, Wollert VIC 3750",
+    "bedrooms": "3 beds",
+    "bathrooms": "1 bath",
+    "parking": "2 parking",
+    "link": "https://domain.com.au/property-5",
+    "scannedAt": "2026-02-27T18:00:00",
+    "source": "domain.com.au"
+  },
+  "prop6": {
+    "price": "$590/week",
+    "address": "333 Modern Drive, Epping VIC 3076",
+    "bedrooms": "2 beds",
+    "bathrooms": "2 bath",
+    "parking": "2 parking",
+    "link": "https://domain.com.au/property-6",
+    "scannedAt": "2026-02-27T18:00:00",
+    "source": "domain.com.au"
+  }
+}

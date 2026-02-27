@@ -1,0 +1,30 @@
+{
+  "suburbs": [
+    "Preston",
+    "Thornbury",
+    "Regent",
+    "Ruthven",
+    "Keon Park",
+    "Thomastown",
+    "Lalor"
+  ],
+  "min_beds": 2,
+  "max_price": 600,
+  "office": "Suite 3, 452 Johnston Street, Abbotsford, Melbourne",
+  "filter_statuses": [
+    "Leased",
+    "Deposit Taken",
+    "Under Contract",
+    "Withdrawn"
+  ],
+  "exclude_keywords": [
+    "shared",
+    "flatmate",
+    "room",
+    "student"
+  ],
+  "transport_priority": "South Morang line",
+  "max_commute_minutes": 60,
+  "properties_per_suburb": 10,
+  "sort_by": "value"
+}

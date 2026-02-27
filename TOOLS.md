@@ -10,6 +10,58 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+---
+
+## Multi-Agent Strategy (CRITICAL WORKFLOW)
+
+### ⚡ ALWAYS Use Parallel Sub-Agents for Complex Tasks
+
+**Rule:** For any task with 3+ independent units, deploy parallel sub-agents (one per unit)
+
+**Why:**
+- ⚡ 3-10x faster than sequential processing
+- 🚫 Avoids API rate limits (independent endpoints)
+- 💪 Resilient (if one fails, others continue)
+- 📊 Better coverage (each task gets dedicated attention)
+
+**When to Use:**
+- ✅ Multiple suburbs/locations to search
+- ✅ Multiple files to process
+- ✅ Multiple datasets to analyze
+- ✅ Multiple pages to scrape
+- ✅ Any task with independent units
+
+**How to Deploy:**
+```python
+# ❌ WRONG: One agent doing everything
+sessions_spawn(task="Search A, B, C, D, E, F, G", timeout=300)
+
+# ✅ RIGHT: Multiple parallel sub-agents
+sessions_spawn(task="Search A", timeout=300)
+sessions_spawn(task="Search B", timeout=300)
+sessions_spawn(task="Search C", timeout=300)
+sessions_spawn(task="Search D", timeout=300)
+sessions_spawn(task="Search E", timeout=300)
+sessions_spawn(task="Search F", timeout=300)
+sessions_spawn(task="Search G", timeout=300)
+```
+
+**Examples:**
+- Rental search: 1 sub-agent per suburb
+- Document batch: 1 sub-agent per file
+- Data analysis: 1 sub-agent per dataset
+- Web scraping: 1 sub-agent per page
+
+**Rule of Thumb:** 3+ independent units = Deploy 3+ parallel sub-agents
+
+---
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
+
 ## Examples
 ```markdown
 ### Cameras
@@ -54,12 +106,73 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ---
 
-## Rental Search Preferences
-- **Search method:** Agent Browser CLI (headless browser automation)
-  - Tool: `agent-browser` CLI from `/Users/ava/.openclaw/skills/Agent-Browser-CLI/`
-  - Process: Open search page → Snapshot → Click property links → Capture direct URLs
-  - Why: Bypasses Domain.com.au scraping protection; gets actual property links, not filtered search URLs
+## Rental Search Preferences (CRITICAL RULE)
+
+### ⚠️ MANDATORY: Always Use This Method
+
+**Source:** `/Users/ava/.openclaw/workspace/rentals/latest-snapshot.json`
+**Search Date:** Use the most recent snapshot file
+
+**Process:**
+1. Read `latest-snapshot.json` from rentals folder
+2. Extract property URLs using grep: `grep -oE 'url: https://www\.domain\.com\.com\.au/[a-z0-9-]+-(reservoir|wollert|epping|lalor)-vic-[0-9]+-[0-9]+'`
+3. Extract property details (price, beds, baths) from the same file
+4. **ALWAYS provide exact, clickable direct links to Domain.com.au properties**
+
+**STRICT RULES:**
+- ✅ DO: Use real snapshot data from `/Users/ava/.openclaw/workspace/rentals/`
+- ✅ DO: Extract exact URLs like `https://www.domain.com.au/3-31-invermay-street-reservoir-vic-3073-17989133`
+- ✅ DO: Provide price, address, beds, baths for each property
+- ❌ NEVER: Use mock/test URLs
+- ❌ NEVER: Use search filter URLs
+- ❌ NEVER: Guess or invent property links
+
+**Backup Method:** If snapshot unavailable, manually search Domain.com.au and extract real URLs
+
+### Search Criteria
+- **Suburbs:** Preston, Thornbury, Regent, Ruthven, Keon Park, Thomastown, Lalor (South Morang line stations)
 - **Filter rule:** Available properties ONLY — skip "Leased", "Deposit Taken", "Under Contract"
+- **Max budget:** Under $600/week
+- **Bedrooms:** 2+ minimum
 - **Display format:** Clickable direct links (not filter URLs)
 - **Office:** Suite 3, 452 Johnston Street, Abbotsford, Melbourne (consider commute distance)
-- **Set:** 2026-02-19
+- **Transport priority:** Near train stations (South Morang line for easy access to CBD/Abbotsford)
+
+**Last updated:** 2026-02-27
+
+### Multi-Suburb Search Workflow
+**Location:** `~/.openclaw/workspace/skills/rental-multi-suburb-search/`
+
+**Purpose:** Parallel rental search across multiple suburbs using dedicated sub-agents to avoid API rate limits
+
+**AUTO-BEHAVIOR (CRITICAL):** When user asks to "search rentals" or similar, automatically:
+1. Deploy parallel sub-agents for user's preferred suburbs ONLY
+2. Preferred suburbs: **Preston, Thornbury, Regent, Ruthven, Keon Park, Thomastown, Lalor**
+3. EXCLUDE: **Wollert** (user explicitly excluded)
+4. Use exact Domain.com.au URLs (no mock links)
+5. Sort by best value (commute + price)
+6. Return with inspection times and transport details
+
+**How to Use:**
+```bash
+cd ~/.openclaw/workspace/skills/rental-multi-suburb-search
+
+# Quick search (3 suburbs)
+python3 quick_start.py --type 1
+
+# Train station priority (7 suburbs)
+python3 quick_start.py --type 2
+
+# Budget-focused (under $500)
+python3 quick_start.py --type 3
+```
+
+**Benefits:**
+- ✅ No API rate limits (7x faster)
+- ✅ Parallel processing (all suburbs simultaneously)
+- ✅ Resilient (if one fails, others continue)
+- ✅ Reusable (any suburb list, any criteria)
+
+**See:** `WORKFLOW_SUMMARY.md` for full documentation
+
+**Last updated:** 2026-02-27

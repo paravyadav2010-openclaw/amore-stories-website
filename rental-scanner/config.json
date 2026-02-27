@@ -1,0 +1,32 @@
+{
+  "search": {
+    "site": "domain.com.au",
+    "suburbs": ["Lalor", "Epping", "Reservoir", "Wollert"],
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "maxPrice": 600,
+    "propertyTypes": ["house", "townhouse", "unit"]
+  },
+  "filters": {
+    "excludeStatuses": ["Leased", "Deposit Taken", "Under Contract", "Withdrawn"],
+    "minScore": 50,
+    "maxAgeDays": 7,
+    "excludeKeywords": ["shared", "flatmate", "room", "student"]
+  },
+  "scoring": {
+    "priceWeight": 0.4,
+    "locationWeight": 0.3,
+    "amenitiesWeight": 0.2,
+    "newListingBonus": 0.1
+  },
+  "newsletter": {
+    "maxPicks": 5,
+    "format": "markdown",
+    "includeDetails": ["price", "address", "bedrooms", "bathrooms", "parking", "link"]
+  },
+  "telegram": {
+    "channelId": "",
+    "enabled": false,
+    "time": "09:00"
+  }
+}

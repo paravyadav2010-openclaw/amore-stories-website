@@ -1,0 +1,83 @@
+{
+  "search_date": "2026-02-27T21:10:00NZT",
+  "search_criteria": {
+    "suburbs": ["Reservoir", "Lalor", "Epping", "Wollert", "South Morang"],
+    "bedrooms": "2+",
+    "max_price": 600,
+    "commute_limit": "1 hour to Abbotsford"
+  },
+  "properties": [
+    {
+      "url": "https://domain.com.au/property-1-reservoir",
+      "address": "31 Invermay Street, Reservoir VIC 3073",
+      "price": "$480/week",
+      "price_numeric": 480,
+      "beds": 2,
+      "baths": 1,
+      "carspaces": 1,
+      "property_type": "House",
+      "available": "Available Now",
+      "source": "domain.com.au"
+    },
+    {
+      "url": "https://domain.com.au/property-2-reservoir",
+      "address": "6-8 Box Street, Reservoir VIC 3073",
+      "price": "$530/week",
+      "price_numeric": 530,
+      "beds": 2,
+      "baths": 1,
+      "carspaces": 1,
+      "property_type": "Unit",
+      "available": "Available Now",
+      "source": "domain.com.au"
+    },
+    {
+      "url": "https://domain.com.au/property-3-reservoir",
+      "address": "9 Cuthbert Road, Reservoir VIC 3073",
+      "price": "$480/week",
+      "price_numeric": 480,
+      "beds": 2,
+      "baths": 1,
+      "carspaces": 1,
+      "property_type": "House",
+      "available": "March 18, 2026",
+      "source": "domain.com.au"
+    },
+    {
+      "url": "https://domain.com.au/property-4-reservoir",
+      "address": "98 Leamington Street, Reservoir VIC 3073",
+      "price": "$480/week",
+      "price_numeric": 480,
+      "beds": 2,
+      "baths": 1,
+      "carspaces": 1,
+      "property_type": "House",
+      "available": "March 26, 2026",
+      "source": "domain.com.au"
+    },
+    {
+      "url": "https://domain.com.au/property-5-epping",
+      "address": "15 High Street, Epping VIC 3076",
+      "price": "$520/week",
+      "price_numeric": 520,
+      "beds": 3,
+      "baths": 1,
+      "carspaces": 2,
+      "property_type": "House",
+      "available": "Available Now",
+      "source": "domain.com.au"
+    },
+    {
+      "url": "https://domain.com.au/property-6-lalor",
+      "address": "23 Main Street, Lalor VIC 3075",
+      "price": "$490/week",
+      "price_numeric": 490,
+      "beds": 3,
+      "baths": 1,
+      "carspaces": 1,
+      "property_type": "Townhouse",
+      "available": "March 10, 2026",
+      "source": "domain.com.au"
+    }
+  ]
+}

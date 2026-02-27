@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-02-27T10:24:00Z",
+  "last_checked": "2026-02-27T20:00:00Z",
   "pending_tasks": [
-    "Kimi k2.5 via NVIDIA API - connection timeout, endpoint unreachable from macOS VM environment"
+    "Kimi k2.5 via NVIDIA API - missing API key (endpoint is reachable, just needs authentication configured)"
   ],
   "completed_tasks": [
     "Set up git backup system",
@@ -54,7 +54,7 @@
     "Melbourne rental property search completed - 155 properties found, top 5 recommendations with inspection times (2026-02-27 10:17 NZT)"
   ],
   "next_schedule": null,
-  "last_heartbeat": "2026-02-27T10:24:00Z",
+  "last_heartbeat": "2026-02-27T20:00:00Z",
   "status": "ready",
   "pickup_file": "PICKUP.md"
 }
