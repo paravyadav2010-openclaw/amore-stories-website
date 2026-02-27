@@ -1,0 +1,235 @@
+- document:
+  - banner:
+    - link "Domain homepage" [ref=e1]:
+      - /url: https://www.domain.com.au/
+      - img
+    - navigation:
+      - button "Log in" [ref=e2]
+      - list:
+        - listitem:
+          - button "Find a Property" [ref=e3]
+        - listitem:
+          - button "Research" [ref=e4]
+        - listitem:
+          - button "Find Agents" [ref=e5]
+        - listitem:
+          - button "For Owners" [ref=e6]
+        - listitem:
+          - button "News" [ref=e7]
+        - listitem:
+          - button "Commercial" [ref=e8]
+  - heading "Oops..." [ref=e9] [level=1]
+  - paragraph: The requested URL was not found on the server.
+  - contentinfo:
+    - link "Domain" [ref=e10]:
+      - /url: https://www.domain.com.au
+      - img
+    - navigation:
+      - list:
+        - listitem:
+          - link "Help" [ref=e11]:
+            - /url: https://help.domain.com.au/hc/en-us/categories/360001329253-Domain-For-Users
+        - listitem:
+          - link "Contact" [ref=e12]:
+            - /url: https://www.domain.com.au/group/contact-us/
+        - listitem:
+          - link "About" [ref=e13]:
+            - /url: https://www.domain.com.au/group/
+        - listitem:
+          - link "Careers" [ref=e14]:
+            - /url: https://www.domain.com.au/group/life-at-domain/careers/
+        - listitem:
+          - link "Mobile" [ref=e15]:
+            - /url: https://www.domain.com.au/app/
+      - list:
+        - listitem:
+          - link "Advertise on Domain" [ref=e16]:
+            - /url: https://agent.domain.com.au/contact-us/
+        - listitem:
+          - link "Agent Admin" [ref=e17]:
+            - /url: //admin.domain.com.au/
+    - heading "States" [ref=e18] [level=4]
+    - list:
+      - listitem:
+        - link "NSW" [ref=e19]:
+          - /url: https://www.domain.com.au/sale/nsw/
+      - listitem:
+        - link "Victoria" [ref=e20]:
+          - /url: https://www.domain.com.au/sale/vic/
+      - listitem:
+        - link "Queensland" [ref=e21]:
+          - /url: https://www.domain.com.au/sale/qld/
+      - listitem:
+        - link "Western Australia" [ref=e22]:
+          - /url: https://www.domain.com.au/sale/wa/
+      - listitem:
+        - link "South Australia" [ref=e23]:
+          - /url: https://www.domain.com.au/sale/sa/
+      - listitem:
+        - link "Tasmania" [ref=e24]:
+          - /url: https://www.domain.com.au/sale/tas/
+      - listitem:
+        - link "ACT" [ref=e25]:
+          - /url: https://www.domain.com.au/sale/act/
+      - listitem:
+        - link "Northern Territory" [ref=e26]:
+          - /url: https://www.domain.com.au/sale/nt/
+    - heading "Capital Cities" [ref=e27] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney real estate" [ref=e28]:
+          - /url: https://www.domain.com.au/sale/sydney-nsw-2000/
+      - listitem:
+        - link "Melbourne real estate" [ref=e29]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/
+      - listitem:
+        - link "Brisbane real estate" [ref=e30]:
+          - /url: https://www.domain.com.au/sale/brisbane-city-qld-4000/
+      - listitem:
+        - link "Perth real estate" [ref=e31]:
+          - /url: https://www.domain.com.au/sale/perth-wa-6000/
+      - listitem:
+        - link "Adelaide real estate" [ref=e32]:
+          - /url: https://www.domain.com.au/sale/adelaide-sa-5000/
+      - listitem:
+        - link "Hobart real estate" [ref=e33]:
+          - /url: https://www.domain.com.au/sale/hobart-greater-area-tas/
+      - listitem:
+        - link "Canberra real estate" [ref=e34]:
+          - /url: https://www.domain.com.au/sale/canberra-act/
+      - listitem:
+        - link "Darwin real estate" [ref=e35]:
+          - /url: https://www.domain.com.au/sale/darwin-greater-area-nt/
+    - heading "Capital Cities - Rentals" [ref=e36] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney rental properties" [ref=e37]:
+          - /url: https://www.domain.com.au/rent/sydney-nsw-2000/
+      - listitem:
+        - link "Melbourne rental properties" [ref=e38]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/
+      - listitem:
+        - link "Brisbane rental properties" [ref=e39]:
+          - /url: https://www.domain.com.au/rent/brisbane-city-qld-4000/
+      - listitem:
+        - link "Perth rental properties" [ref=e40]:
+          - /url: https://www.domain.com.au/rent/perth-wa-6000/
+      - listitem:
+        - link "Adelaide rental properties" [ref=e41]:
+          - /url: https://www.domain.com.au/rent/adelaide-sa-5000/
+      - listitem:
+        - link "Hobart rental properties" [ref=e42]:
+          - /url: https://www.domain.com.au/rent/hobart-greater-area-tas/
+      - listitem:
+        - link "Canberra rental properties" [ref=e43]:
+          - /url: https://www.domain.com.au/rent/canberra-act/
+      - listitem:
+        - link "Darwin rental properties" [ref=e44]:
+          - /url: https://www.domain.com.au/rent/darwin-greater-area-nt/
+    - heading "Popular Areas" [ref=e45] [level=4]
+    - list:
+      - listitem:
+        - link "Eastern Suburbs Sydney" [ref=e46]:
+          - /url: https://www.domain.com.au/sale/eastern-suburbs-nsw/
+      - listitem:
+        - link "Inner West Sydney" [ref=e47]:
+          - /url: https://www.domain.com.au/sale/inner-west-nsw/
+      - listitem:
+        - link "Lower North Shore" [ref=e48]:
+          - /url: https://www.domain.com.au/sale/north-shore-lower-nsw/
+      - listitem:
+        - link "East Melbourne" [ref=e49]:
+          - /url: https://www.domain.com.au/sale/east-vic/
+      - listitem:
+        - link "Bayside Melbourne" [ref=e50]:
+          - /url: https://www.domain.com.au/sale/bayside-vic/
+      - listitem:
+        - link "Sydney City" [ref=e51]:
+          - /url: https://www.domain.com.au/sale/sydney-city-nsw/
+      - listitem:
+        - link "Inner City Melbourne" [ref=e52]:
+          - /url: https://www.domain.com.au/sale/inner-city-vic/
+      - listitem:
+        - link "Upper North Shore" [ref=e53]:
+          - /url: https://www.domain.com.au/sale/north-shore-upper-nsw/
+    - heading "Domain" [ref=e54] [level=4]
+    - list:
+      - listitem:
+        - link "Home Price Guide" [ref=e55]:
+          - /url: https://www.domain.com.au/property-profile
+      - listitem:
+        - link "Auction Results" [ref=e56]:
+          - /url: https://www.domain.com.au/auction-results/
+      - listitem:
+        - link "Suburb Profiles" [ref=e57]:
+          - /url: https://www.domain.com.au/suburb-profile/
+      - listitem:
+        - link "Privacy policy" [ref=e58]:
+          - /url: https://www.domain.com.au/group/privacy-policy/
+      - listitem:
+        - link "Domain Group Terms and Conditions" [ref=e59]:
+          - /url: https://www.domain.com.au/group/domain-group-terms-and-conditions/
+      - listitem:
+        - link "Tracking & targeting policy" [ref=e60]:
+          - /url: https://www.domain.com.au/group/tracking-and-targeting/
+      - listitem:
+        - link "Supplier Code of Conduct" [ref=e61]:
+          - /url: https://www.domain.com.au/group/wp-content/uploads/2024/05/Supplier-Code-of-Conduct-Adopted-21-May-2024.pdf
+      - listitem:
+        - link "Domain Group API" [ref=e62]:
+          - /url: https://developer.domain.com.au/
+    - heading "Our Network" [ref=e63] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney Morning Herald" [ref=e64]:
+          - /url: https://www.smh.com.au
+      - listitem:
+        - link "The Age" [ref=e65]:
+          - /url: https://www.theage.com.au
+      - listitem:
+        - link "Brisbane Times" [ref=e66]:
+          - /url: https://www.brisbanetimes.com.au
+      - listitem:
+        - link "WA Today" [ref=e67]:
+          - /url: https://www.watoday.com.au
+      - listitem:
+        - link "Canberra Times" [ref=e68]:
+          - /url: https://www.canberratimes.com.au
+      - listitem:
+        - link "Our Digital Magazines" [ref=e69]:
+          - /url: https://www.domain.com.au/landing/domain-digital-editions/
+      - listitem:
+        - link "Drive" [ref=e70]:
+          - /url: https://www.drive.com.au
+      - listitem:
+        - link "Nine" [ref=e71]:
+          - /url: https://www.nine.com.au
+      - listitem:
+        - link "9Now" [ref=e72]:
+          - /url: https://www.9now.com.au
+    - img
+    - paragraph: Domain acknowledges the Traditional Custodians of the lands throughout Australia, where we are privileged to live and operate.
+    - link "Read more about our Reconciliation Action Plan" [ref=e73]:
+      - /url: https://www.domain.com.au/group/reconciliation-action-plan/
+    - link "Facebook" [ref=e74]:
+      - /url: https://www.facebook.com/domain.com.au/
+    - link "Instagram" [ref=e75]:
+      - /url: https://www.instagram.com/domain.com.au/
+    - link "Pinterest" [ref=e76]:
+      - /url: https://www.pinterest.com.au/domaincomau/
+    - link "Youtube" [ref=e77]:
+      - /url: https://www.youtube.com/c/domaincomau/
+    - link "Tiktok" [ref=e78]:
+      - /url: https://www.tiktok.com/@domain.com.au/
+    - img
+    - combobox [ref=e79]: Commercial Real Estate
+    - paragraph:
+      - text: This site is protected by reCAPTCHA Enterprise and the Google
+      - link "Privacy Policy" [ref=e80]:
+        - /url: https://policies.google.com/privacy
+      - text: and
+      - link "Terms of Service" [ref=e81]:
+        - /url: https://policies.google.com/terms
+      - text: apply.
+    - paragraph: © 2025, Costar Group Inc
+  - alert

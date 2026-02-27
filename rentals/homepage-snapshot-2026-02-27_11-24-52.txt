@@ -1,0 +1,600 @@
+- document:
+  - iframe
+  - banner:
+    - link "Domain homepage" [ref=e1]:
+      - /url: https://www.domain.com.au/
+      - img
+    - navigation:
+      - button "Log in" [ref=e2]
+      - list:
+        - listitem:
+          - button "Find a Property" [ref=e3]
+        - listitem:
+          - button "Research" [ref=e4]
+        - listitem:
+          - button "Find Agents" [ref=e5]
+        - listitem:
+          - button "For Owners" [ref=e6]
+        - listitem:
+          - button "News" [ref=e7]
+        - listitem:
+          - button "Commercial" [ref=e8]
+  - link "Skip to content . Contact Support 1300 799 109" [ref=e9]:
+    - /url: "#skip-link-content"
+  - combobox [ref=e10]:
+    - textbox "Try a location or school you want to live by" [ref=e11]:
+      - /placeholder: "Try a location or school you want to live by "
+    - button "perform search" [ref=e12]
+  - button [ref=e13]
+  - button "Rent" [ref=e14]
+  - button "Price" [ref=e15]
+  - button "Beds" [ref=e16]
+  - button "Property types" [ref=e17]
+  - heading "43302 Properties for rent" [ref=e18] [level=1]:
+    - strong: 43302 Properties
+    - text: for rent
+  - button "List view" [ref=e19]
+  - link "Map view" [ref=e20]:
+    - /url: https://www.domain.com.au/rent/?displaymap=1
+  - link "Inspections" [ref=e21]:
+    - /url: https://www.domain.com.au/rent/inspection-times/
+  - button "Create alert" [ref=e22]
+  - tooltip "Turn on Property alert and get notified about properties that match your search"
+  - text: Sort by Sort search results
+  - combobox "Sort search results" [ref=e23]: Featured
+  - list:
+    - listitem:
+      - strong: Featured
+      - link "Picture of 6a Belbourie Street, WINGHAM NSW 2429" [ref=e24]:
+        - /url: https://www.domain.com.au/6a-belbourie-street-wingham-nsw-2429-17776695?topspot=1
+        - img "Picture of 6a Belbourie Street, WINGHAM NSW 2429"
+      - text: Contact Office LJ Hooker Taree
+      - img "Logo for LJ Hooker Taree"
+      - paragraph: $340 per week
+      - button "Add 6a Belbourie Street to shortlist" [ref=e25]
+      - link "6a Belbourie Street, WINGHAM" [ref=e26]:
+        - /url: https://www.domain.com.au/6a-belbourie-street-wingham-nsw-2429-17776695?topspot=1
+        - heading "6a Belbourie Street, WINGHAM" [ref=e27] [level=2]
+      - text: 1 Bed 1 Bath 1 Parking House
+    - listitem:
+      - button "Previous" [ref=e28]
+      - link "Picture of 41 Rogers Road, GOOGONG NSW 2620" [ref=e29]:
+        - /url: https://www.domain.com.au/41-rogers-road-googong-nsw-2620-17672311
+        - img "Picture of 41 Rogers Road, GOOGONG NSW 2620"
+      - button "Next" [ref=e30]
+      - button "New" [ref=e31]
+      - img "Joe Kaltoum"
+      - text: Joe Kaltoum National Real Estate Canberra
+      - img "Logo for National Real Estate Canberra"
+      - paragraph: $580 per week
+      - button "Add 41 Rogers Road to shortlist" [ref=e32]
+      - link "41 Rogers Road, GOOGONG" [ref=e33]:
+        - /url: https://www.domain.com.au/41-rogers-road-googong-nsw-2620-17672311
+        - heading "41 Rogers Road, GOOGONG" [ref=e34] [level=2]
+      - text: 1 Bed 1 Bath 1 Parking House
+    - listitem:
+      - button "Previous" [ref=e35] [nth=1]
+      - link "Picture of 21 Wire Lane, BERRY NSW 2535" [ref=e36]:
+        - /url: https://www.domain.com.au/21-wire-lane-berry-nsw-2535-18006966
+        - img "Picture of 21 Wire Lane, BERRY NSW 2535"
+      - button "Next" [ref=e37] [nth=1]
+      - button "New" [ref=e38] [nth=1]
+      - text: Rebecca Pugh Ray White Berry
+      - img "Logo for Ray White Berry"
+      - paragraph: $2000 per week
+      - button "Add 21 Wire Lane to shortlist" [ref=e39]
+      - link "21 Wire Lane, BERRY" [ref=e40]:
+        - /url: https://www.domain.com.au/21-wire-lane-berry-nsw-2535-18006966
+        - heading "21 Wire Lane, BERRY" [ref=e41] [level=2]
+      - text: 4 Beds 2 Baths 8 Parking House
+    - listitem
+    - listitem:
+      - button "Previous" [ref=e42] [nth=2]
+      - link "Picture of 61 Harker Circuit, BURDELL QLD 4818" [ref=e43]:
+        - /url: https://www.domain.com.au/61-harker-circuit-burdell-qld-4818-18006964
+        - img "Picture of 61 Harker Circuit, BURDELL QLD 4818"
+      - button "Next" [ref=e44] [nth=2]
+      - button "New" [ref=e45] [nth=2]
+      - text: Helen Munro Property Helen Munro Property
+      - img "Logo for Helen Munro Property"
+      - paragraph: $850 per week
+      - button "Add 61 Harker Circuit to shortlist" [ref=e46]
+      - link "61 Harker Circuit, BURDELL" [ref=e47]:
+        - /url: https://www.domain.com.au/61-harker-circuit-burdell-qld-4818-18006964
+        - heading "61 Harker Circuit, BURDELL" [ref=e48] [level=2]
+      - text: 4 Beds 2 Baths 2 Parking House
+    - listitem:
+      - button "Previous" [ref=e49] [nth=3]
+      - link "Picture of 6/2 Forbes Street, WARWICK FARM NSW 2170" [ref=e50]:
+        - /url: https://www.domain.com.au/6-2-forbes-street-warwick-farm-nsw-2170-18006963
+        - img "Picture of 6/2 Forbes Street, WARWICK FARM NSW 2170"
+      - button "Next" [ref=e51] [nth=3]
+      - button "New" [ref=e52] [nth=3]
+      - text: Rentals Department John Williams Real Estate One
+      - img "Logo for John Williams Real Estate One"
+      - paragraph: $400 per week
+      - button "Add 6/2 Forbes Street to shortlist" [ref=e53]
+      - link "6/2 Forbes Street, WARWICK FARM" [ref=e54]:
+        - /url: https://www.domain.com.au/6-2-forbes-street-warwick-farm-nsw-2170-18006963
+        - heading "6/2 Forbes Street, WARWICK FARM" [ref=e55] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 9:30am"
+    - listitem:
+      - button "Previous" [ref=e56] [nth=4]
+      - link "Picture of 7/15 Clovelly Road, RANDWICK NSW 2031" [ref=e57]:
+        - /url: https://www.domain.com.au/7-15-clovelly-road-randwick-nsw-2031-18006960
+        - img "Picture of 7/15 Clovelly Road, RANDWICK NSW 2031"
+      - button "Next" [ref=e58] [nth=4]
+      - button "New" [ref=e59] [nth=4]
+      - img "Mobin Ahamed"
+      - text: Mobin Ahamed Century 21 Classic Real Estate
+      - img "Logo for Century 21 Classic Real Estate"
+      - paragraph: $780 per week
+      - button "Add 7/15 Clovelly Road to shortlist" [ref=e60]
+      - link "7/15 Clovelly Road, RANDWICK" [ref=e61]:
+        - /url: https://www.domain.com.au/7-15-clovelly-road-randwick-nsw-2031-18006960
+        - heading "7/15 Clovelly Road, RANDWICK" [ref=e62] [level=2]
+      - text: 1 Bed 1 Bath − Apartment / Unit / Flat
+    - listitem:
+      - button "Previous" [ref=e63] [nth=5]
+      - link "Picture of 3 Lolworth Lane, BOHLE PLAINS QLD 4817" [ref=e64]:
+        - /url: https://www.domain.com.au/3-lolworth-lane-bohle-plains-qld-4817-18006954
+        - img "Picture of 3 Lolworth Lane, BOHLE PLAINS QLD 4817"
+      - button "Next" [ref=e65] [nth=5]
+      - button "New" [ref=e66] [nth=5]
+      - text: Helen Munro Property Helen Munro Property
+      - img "Logo for Helen Munro Property"
+      - paragraph: $670 per week
+      - button "Add 3 Lolworth Lane to shortlist" [ref=e67]
+      - link "3 Lolworth Lane, BOHLE PLAINS" [ref=e68]:
+        - /url: https://www.domain.com.au/3-lolworth-lane-bohle-plains-qld-4817-18006954
+        - heading "3 Lolworth Lane, BOHLE PLAINS" [ref=e69] [level=2]
+      - text: 4 Beds 2 Baths 2 Parking House
+    - listitem:
+      - button "Previous" [ref=e70] [nth=6]
+      - link "Picture of 5F/2-22 Knox Street, DOUBLE BAY NSW 2028" [ref=e71]:
+        - /url: https://www.domain.com.au/5f-2-22-knox-street-double-bay-nsw-2028-18006951
+        - img "Picture of 5F/2-22 Knox Street, DOUBLE BAY NSW 2028"
+      - button "Next" [ref=e72] [nth=6]
+      - button "New" [ref=e73] [nth=6]
+      - img "Morag Christie"
+      - text: Morag Christie Sydney Sotheby's International Realty
+      - img "Logo for Sydney Sotheby's International Realty"
+      - paragraph: $4000 per week
+      - button "Add 5F/2-22 Knox Street to shortlist" [ref=e74]
+      - link "5F/2-22 Knox Street, DOUBLE BAY" [ref=e75]:
+        - /url: https://www.domain.com.au/5f-2-22-knox-street-double-bay-nsw-2028-18006951
+        - heading "5F/2-22 Knox Street, DOUBLE BAY" [ref=e76] [level=2]
+      - text: 2 Beds 2 Baths 1 Parking Apartment / Unit / Flat
+    - listitem:
+      - button "Previous" [ref=e77] [nth=7]
+      - link "Picture of 5/32 Barton Street, HAWTHORN VIC 3122" [ref=e78]:
+        - /url: https://www.domain.com.au/5-32-barton-street-hawthorn-vic-3122-18006950
+        - img "Picture of 5/32 Barton Street, HAWTHORN VIC 3122"
+      - button "Next" [ref=e79] [nth=7]
+      - button "New" [ref=e80] [nth=7]
+      - img "Lachie Hollamby"
+      - text: Lachie Hollamby Jellis Craig & Company Pty Ltd
+      - img "Logo for Jellis Craig & Company Pty Ltd"
+      - paragraph: $600 per week
+      - button "Add 5/32 Barton Street to shortlist" [ref=e81]
+      - link "5/32 Barton Street, HAWTHORN" [ref=e82]:
+        - /url: https://www.domain.com.au/5-32-barton-street-hawthorn-vic-3122-18006950
+        - heading "5/32 Barton Street, HAWTHORN" [ref=e83] [level=2]
+      - text: 2 Beds 1 Bath 1 Parking Apartment / Unit / Flat
+    - listitem:
+      - button "Previous" [ref=e84] [nth=8]
+      - link "Picture of 11A Eiffel Avenue, BONNIE BROOK VIC 3335" [ref=e85]:
+        - /url: https://www.domain.com.au/11a-eiffel-avenue-bonnie-brook-vic-3335-17667197
+        - img "Picture of 11A Eiffel Avenue, BONNIE BROOK VIC 3335"
+      - button "Next" [ref=e86] [nth=8]
+      - button "New" [ref=e87] [nth=8]
+      - paragraph: $470 per week
+      - button "Add 11A Eiffel Avenue to shortlist" [ref=e88]
+      - link "11A Eiffel Avenue, BONNIE BROOK" [ref=e89]:
+        - /url: https://www.domain.com.au/11a-eiffel-avenue-bonnie-brook-vic-3335-17667197
+        - heading "11A Eiffel Avenue, BONNIE BROOK" [ref=e90] [level=2]
+      - text: 3 Beds 2 Baths 2 Parking House
+    - listitem:
+      - button "Previous" [ref=e91] [nth=9]
+      - link "Picture of 30/12 Post Office Street, CARLINGFORD NSW 2118" [ref=e92]:
+        - /url: https://www.domain.com.au/30-12-post-office-street-carlingford-nsw-2118-18006943
+        - img "Picture of 30/12 Post Office Street, CARLINGFORD NSW 2118"
+      - button "Next" [ref=e93] [nth=9]
+      - button "New" [ref=e94] [nth=9]
+      - text: Alan Yu McGrath Epping
+      - img "Logo for McGrath Epping"
+      - paragraph: $720 per week
+      - button "Add 30/12 Post Office Street to shortlist" [ref=e95]
+      - link "30/12 Post Office Street, CARLINGFORD" [ref=e96]:
+        - /url: https://www.domain.com.au/30-12-post-office-street-carlingford-nsw-2118-18006943
+        - heading "30/12 Post Office Street, CARLINGFORD" [ref=e97] [level=2]
+      - text: "2 Beds 2 Baths 1 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 9:35am"
+    - listitem:
+      - button "Previous" [ref=e98] [nth=10]
+      - link "Picture of 48A Essex Rd, MOUNT WAVERLEY VIC 3149" [ref=e99]:
+        - /url: https://www.domain.com.au/48a-essex-rd-mount-waverley-vic-3149-18006940
+        - img "Picture of 48A Essex Rd, MOUNT WAVERLEY VIC 3149"
+      - button "Next" [ref=e100] [nth=10]
+      - button "New" [ref=e101] [nth=10]
+      - img "Adriana McDonald"
+      - text: Adriana McDonald Hodges Real Estate Sandringham
+      - img "Logo for Hodges Real Estate Sandringham"
+      - paragraph: $1200 per week
+      - button "Add 48A Essex Rd to shortlist" [ref=e102]
+      - link "48A Essex Rd, MOUNT WAVERLEY" [ref=e103]:
+        - /url: https://www.domain.com.au/48a-essex-rd-mount-waverley-vic-3149-18006940
+        - heading "48A Essex Rd, MOUNT WAVERLEY" [ref=e104] [level=2]
+      - text: 4 Beds 3 Baths 2 Parking House
+    - listitem:
+      - button "Previous" [ref=e105] [nth=11]
+      - link "Picture of 901/153 Sturt Street, SOUTHBANK VIC 3006" [ref=e106]:
+        - /url: https://www.domain.com.au/901-153-sturt-street-southbank-vic-3006-18006936
+        - img "Picture of 901/153 Sturt Street, SOUTHBANK VIC 3006"
+      - button "Next" [ref=e107] [nth=11]
+      - button "New" [ref=e108] [nth=11]
+      - text: Stefano Lai NOVUS on Sturt
+      - img "Logo for NOVUS on Sturt"
+      - paragraph: $790 per week
+      - button "Add 901/153 Sturt Street to shortlist" [ref=e109]
+      - link "901/153 Sturt Street, SOUTHBANK" [ref=e110]:
+        - /url: https://www.domain.com.au/901-153-sturt-street-southbank-vic-3006-18006936
+        - heading "901/153 Sturt Street, SOUTHBANK" [ref=e111] [level=2]
+      - text: 1 Bed 1 Bath − 67m² Apartment / Unit / Flat
+    - listitem:
+      - button "Previous" [ref=e112] [nth=12]
+      - link "Picture of 13A Correa Crescent, PORT MACQUARIE NSW 2444" [ref=e113]:
+        - /url: https://www.domain.com.au/13a-correa-crescent-port-macquarie-nsw-2444-18006932
+        - img "Picture of 13A Correa Crescent, PORT MACQUARIE NSW 2444"
+      - button "Next" [ref=e114] [nth=12]
+      - button "New" [ref=e115] [nth=12]
+      - img "Tarym Wright"
+      - text: Tarym Wright Lifestyle Port Macquarie
+      - img "Logo for Lifestyle Port Macquarie"
+      - paragraph: $500 per week
+      - button "Add 13A Correa Crescent to shortlist" [ref=e116]
+      - link "13A Correa Crescent, PORT MACQUARIE" [ref=e117]:
+        - /url: https://www.domain.com.au/13a-correa-crescent-port-macquarie-nsw-2444-18006932
+        - heading "13A Correa Crescent, PORT MACQUARIE" [ref=e118] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Semi-detached Inspection: Mon 2 Mar, 8:30am"
+    - listitem:
+      - button "Previous" [ref=e119] [nth=13]
+      - link "Picture of 4/59 Gilded Road, WERRIBEE VIC 3030" [ref=e120]:
+        - /url: https://www.domain.com.au/4-59-gilded-road-werribee-vic-3030-16902742
+        - img "Picture of 4/59 Gilded Road, WERRIBEE VIC 3030"
+      - button "Next" [ref=e121] [nth=13]
+      - button "New" [ref=e122] [nth=13]
+      - text: Nigel Chee Victoria Real Estate Agency Pty Ltd
+      - img "Logo for Victoria Real Estate Agency Pty Ltd"
+      - paragraph: $430 per week
+      - button "Add 4/59 Gilded Road to shortlist" [ref=e123]
+      - link "4/59 Gilded Road, WERRIBEE" [ref=e124]:
+        - /url: https://www.domain.com.au/4-59-gilded-road-werribee-vic-3030-16902742
+        - heading "4/59 Gilded Road, WERRIBEE" [ref=e125] [level=2]
+      - text: 2 Beds 1 Bath 1 Parking Townhouse
+    - listitem:
+      - button "Previous" [ref=e126] [nth=14]
+      - link "Picture of 38/1 Waddell Street, CURTIN ACT 2605" [ref=e127]:
+        - /url: https://www.domain.com.au/38-1-waddell-street-curtin-act-2605-18006930
+        - img "Picture of 38/1 Waddell Street, CURTIN ACT 2605"
+      - button "Next" [ref=e128] [nth=14]
+      - button "New" [ref=e129] [nth=14]
+      - img "Georgia Bond"
+      - text: Georgia Bond Hayman Partners
+      - img "Logo for Hayman Partners"
+      - paragraph: $650 per week
+      - button "Add 38/1 Waddell Street to shortlist" [ref=e130]
+      - link "38/1 Waddell Street, CURTIN" [ref=e131]:
+        - /url: https://www.domain.com.au/38-1-waddell-street-curtin-act-2605-18006930
+        - heading "38/1 Waddell Street, CURTIN" [ref=e132] [level=2]
+      - text: "3 Beds 2 Baths 2 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 1:00pm"
+    - listitem:
+      - button "Previous" [ref=e133] [nth=15]
+      - link "Picture of 118/10 Mills Boulevard, ALPHINGTON VIC 3078" [ref=e134]:
+        - /url: https://www.domain.com.au/118-10-mills-boulevard-alphington-vic-3078-16862364
+        - img "Picture of 118/10 Mills Boulevard, ALPHINGTON VIC 3078"
+      - button "Next" [ref=e135] [nth=15]
+      - button "New" [ref=e136] [nth=15]
+      - img "Sally McCormack"
+      - text: Sally McCormack The Agency Victoria
+      - img "Logo for The Agency Victoria"
+      - paragraph: $680 per week
+      - button "Add 118/10 Mills Boulevard to shortlist" [ref=e137]
+      - link "118/10 Mills Boulevard, ALPHINGTON" [ref=e138]:
+        - /url: https://www.domain.com.au/118-10-mills-boulevard-alphington-vic-3078-16862364
+        - heading "118/10 Mills Boulevard, ALPHINGTON" [ref=e139] [level=2]
+      - text: "2 Beds 2 Baths 1 Parking Apartment / Unit / Flat Inspection: Wed 4 Mar, 5:00pm"
+    - listitem:
+      - button "Previous" [ref=e140] [nth=16]
+      - link "Picture of 8 Outlook Boulevard, FLETCHER NSW 2287" [ref=e141]:
+        - /url: https://www.domain.com.au/8-outlook-boulevard-fletcher-nsw-2287-18006922
+        - img "Picture of 8 Outlook Boulevard, FLETCHER NSW 2287"
+      - button "Next" [ref=e142] [nth=16]
+      - button "New" [ref=e143] [nth=16]
+      - img "Harrison McWhirter"
+      - text: Harrison McWhirter Ray White Newcastle Lake Macquarie
+      - img "Logo for Ray White Newcastle Lake Macquarie"
+      - paragraph: $795 per week
+      - button "Add 8 Outlook Boulevard to shortlist" [ref=e144]
+      - link "8 Outlook Boulevard, FLETCHER" [ref=e145]:
+        - /url: https://www.domain.com.au/8-outlook-boulevard-fletcher-nsw-2287-18006922
+        - heading "8 Outlook Boulevard, FLETCHER" [ref=e146] [level=2]
+      - text: 4 Beds 2 Baths 2 Parking House
+    - listitem:
+      - button "Previous" [ref=e147] [nth=17]
+      - link "Picture of 3 Mullavey Place, WERRIBEE VIC 3030" [ref=e148]:
+        - /url: https://www.domain.com.au/3-mullavey-place-werribee-vic-3030-15892451
+        - img "Picture of 3 Mullavey Place, WERRIBEE VIC 3030"
+      - button "Next" [ref=e149] [nth=17]
+      - button "New" [ref=e150] [nth=17]
+      - text: Nigel Chee Victoria Real Estate Agency Pty Ltd
+      - img "Logo for Victoria Real Estate Agency Pty Ltd"
+      - paragraph: $440 per week
+      - button "Add 3 Mullavey Place to shortlist" [ref=e151]
+      - link "3 Mullavey Place, WERRIBEE" [ref=e152]:
+        - /url: https://www.domain.com.au/3-mullavey-place-werribee-vic-3030-15892451
+        - heading "3 Mullavey Place, WERRIBEE" [ref=e153] [level=2]
+      - text: 2 Beds 2 Baths 1 Parking Townhouse
+    - listitem:
+      - button "Previous" [ref=e154] [nth=18]
+      - link "Picture of 6/319 Dandenong Road, PRAHRAN VIC 3181" [ref=e155]:
+        - /url: https://www.domain.com.au/6-319-dandenong-road-prahran-vic-3181-18006920
+        - img "Picture of 6/319 Dandenong Road, PRAHRAN VIC 3181"
+      - button "Next" [ref=e156] [nth=18]
+      - button "New" [ref=e157] [nth=18]
+      - img "Cameron Gibson"
+      - text: Cameron Gibson Buxton Stonnington
+      - img "Logo for Buxton Stonnington"
+      - paragraph: $460 per week
+      - button "Add 6/319 Dandenong Road to shortlist" [ref=e158]
+      - link "6/319 Dandenong Road, PRAHRAN" [ref=e159]:
+        - /url: https://www.domain.com.au/6-319-dandenong-road-prahran-vic-3181-18006920
+        - heading "6/319 Dandenong Road, PRAHRAN" [ref=e160] [level=2]
+      - text: 1 Bed 1 Bath 1 Parking Apartment / Unit / Flat
+    - listitem:
+      - button "Previous" [ref=e161] [nth=19]
+      - link "Picture of 5/8 Windmill Street, PORT MACQUARIE NSW 2444" [ref=e162]:
+        - /url: https://www.domain.com.au/5-8-windmill-street-port-macquarie-nsw-2444-18006916
+        - img "Picture of 5/8 Windmill Street, PORT MACQUARIE NSW 2444"
+      - button "Next" [ref=e163] [nth=19]
+      - button "New" [ref=e164] [nth=19]
+      - img "Tarym Wright"
+      - text: Tarym Wright Lifestyle Port Macquarie
+      - img "Logo for Lifestyle Port Macquarie"
+      - paragraph: $525 per week
+      - button "Add 5/8 Windmill Street to shortlist" [ref=e165]
+      - link "5/8 Windmill Street, PORT MACQUARIE" [ref=e166]:
+        - /url: https://www.domain.com.au/5-8-windmill-street-port-macquarie-nsw-2444-18006916
+        - heading "5/8 Windmill Street, PORT MACQUARIE" [ref=e167] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Apartment / Unit / Flat Inspection: Mon 2 Mar, 10:30am"
+  - button "prev page" [ref=e168] [disabled]
+  - text: "1"
+  - link "2" [ref=e169]:
+    - /url: /rent/?page=2
+  - link "3" [ref=e170]:
+    - /url: /rent/?page=3
+  - link "4" [ref=e171]:
+    - /url: /rent/?page=4
+  - link "5" [ref=e172]:
+    - /url: /rent/?page=5
+  - link "next page" [ref=e173]:
+    - /url: /rent/?page=2
+  - navigation "Breadcrumb" [ref=e174]:
+    - list:
+      - listitem:
+        - link "Home" [ref=e175]:
+          - /url: //www.domain.com.au
+      - listitem: Rent
+  - contentinfo:
+    - link "Domain" [ref=e176]:
+      - /url: https://www.domain.com.au
+      - img
+    - navigation:
+      - list:
+        - listitem:
+          - link "Help" [ref=e177]:
+            - /url: https://help.domain.com.au/hc/en-us/categories/360001329253-Domain-For-Users
+        - listitem:
+          - link "Contact" [ref=e178]:
+            - /url: https://www.domain.com.au/group/contact-us/
+        - listitem:
+          - link "About" [ref=e179]:
+            - /url: https://www.domain.com.au/group/
+        - listitem:
+          - link "Careers" [ref=e180]:
+            - /url: https://www.domain.com.au/group/life-at-domain/careers/
+        - listitem:
+          - link "Mobile" [ref=e181]:
+            - /url: https://www.domain.com.au/app/
+      - list:
+        - listitem:
+          - link "Advertise on Domain" [ref=e182]:
+            - /url: https://agent.domain.com.au/contact-us/
+        - listitem:
+          - link "Agent Admin" [ref=e183]:
+            - /url: //admin.domain.com.au/
+    - heading "States" [ref=e184] [level=4]
+    - list:
+      - listitem:
+        - link "NSW" [ref=e185]:
+          - /url: https://www.domain.com.au/sale/nsw/
+      - listitem:
+        - link "Victoria" [ref=e186]:
+          - /url: https://www.domain.com.au/sale/vic/
+      - listitem:
+        - link "Queensland" [ref=e187]:
+          - /url: https://www.domain.com.au/sale/qld/
+      - listitem:
+        - link "Western Australia" [ref=e188]:
+          - /url: https://www.domain.com.au/sale/wa/
+      - listitem:
+        - link "South Australia" [ref=e189]:
+          - /url: https://www.domain.com.au/sale/sa/
+      - listitem:
+        - link "Tasmania" [ref=e190]:
+          - /url: https://www.domain.com.au/sale/tas/
+      - listitem:
+        - link "ACT" [ref=e191]:
+          - /url: https://www.domain.com.au/sale/act/
+      - listitem:
+        - link "Northern Territory" [ref=e192]:
+          - /url: https://www.domain.com.au/sale/nt/
+    - heading "Capital Cities" [ref=e193] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney real estate" [ref=e194]:
+          - /url: https://www.domain.com.au/sale/sydney-nsw-2000/
+      - listitem:
+        - link "Melbourne real estate" [ref=e195]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/
+      - listitem:
+        - link "Brisbane real estate" [ref=e196]:
+          - /url: https://www.domain.com.au/sale/brisbane-city-qld-4000/
+      - listitem:
+        - link "Perth real estate" [ref=e197]:
+          - /url: https://www.domain.com.au/sale/perth-wa-6000/
+      - listitem:
+        - link "Adelaide real estate" [ref=e198]:
+          - /url: https://www.domain.com.au/sale/adelaide-sa-5000/
+      - listitem:
+        - link "Hobart real estate" [ref=e199]:
+          - /url: https://www.domain.com.au/sale/hobart-greater-area-tas/
+      - listitem:
+        - link "Canberra real estate" [ref=e200]:
+          - /url: https://www.domain.com.au/sale/canberra-act/
+      - listitem:
+        - link "Darwin real estate" [ref=e201]:
+          - /url: https://www.domain.com.au/sale/darwin-greater-area-nt/
+    - heading "Capital Cities - Rentals" [ref=e202] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney rental properties" [ref=e203]:
+          - /url: https://www.domain.com.au/rent/sydney-nsw-2000/
+      - listitem:
+        - link "Melbourne rental properties" [ref=e204]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/
+      - listitem:
+        - link "Brisbane rental properties" [ref=e205]:
+          - /url: https://www.domain.com.au/rent/brisbane-city-qld-4000/
+      - listitem:
+        - link "Perth rental properties" [ref=e206]:
+          - /url: https://www.domain.com.au/rent/perth-wa-6000/
+      - listitem:
+        - link "Adelaide rental properties" [ref=e207]:
+          - /url: https://www.domain.com.au/rent/adelaide-sa-5000/
+      - listitem:
+        - link "Hobart rental properties" [ref=e208]:
+          - /url: https://www.domain.com.au/rent/hobart-greater-area-tas/
+      - listitem:
+        - link "Canberra rental properties" [ref=e209]:
+          - /url: https://www.domain.com.au/rent/canberra-act/
+      - listitem:
+        - link "Darwin rental properties" [ref=e210]:
+          - /url: https://www.domain.com.au/rent/darwin-greater-area-nt/
+    - heading "Popular Areas" [ref=e211] [level=4]
+    - list:
+      - listitem:
+        - link "Eastern Suburbs Sydney" [ref=e212]:
+          - /url: https://www.domain.com.au/sale/eastern-suburbs-nsw/
+      - listitem:
+        - link "Inner West Sydney" [ref=e213]:
+          - /url: https://www.domain.com.au/sale/inner-west-nsw/
+      - listitem:
+        - link "Lower North Shore" [ref=e214]:
+          - /url: https://www.domain.com.au/sale/north-shore-lower-nsw/
+      - listitem:
+        - link "East Melbourne" [ref=e215]:
+          - /url: https://www.domain.com.au/sale/east-vic/
+      - listitem:
+        - link "Bayside Melbourne" [ref=e216]:
+          - /url: https://www.domain.com.au/sale/bayside-vic/
+      - listitem:
+        - link "Sydney City" [ref=e217]:
+          - /url: https://www.domain.com.au/sale/sydney-city-nsw/
+      - listitem:
+        - link "Inner City Melbourne" [ref=e218]:
+          - /url: https://www.domain.com.au/sale/inner-city-vic/
+      - listitem:
+        - link "Upper North Shore" [ref=e219]:
+          - /url: https://www.domain.com.au/sale/north-shore-upper-nsw/
+    - heading "Domain" [ref=e220] [level=4]
+    - list:
+      - listitem:
+        - link "Home Price Guide" [ref=e221]:
+          - /url: https://www.domain.com.au/property-profile
+      - listitem:
+        - link "Auction Results" [ref=e222]:
+          - /url: https://www.domain.com.au/auction-results/
+      - listitem:
+        - link "Suburb Profiles" [ref=e223]:
+          - /url: https://www.domain.com.au/suburb-profile/
+      - listitem:
+        - link "Privacy policy" [ref=e224]:
+          - /url: https://www.domain.com.au/group/privacy-policy/
+      - listitem:
+        - link "Domain Group Terms and Conditions" [ref=e225]:
+          - /url: https://www.domain.com.au/group/domain-group-terms-and-conditions/
+      - listitem:
+        - link "Tracking & targeting policy" [ref=e226]:
+          - /url: https://www.domain.com.au/group/tracking-and-targeting/
+      - listitem:
+        - link "Supplier Code of Conduct" [ref=e227]:
+          - /url: https://www.domain.com.au/group/wp-content/uploads/2024/05/Supplier-Code-of-Conduct-Adopted-21-May-2024.pdf
+      - listitem:
+        - link "Domain Group API" [ref=e228]:
+          - /url: https://developer.domain.com.au/
+    - heading "Our Network" [ref=e229] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney Morning Herald" [ref=e230]:
+          - /url: https://www.smh.com.au
+      - listitem:
+        - link "The Age" [ref=e231]:
+          - /url: https://www.theage.com.au
+      - listitem:
+        - link "Brisbane Times" [ref=e232]:
+          - /url: https://www.brisbanetimes.com.au
+      - listitem:
+        - link "WA Today" [ref=e233]:
+          - /url: https://www.watoday.com.au
+      - listitem:
+        - link "Canberra Times" [ref=e234]:
+          - /url: https://www.canberratimes.com.au
+      - listitem:
+        - link "Our Digital Magazines" [ref=e235]:
+          - /url: https://www.domain.com.au/landing/domain-digital-editions/
+      - listitem:
+        - link "Drive" [ref=e236]:
+          - /url: https://www.drive.com.au
+      - listitem:
+        - link "Nine" [ref=e237]:
+          - /url: https://www.nine.com.au
+      - listitem:
+        - link "9Now" [ref=e238]:
+          - /url: https://www.9now.com.au
+    - img
+    - paragraph: Domain acknowledges the Traditional Custodians of the lands throughout Australia, where we are privileged to live and operate.
+    - link "Read more about our Reconciliation Action Plan" [ref=e239]:
+      - /url: https://www.domain.com.au/group/reconciliation-action-plan/
+    - link "Facebook" [ref=e240]:
+      - /url: https://www.facebook.com/domain.com.au/
+    - link "Instagram" [ref=e241]:
+      - /url: https://www.instagram.com/domain.com.au/
+    - link "Pinterest" [ref=e242]:
+      - /url: https://www.pinterest.com.au/domaincomau/
+    - link "Youtube" [ref=e243]:
+      - /url: https://www.youtube.com/c/domaincomau/
+    - link "Tiktok" [ref=e244]:
+      - /url: https://www.tiktok.com/@domain.com.au/
+    - img
+    - combobox [ref=e245] [nth=1]: Commercial Real Estate
+    - paragraph:
+      - text: This site is protected by reCAPTCHA Enterprise and the Google
+      - link "Privacy Policy" [ref=e246]:
+        - /url: https://policies.google.com/privacy
+      - text: and
+      - link "Terms of Service" [ref=e247]:
+        - /url: https://policies.google.com/terms
+      - text: apply.
+    - paragraph: © 2025, Costar Group Inc
+  - alert
+  - status

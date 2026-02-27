@@ -1,0 +1,120 @@
+- document:
+  - banner:
+    - link "Domain homepage" [ref=e1]:
+      - /url: https://www.domain.com.au/
+      - img
+    - navigation:
+      - button "Log in" [ref=e2]
+      - list:
+        - listitem:
+          - button "Find a Property" [ref=e3]
+        - listitem:
+          - button "Research" [ref=e4]
+        - listitem:
+          - button "Find Agents" [ref=e5]
+        - listitem:
+          - button "For Owners" [ref=e6]
+        - listitem:
+          - button "News" [ref=e7]
+        - listitem:
+          - button "Commercial" [ref=e8]
+  - link "Skip to content . Contact Support 1300 799 109" [ref=e9]:
+    - /url: "#skip-link-target"
+  - button "Back to search results" [ref=e10]
+  - navigation "Breadcrumb" [ref=e11]:
+    - list:
+      - listitem: Home
+      - listitem:
+        - link "Rent" [ref=e12]:
+          - /url: /rent/
+      - listitem:
+        - link "VIC" [ref=e13]:
+          - /url: /rent/vic/
+      - listitem:
+        - link "Melbourne" [ref=e14]:
+          - /url: /rent/melbourne-vic-3000/
+      - listitem:
+        - link "Apartments" [ref=e15]:
+          - /url: /rent/melbourne-vic-3000/apartment-unit-flat/
+      - listitem:
+        - link "2-Bedrooms" [ref=e16]:
+          - /url: /rent/melbourne-vic-3000/apartment-unit-flat/2-bedrooms/
+      - listitem: Unit 2704/560 Lonsdale Street, Melbourne VIC 3000
+  - button "Inspect Saturday 11am" [ref=e17]:
+    - text: Inspect
+    - strong: Sat 11am
+  - button "Share" [ref=e18]
+  - button "Save" [ref=e19]
+  - button "Unit 2704/560 Lonsdale Street, Melbourne VIC 3000, Image 0" [ref=e20]:
+    - img "Unit 2704/560 Lonsdale Street, Melbourne VIC 3000, Image 0"
+  - list:
+    - listitem:
+      - button "Launch Photos" [ref=e21]: Photos 13
+    - listitem:
+      - button "Launch Video" [ref=e22]: Video
+    - listitem:
+      - button "Launch Floorplan" [ref=e23]: Floorplan
+    - listitem:
+      - button "Launch Virtual Tour" [ref=e24]: Virtual Tour
+  - complementary:
+    - link "Agent profile Image" [ref=e25]:
+      - /url: https://www.domain.com.au/real-estate-agent/wimpie-santoso-1759352
+    - link "Agency logo" [ref=e26]:
+      - /url: https://www.domain.com.au/real-estate-agencies/melbourneresidentialrealestate-22398/
+      - img "Agency logo"
+    - link "Wimpie Santoso" [ref=e27]:
+      - /url: https://www.domain.com.au/real-estate-agent/wimpie-santoso-1759352
+    - link "Melbourne Residential Real Estate" [ref=e28]:
+      - /url: https://www.domain.com.au/real-estate-agencies/melbourneresidentialrealestate-22398/
+    - button "View inspections" [ref=e29]
+    - button "Apply for this property" [ref=e30]: Apply
+    - button "Contact Agent" [ref=e31]: Contact
+  - text: $879 per week
+  - heading "Unit 2704/560 Lonsdale Street, Melbourne VIC 3000" [ref=e32] [level=1]
+  - button "copy text" [ref=e33]
+  - text: 2 Beds 1 Bath 1 Parking Apartment / Unit / Flat
+  - list:
+    - listitem:
+      - text: "Date Available:"
+      - strong: Available Now
+    - listitem:
+      - text: Bond
+      - strong: $3824
+  - heading "Property Description" [ref=e34] [level=2]
+  - heading "Amazing Two Bedroom Apartment so Modern and Convenient" [ref=e35] [level=3]
+  - paragraph: "This beautifully and modern designed two bedroom, one bathroom apartment is located in the fabulous Melbourne Grand building, conveniently located a short walk from Southern Cross and Flagstaff garden, major supermarkets, Queen Victoria Market. Endless dining and entertainment options at your doorstep, this secure and modern unit offers comfortable city living Apartment features: - Huge living"
+  - button "Read more" [ref=e36]
+  - button "Add notes" [ref=e37]
+  - heading "Domain Says" [ref=e38] [level=2]
+  - paragraph:
+    - text: First listed on 24 February, this unit has been on Domain for 3 days (last updated on 24 February). It was last sold in 2017 and
+    - button "1366 other 2 bedroom unit" [ref=e39]
+    - text: in Melbourne have recently been sold.
+  - button "Report Listing" [ref=e40]
+  - list:
+    - listitem:
+      - button "Street View - Changes map to street view" [ref=e41]: Street View
+    - listitem:
+      - link "Directions - Opens Google Maps for directions" [ref=e42]:
+        - /url: https://www.google.com/maps/dir/?api=1&destination=-37.8140154,144.955699
+        - text: Directions
+  - button "My Commutes - See how far your new property will be from the places you commute to." [ref=e43]: My commutes
+  - heading "Inspection times" [ref=e44] [level=2]
+  - heading "Inspections" [ref=e45] [level=3]
+  - text: Saturday, 28 Feb 11:00am - 11:15am
+  - button [ref=e46]
+  - button "Add all to planner" [ref=e47]
+  - button "Schedule a private inspection" [ref=e48]
+  - button "Request online inspection" [ref=e49]
+  - heading "School Catchment Zones for 560 Lonsdale Street" [ref=e50] [level=2]
+  - tablist:
+    - tab "All" [ref=e51] [selected]
+    - tab "Primary" [ref=e52]
+    - tab "Secondary" [ref=e53]
+    - tab "Private" [ref=e54]
+    - tab "Childcare" [ref=e55]
+  - heading "Government School Catchment" [ref=e56] [level=3]
+  - list:
+    - listitem:
+      - heading "Docklands Primary School" [ref=e57] [level=4]
+      - paragraph: 1.2 km away

@@ -1,0 +1,567 @@
+- document:
+  - iframe
+  - banner:
+    - link "Domain homepage" [ref=e1]:
+      - /url: https://www.domain.com.au/
+      - img
+    - navigation:
+      - button "Log in" [ref=e2]
+      - list:
+        - listitem:
+          - button "Find a Property" [ref=e3]
+        - listitem:
+          - button "Research" [ref=e4]
+        - listitem:
+          - button "Find Agents" [ref=e5]
+        - listitem:
+          - button "For Owners" [ref=e6]
+        - listitem:
+          - button "News" [ref=e7]
+        - listitem:
+          - button "Commercial" [ref=e8]
+  - link "Skip to content . Contact Support 1300 799 109" [ref=e9]:
+    - /url: "#skip-link-content"
+  - combobox [ref=e10]:
+    - text: Lalor, Epping, Reservoir + 1 location
+    - textbox [ref=e11]
+    - button "perform search" [ref=e12]
+  - button [ref=e13]
+  - button "Rent" [ref=e14]
+  - button "Price" [ref=e15]
+  - button "Beds" [ref=e16]
+  - button "Property types" [ref=e17]
+  - heading "1087 Properties for rent in 4 suburbs and surroundings" [ref=e18] [level=1]:
+    - strong: 1087 Properties
+    - text: for rent in 4 suburbs and surroundings
+  - button "List view" [ref=e19]
+  - link "Map view" [ref=e20]:
+    - /url: https://www.domain.com.au/rent/?suburb=lalor-vic-3075%2Cepping-vic-3076%2Creservoir-vic-3073%2Cwollert-vic-3750&displaymap=1
+  - link "Inspections" [ref=e21]:
+    - /url: https://www.domain.com.au/rent/inspection-times/?suburb=lalor-vic-3075,epping-vic-3076,reservoir-vic-3073,wollert-vic-3750
+  - button "Create alert" [ref=e22]
+  - text: Sort by Sort search results
+  - combobox "Sort search results" [ref=e23]: Featured
+  - img "Nice Suburb Illustration"
+  - text: Looking for an agent? Find an expert near you View local agents
+  - list:
+    - listitem:
+      - button "Previous" [ref=e24]
+      - link "Picture of 9B Rubicon Street, RESERVOIR VIC 3073" [ref=e25]:
+        - /url: https://www.domain.com.au/9b-rubicon-street-reservoir-vic-3073-18003498
+        - img "Picture of 9B Rubicon Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e26]
+      - button "New" [ref=e27]
+      - img "Julie Pasin"
+      - text: Julie Pasin Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $1325 per week
+      - button "Add 9B Rubicon Street to shortlist" [ref=e28]
+      - link "9B Rubicon Street, RESERVOIR" [ref=e29]:
+        - /url: https://www.domain.com.au/9b-rubicon-street-reservoir-vic-3073-18003498
+        - heading "9B Rubicon Street, RESERVOIR" [ref=e30] [level=2]
+      - text: "4 Beds 3 Baths 2 Parking House Inspection: Sat 28 Feb, 1:00pm"
+    - listitem:
+      - button "Previous" [ref=e31] [nth=1]
+      - link "Picture of 33 Lindenow Street, RESERVOIR VIC 3073" [ref=e32]:
+        - /url: https://www.domain.com.au/33-lindenow-street-reservoir-vic-3073-18001854
+        - img "Picture of 33 Lindenow Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e33] [nth=1]
+      - button "New" [ref=e34] [nth=1]
+      - img "Julie Pasin"
+      - text: Julie Pasin Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $650 per week
+      - button "Add 33 Lindenow Street to shortlist" [ref=e35]
+      - link "33 Lindenow Street, RESERVOIR" [ref=e36]:
+        - /url: https://www.domain.com.au/33-lindenow-street-reservoir-vic-3073-18001854
+        - heading "33 Lindenow Street, RESERVOIR" [ref=e37] [level=2]
+      - text: "3 Beds 1 Bath 4 Parking House Inspection: Sat 28 Feb, 10:50am"
+    - listitem
+    - listitem:
+      - link "Picture of 45 Cloverfield Crescent, WOLLERT VIC 3750" [ref=e38]:
+        - /url: https://www.domain.com.au/45-cloverfield-crescent-wollert-vic-3750-18000695
+        - img "Picture of 45 Cloverfield Crescent, WOLLERT VIC 3750"
+      - button "New" [ref=e39] [nth=2]
+      - paragraph: $550 per week
+      - button "Add 45 Cloverfield Crescent to shortlist" [ref=e40]
+      - link "45 Cloverfield Crescent, WOLLERT" [ref=e41]:
+        - /url: https://www.domain.com.au/45-cloverfield-crescent-wollert-vic-3750-18000695
+        - heading "45 Cloverfield Crescent, WOLLERT" [ref=e42] [level=2]
+      - text: "4 Beds 2 Baths 2 Parking Townhouse Inspection: Sat 28 Feb, 10:40am"
+    - listitem:
+      - button "Previous" [ref=e43] [nth=2]
+      - link "Picture of 4/845 Plenty Road, RESERVOIR VIC 3073" [ref=e44]:
+        - /url: https://www.domain.com.au/4-845-plenty-road-reservoir-vic-3073-17997561
+        - img "Picture of 4/845 Plenty Road, RESERVOIR VIC 3073"
+      - button "Next" [ref=e45] [nth=2]
+      - button "New" [ref=e46] [nth=3]
+      - img "Evie Milides"
+      - text: Evie Milides Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $650 per week
+      - button "Add 4/845 Plenty Road to shortlist" [ref=e47]
+      - link "4/845 Plenty Road, RESERVOIR" [ref=e48]:
+        - /url: https://www.domain.com.au/4-845-plenty-road-reservoir-vic-3073-17997561
+        - heading "4/845 Plenty Road, RESERVOIR" [ref=e49] [level=2]
+      - text: "2 Beds 2 Baths 1 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 1:30pm"
+    - listitem:
+      - button "Previous" [ref=e50] [nth=3]
+      - link "Picture of 40A Drysdale Street, RESERVOIR VIC 3073" [ref=e51]:
+        - /url: https://www.domain.com.au/40a-drysdale-street-reservoir-vic-3073-17996955
+        - img "Picture of 40A Drysdale Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e52] [nth=3]
+      - button "New" [ref=e53] [nth=4]
+      - img "Julie Pasin"
+      - text: Julie Pasin Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $750 per week
+      - button "Add 40A Drysdale Street to shortlist" [ref=e54]
+      - link "40A Drysdale Street, RESERVOIR" [ref=e55]:
+        - /url: https://www.domain.com.au/40a-drysdale-street-reservoir-vic-3073-17996955
+        - heading "40A Drysdale Street, RESERVOIR" [ref=e56] [level=2]
+      - text: "3 Beds 2 Baths 2 Parking Townhouse Inspection: Sat 28 Feb, 12:00pm"
+    - listitem:
+      - button "Previous" [ref=e57] [nth=4]
+      - link "Picture of 4/56 King William Street, RESERVOIR VIC 3073" [ref=e58]:
+        - /url: https://www.domain.com.au/4-56-king-william-street-reservoir-vic-3073-17995449
+        - img "Picture of 4/56 King William Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e59] [nth=4]
+      - button "Updated" [ref=e60]
+      - img "Jayde Cashion"
+      - text: Jayde Cashion Jellis Craig Fitzroy
+      - img "Logo for Jellis Craig Fitzroy"
+      - paragraph: $580 per week
+      - button "Add 4/56 King William Street to shortlist" [ref=e61]
+      - link "4/56 King William Street, RESERVOIR" [ref=e62]:
+        - /url: https://www.domain.com.au/4-56-king-william-street-reservoir-vic-3073-17995449
+        - heading "4/56 King William Street, RESERVOIR" [ref=e63] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 12:40pm"
+    - listitem:
+      - button "Previous" [ref=e64] [nth=5]
+      - link "Picture of 3/3 Jean Street, RESERVOIR VIC 3073" [ref=e65]:
+        - /url: https://www.domain.com.au/3-3-jean-street-reservoir-vic-3073-17981632
+        - img "Picture of 3/3 Jean Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e66] [nth=5]
+      - button "Updated" [ref=e67] [nth=1]
+      - img "Jayde Cashion"
+      - text: Jayde Cashion Jellis Craig Northcote
+      - img "Logo for Jellis Craig Northcote"
+      - paragraph: $570 per week
+      - button "Add 3/3 Jean Street to shortlist" [ref=e68]
+      - link "3/3 Jean Street, RESERVOIR" [ref=e69]:
+        - /url: https://www.domain.com.au/3-3-jean-street-reservoir-vic-3073-17981632
+        - heading "3/3 Jean Street, RESERVOIR" [ref=e70] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 1:15pm"
+    - listitem:
+      - button "Previous" [ref=e71] [nth=6]
+      - link "Picture of 1/17 Compton Street, RESERVOIR VIC 3073" [ref=e72]:
+        - /url: https://www.domain.com.au/1-17-compton-street-reservoir-vic-3073-17979326
+        - img "Picture of 1/17 Compton Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e73] [nth=6]
+      - button "Updated" [ref=e74] [nth=2]
+      - text: Thea Toogood Jellis Craig & Company Pty Ltd
+      - img "Logo for Jellis Craig & Company Pty Ltd"
+      - paragraph: $525 per week
+      - button "Add 1/17 Compton Street to shortlist" [ref=e75]
+      - link "1/17 Compton Street, RESERVOIR" [ref=e76]:
+        - /url: https://www.domain.com.au/1-17-compton-street-reservoir-vic-3073-17979326
+        - heading "1/17 Compton Street, RESERVOIR" [ref=e77] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Townhouse Inspection: Sat 28 Feb, 10:15am"
+    - listitem:
+      - button "Previous" [ref=e78] [nth=7]
+      - link "Picture of 21 Pastel Lane, WOLLERT VIC 3750" [ref=e79]:
+        - /url: https://www.domain.com.au/21-pastel-lane-wollert-vic-3750-17995717
+        - img "Picture of 21 Pastel Lane, WOLLERT VIC 3750"
+      - button "Next" [ref=e80] [nth=7]
+      - paragraph: $550 per week
+      - button "Add 21 Pastel Lane to shortlist" [ref=e81]
+      - link "21 Pastel Lane, WOLLERT" [ref=e82]:
+        - /url: https://www.domain.com.au/21-pastel-lane-wollert-vic-3750-17995717
+        - heading "21 Pastel Lane, WOLLERT" [ref=e83] [level=2]
+      - text: "5 Beds 2 Baths 2 Parking House Inspection: Sat 28 Feb, 12:20pm"
+    - listitem:
+      - button "Previous" [ref=e84] [nth=8]
+      - link "Picture of 15 Pastel Lane, WOLLERT VIC 3750" [ref=e85]:
+        - /url: https://www.domain.com.au/15-pastel-lane-wollert-vic-3750-17995700
+        - img "Picture of 15 Pastel Lane, WOLLERT VIC 3750"
+      - button "Next" [ref=e86] [nth=8]
+      - paragraph: $550 per week
+      - button "Add 15 Pastel Lane to shortlist" [ref=e87]
+      - link "15 Pastel Lane, WOLLERT" [ref=e88]:
+        - /url: https://www.domain.com.au/15-pastel-lane-wollert-vic-3750-17995700
+        - heading "15 Pastel Lane, WOLLERT" [ref=e89] [level=2]
+      - text: "5 Beds 2 Baths 2 Parking House Inspection: Sat 28 Feb, 12:20pm"
+    - listitem:
+      - button "Previous" [ref=e90] [nth=9]
+      - link "Picture of 3/31 Invermay Street, RESERVOIR VIC 3073" [ref=e91]:
+        - /url: https://www.domain.com.au/3-31-invermay-street-reservoir-vic-3073-17989133
+        - img "Picture of 3/31 Invermay Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e92] [nth=9]
+      - text: Kimberley Della Chiesa Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $480 per week
+      - button "Add 3/31 Invermay Street to shortlist" [ref=e93]
+      - link "3/31 Invermay Street, RESERVOIR" [ref=e94]:
+        - /url: https://www.domain.com.au/3-31-invermay-street-reservoir-vic-3073-17989133
+        - heading "3/31 Invermay Street, RESERVOIR" [ref=e95] [level=2]
+      - text: "2 Beds 1 Bath − Apartment / Unit / Flat Inspection: Sat 28 Feb, 11:20am"
+    - listitem:
+      - button "Previous" [ref=e96] [nth=10]
+      - link "Picture of 5/8 Barton Street, RESERVOIR VIC 3073" [ref=e97]:
+        - /url: https://www.domain.com.au/5-8-barton-street-reservoir-vic-3073-17989115
+        - img "Picture of 5/8 Barton Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e98] [nth=10]
+      - img "Angelica Benedicto"
+      - text: Angelica Benedicto Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $550 per week
+      - button "Add 5/8 Barton Street to shortlist" [ref=e99]
+      - link "5/8 Barton Street, RESERVOIR" [ref=e100]:
+        - /url: https://www.domain.com.au/5-8-barton-street-reservoir-vic-3073-17989115
+        - heading "5/8 Barton Street, RESERVOIR" [ref=e101] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking House Inspection: Sat 28 Feb, 11:50am"
+    - listitem:
+      - button "Previous" [ref=e102] [nth=11]
+      - link "Picture of 3/193 Albert Street, RESERVOIR VIC 3073" [ref=e103]:
+        - /url: https://www.domain.com.au/3-193-albert-street-reservoir-vic-3073-17987874
+        - img "Picture of 3/193 Albert Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e104] [nth=11]
+      - img "Maryanne Hargreaves"
+      - text: Maryanne Hargreaves Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $480 per week
+      - button "Add 3/193 Albert Street to shortlist" [ref=e105]
+      - link "3/193 Albert Street, RESERVOIR" [ref=e106]:
+        - /url: https://www.domain.com.au/3-193-albert-street-reservoir-vic-3073-17987874
+        - heading "3/193 Albert Street, RESERVOIR" [ref=e107] [level=2]
+      - text: "2 Beds 1 Bath 1 Parking Apartment / Unit / Flat Inspection: Sat 28 Feb, 12:30pm"
+    - listitem:
+      - button "Previous" [ref=e108] [nth=12]
+      - link "Picture of 1/6-8 Box Street, RESERVOIR VIC 3073" [ref=e109]:
+        - /url: https://www.domain.com.au/1-6-8-box-street-reservoir-vic-3073-17986251
+        - img "Picture of 1/6-8 Box Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e110] [nth=12]
+      - img "Angelica Benedicto"
+      - text: Angelica Benedicto Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $530 per week
+      - button "Add 1/6-8 Box Street to shortlist" [ref=e111]
+      - link "1/6-8 Box Street, RESERVOIR" [ref=e112]:
+        - /url: https://www.domain.com.au/1-6-8-box-street-reservoir-vic-3073-17986251
+        - heading "1/6-8 Box Street, RESERVOIR" [ref=e113] [level=2]
+      - text: 2 Beds 1 Bath 1 Parking Townhouse
+    - listitem:
+      - button "Previous" [ref=e114] [nth=13]
+      - link "Picture of 16 Fulmine Drive, WOLLERT VIC 3750" [ref=e115]:
+        - /url: https://www.domain.com.au/16-fulmine-drive-wollert-vic-3750-17680089
+        - img "Picture of 16 Fulmine Drive, WOLLERT VIC 3750"
+      - button "Next" [ref=e116] [nth=13]
+      - paragraph: $530 per week
+      - button "Add 16 Fulmine Drive to shortlist" [ref=e117]
+      - link "16 Fulmine Drive, WOLLERT" [ref=e118]:
+        - /url: https://www.domain.com.au/16-fulmine-drive-wollert-vic-3750-17680089
+        - heading "16 Fulmine Drive, WOLLERT" [ref=e119] [level=2]
+      - text: "5 Beds 2 Baths 2 Parking Townhouse Inspection: Sat 28 Feb, 11:55am"
+    - listitem:
+      - button "Previous" [ref=e120] [nth=14]
+      - link "Picture of 12 Valais Street, WOLLERT VIC 3750" [ref=e121]:
+        - /url: https://www.domain.com.au/12-valais-street-wollert-vic-3750-17413837
+        - img "Picture of 12 Valais Street, WOLLERT VIC 3750"
+      - button "Next" [ref=e122] [nth=14]
+      - paragraph: $530 per week
+      - button "Add 12 Valais Street to shortlist" [ref=e123]
+      - link "12 Valais Street, WOLLERT" [ref=e124]:
+        - /url: https://www.domain.com.au/12-valais-street-wollert-vic-3750-17413837
+        - heading "12 Valais Street, WOLLERT" [ref=e125] [level=2]
+      - text: "4 Beds 2 Baths 2 Parking Townhouse Inspection: Sat 28 Feb, 11:30am"
+    - listitem:
+      - button "Previous" [ref=e126] [nth=15]
+      - link "Picture of 49 Kanangra Terrace, WOLLERT VIC 3750" [ref=e127]:
+        - /url: https://www.domain.com.au/49-kanangra-terrace-wollert-vic-3750-15072119
+        - img "Picture of 49 Kanangra Terrace, WOLLERT VIC 3750"
+      - button "Next" [ref=e128] [nth=15]
+      - text: Nigel Chee Victoria Real Estate Agency Pty Ltd
+      - img "Logo for Victoria Real Estate Agency Pty Ltd"
+      - paragraph: $470 per week
+      - button "Add 49 Kanangra Terrace to shortlist" [ref=e129]
+      - link "49 Kanangra Terrace, WOLLERT" [ref=e130]:
+        - /url: https://www.domain.com.au/49-kanangra-terrace-wollert-vic-3750-15072119
+        - heading "49 Kanangra Terrace, WOLLERT" [ref=e131] [level=2]
+      - text: "2 Beds 2 Baths 1 Parking Townhouse Inspection: Sat 28 Feb, 11:05am"
+    - listitem:
+      - button "Previous" [ref=e132] [nth=16]
+      - link "Picture of 1 Pallant Avenue, RESERVOIR VIC 3073" [ref=e133]:
+        - /url: https://www.domain.com.au/1-pallant-avenue-reservoir-vic-3073-17968115
+        - img "Picture of 1 Pallant Avenue, RESERVOIR VIC 3073"
+      - button "Next" [ref=e134] [nth=16]
+      - img "Eleni Kalogeropoulos"
+      - text: Eleni Kalogeropoulos Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $730 per week
+      - button "Add 1 Pallant Avenue to shortlist" [ref=e135]
+      - link "1 Pallant Avenue, RESERVOIR" [ref=e136]:
+        - /url: https://www.domain.com.au/1-pallant-avenue-reservoir-vic-3073-17968115
+        - heading "1 Pallant Avenue, RESERVOIR" [ref=e137] [level=2]
+      - text: "4 Beds 2 Baths 1 Parking House Inspection: Sat 28 Feb, 10:25am"
+    - listitem:
+      - button "Previous" [ref=e138] [nth=17]
+      - link "Picture of 3/75 Howard Street, RESERVOIR VIC 3073" [ref=e139]:
+        - /url: https://www.domain.com.au/3-75-howard-street-reservoir-vic-3073-17967536
+        - img "Picture of 3/75 Howard Street, RESERVOIR VIC 3073"
+      - button "Next" [ref=e140] [nth=17]
+      - img "Angelica Benedicto"
+      - text: Angelica Benedicto Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $610 per week
+      - button "Add 3/75 Howard Street to shortlist" [ref=e141]
+      - link "3/75 Howard Street, RESERVOIR" [ref=e142]:
+        - /url: https://www.domain.com.au/3-75-howard-street-reservoir-vic-3073-17967536
+        - heading "3/75 Howard Street, RESERVOIR" [ref=e143] [level=2]
+      - text: 3 Beds 1 Bath 1 Parking Townhouse
+    - listitem:
+      - button "Previous" [ref=e144] [nth=18]
+      - link "Picture of 15 Astoria Rd, WOLLERT VIC 3750" [ref=e145]:
+        - /url: https://www.domain.com.au/15-astoria-rd-wollert-vic-3750-17981827
+        - img "Picture of 15 Astoria Rd, WOLLERT VIC 3750"
+      - button "Next" [ref=e146] [nth=18]
+      - img "Ashlyn Halford"
+      - text: Ashlyn Halford Nelson Alexander Reservoir
+      - img "Logo for Nelson Alexander Reservoir"
+      - paragraph: $540 per week
+      - button "Add 15 Astoria Rd to shortlist" [ref=e147]
+      - link "15 Astoria Rd, WOLLERT" [ref=e148]:
+        - /url: https://www.domain.com.au/15-astoria-rd-wollert-vic-3750-17981827
+        - heading "15 Astoria Rd, WOLLERT" [ref=e149] [level=2]
+      - text: 3 Beds 2 Baths 2 Parking Townhouse
+  - button "prev page" [ref=e150] [disabled]
+  - text: "1"
+  - link "2" [ref=e151]:
+    - /url: /rent/?suburb=lalor-vic-3075,epping-vic-3076,reservoir-vic-3073,wollert-vic-3750&page=2
+  - link "3" [ref=e152]:
+    - /url: /rent/?suburb=lalor-vic-3075,epping-vic-3076,reservoir-vic-3073,wollert-vic-3750&page=3
+  - link "4" [ref=e153]:
+    - /url: /rent/?suburb=lalor-vic-3075,epping-vic-3076,reservoir-vic-3073,wollert-vic-3750&page=4
+  - link "5" [ref=e154]:
+    - /url: /rent/?suburb=lalor-vic-3075,epping-vic-3076,reservoir-vic-3073,wollert-vic-3750&page=5
+  - link "next page" [ref=e155]:
+    - /url: /rent/?suburb=lalor-vic-3075,epping-vic-3076,reservoir-vic-3073,wollert-vic-3750&page=2
+  - navigation "Breadcrumb" [ref=e156]:
+    - list:
+      - listitem:
+        - link "Home" [ref=e157]:
+          - /url: //www.domain.com.au
+      - listitem: Rent
+  - contentinfo:
+    - link "Domain" [ref=e158]:
+      - /url: https://www.domain.com.au
+      - img
+    - navigation:
+      - list:
+        - listitem:
+          - link "Help" [ref=e159]:
+            - /url: https://help.domain.com.au/hc/en-us/categories/360001329253-Domain-For-Users
+        - listitem:
+          - link "Contact" [ref=e160]:
+            - /url: https://www.domain.com.au/group/contact-us/
+        - listitem:
+          - link "About" [ref=e161]:
+            - /url: https://www.domain.com.au/group/
+        - listitem:
+          - link "Careers" [ref=e162]:
+            - /url: https://www.domain.com.au/group/life-at-domain/careers/
+        - listitem:
+          - link "Mobile" [ref=e163]:
+            - /url: https://www.domain.com.au/app/
+      - list:
+        - listitem:
+          - link "Advertise on Domain" [ref=e164]:
+            - /url: https://agent.domain.com.au/contact-us/
+        - listitem:
+          - link "Agent Admin" [ref=e165]:
+            - /url: //admin.domain.com.au/
+    - heading "States" [ref=e166] [level=4]
+    - list:
+      - listitem:
+        - link "NSW" [ref=e167]:
+          - /url: https://www.domain.com.au/sale/nsw/
+      - listitem:
+        - link "Victoria" [ref=e168]:
+          - /url: https://www.domain.com.au/sale/vic/
+      - listitem:
+        - link "Queensland" [ref=e169]:
+          - /url: https://www.domain.com.au/sale/qld/
+      - listitem:
+        - link "Western Australia" [ref=e170]:
+          - /url: https://www.domain.com.au/sale/wa/
+      - listitem:
+        - link "South Australia" [ref=e171]:
+          - /url: https://www.domain.com.au/sale/sa/
+      - listitem:
+        - link "Tasmania" [ref=e172]:
+          - /url: https://www.domain.com.au/sale/tas/
+      - listitem:
+        - link "ACT" [ref=e173]:
+          - /url: https://www.domain.com.au/sale/act/
+      - listitem:
+        - link "Northern Territory" [ref=e174]:
+          - /url: https://www.domain.com.au/sale/nt/
+    - heading "Capital Cities" [ref=e175] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney real estate" [ref=e176]:
+          - /url: https://www.domain.com.au/sale/sydney-nsw-2000/
+      - listitem:
+        - link "Melbourne real estate" [ref=e177]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/
+      - listitem:
+        - link "Brisbane real estate" [ref=e178]:
+          - /url: https://www.domain.com.au/sale/brisbane-city-qld-4000/
+      - listitem:
+        - link "Perth real estate" [ref=e179]:
+          - /url: https://www.domain.com.au/sale/perth-wa-6000/
+      - listitem:
+        - link "Adelaide real estate" [ref=e180]:
+          - /url: https://www.domain.com.au/sale/adelaide-sa-5000/
+      - listitem:
+        - link "Hobart real estate" [ref=e181]:
+          - /url: https://www.domain.com.au/sale/hobart-greater-area-tas/
+      - listitem:
+        - link "Canberra real estate" [ref=e182]:
+          - /url: https://www.domain.com.au/sale/canberra-act/
+      - listitem:
+        - link "Darwin real estate" [ref=e183]:
+          - /url: https://www.domain.com.au/sale/darwin-greater-area-nt/
+    - heading "Capital Cities - Rentals" [ref=e184] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney rental properties" [ref=e185]:
+          - /url: https://www.domain.com.au/rent/sydney-nsw-2000/
+      - listitem:
+        - link "Melbourne rental properties" [ref=e186]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/
+      - listitem:
+        - link "Brisbane rental properties" [ref=e187]:
+          - /url: https://www.domain.com.au/rent/brisbane-city-qld-4000/
+      - listitem:
+        - link "Perth rental properties" [ref=e188]:
+          - /url: https://www.domain.com.au/rent/perth-wa-6000/
+      - listitem:
+        - link "Adelaide rental properties" [ref=e189]:
+          - /url: https://www.domain.com.au/rent/adelaide-sa-5000/
+      - listitem:
+        - link "Hobart rental properties" [ref=e190]:
+          - /url: https://www.domain.com.au/rent/hobart-greater-area-tas/
+      - listitem:
+        - link "Canberra rental properties" [ref=e191]:
+          - /url: https://www.domain.com.au/rent/canberra-act/
+      - listitem:
+        - link "Darwin rental properties" [ref=e192]:
+          - /url: https://www.domain.com.au/rent/darwin-greater-area-nt/
+    - heading "Popular Areas" [ref=e193] [level=4]
+    - list:
+      - listitem:
+        - link "Eastern Suburbs Sydney" [ref=e194]:
+          - /url: https://www.domain.com.au/sale/eastern-suburbs-nsw/
+      - listitem:
+        - link "Inner West Sydney" [ref=e195]:
+          - /url: https://www.domain.com.au/sale/inner-west-nsw/
+      - listitem:
+        - link "Lower North Shore" [ref=e196]:
+          - /url: https://www.domain.com.au/sale/north-shore-lower-nsw/
+      - listitem:
+        - link "East Melbourne" [ref=e197]:
+          - /url: https://www.domain.com.au/sale/east-vic/
+      - listitem:
+        - link "Bayside Melbourne" [ref=e198]:
+          - /url: https://www.domain.com.au/sale/bayside-vic/
+      - listitem:
+        - link "Sydney City" [ref=e199]:
+          - /url: https://www.domain.com.au/sale/sydney-city-nsw/
+      - listitem:
+        - link "Inner City Melbourne" [ref=e200]:
+          - /url: https://www.domain.com.au/sale/inner-city-vic/
+      - listitem:
+        - link "Upper North Shore" [ref=e201]:
+          - /url: https://www.domain.com.au/sale/north-shore-upper-nsw/
+    - heading "Domain" [ref=e202] [level=4]
+    - list:
+      - listitem:
+        - link "Home Price Guide" [ref=e203]:
+          - /url: https://www.domain.com.au/property-profile
+      - listitem:
+        - link "Auction Results" [ref=e204]:
+          - /url: https://www.domain.com.au/auction-results/
+      - listitem:
+        - link "Suburb Profiles" [ref=e205]:
+          - /url: https://www.domain.com.au/suburb-profile/
+      - listitem:
+        - link "Privacy policy" [ref=e206]:
+          - /url: https://www.domain.com.au/group/privacy-policy/
+      - listitem:
+        - link "Domain Group Terms and Conditions" [ref=e207]:
+          - /url: https://www.domain.com.au/group/domain-group-terms-and-conditions/
+      - listitem:
+        - link "Tracking & targeting policy" [ref=e208]:
+          - /url: https://www.domain.com.au/group/tracking-and-targeting/
+      - listitem:
+        - link "Supplier Code of Conduct" [ref=e209]:
+          - /url: https://www.domain.com.au/group/wp-content/uploads/2024/05/Supplier-Code-of-Conduct-Adopted-21-May-2024.pdf
+      - listitem:
+        - link "Domain Group API" [ref=e210]:
+          - /url: https://developer.domain.com.au/
+    - heading "Our Network" [ref=e211] [level=4]
+    - list:
+      - listitem:
+        - link "Sydney Morning Herald" [ref=e212]:
+          - /url: https://www.smh.com.au
+      - listitem:
+        - link "The Age" [ref=e213]:
+          - /url: https://www.theage.com.au
+      - listitem:
+        - link "Brisbane Times" [ref=e214]:
+          - /url: https://www.brisbanetimes.com.au
+      - listitem:
+        - link "WA Today" [ref=e215]:
+          - /url: https://www.watoday.com.au
+      - listitem:
+        - link "Canberra Times" [ref=e216]:
+          - /url: https://www.canberratimes.com.au
+      - listitem:
+        - link "Our Digital Magazines" [ref=e217]:
+          - /url: https://www.domain.com.au/landing/domain-digital-editions/
+      - listitem:
+        - link "Drive" [ref=e218]:
+          - /url: https://www.drive.com.au
+      - listitem:
+        - link "Nine" [ref=e219]:
+          - /url: https://www.nine.com.au
+      - listitem:
+        - link "9Now" [ref=e220]:
+          - /url: https://www.9now.com.au
+    - img
+    - paragraph: Domain acknowledges the Traditional Custodians of the lands throughout Australia, where we are privileged to live and operate.
+    - link "Read more about our Reconciliation Action Plan" [ref=e221]:
+      - /url: https://www.domain.com.au/group/reconciliation-action-plan/
+    - link "Facebook" [ref=e222]:
+      - /url: https://www.facebook.com/domain.com.au/
+    - link "Instagram" [ref=e223]:
+      - /url: https://www.instagram.com/domain.com.au/
+    - link "Pinterest" [ref=e224]:
+      - /url: https://www.pinterest.com.au/domaincomau/
+    - link "Youtube" [ref=e225]:
+      - /url: https://www.youtube.com/c/domaincomau/
+    - link "Tiktok" [ref=e226]:
+      - /url: https://www.tiktok.com/@domain.com.au/
+    - img
+    - combobox [ref=e227] [nth=1]: Commercial Real Estate
+    - paragraph:
+      - text: This site is protected by reCAPTCHA Enterprise and the Google
+      - link "Privacy Policy" [ref=e228]:
+        - /url: https://policies.google.com/privacy
+      - text: and
+      - link "Terms of Service" [ref=e229]:
+        - /url: https://policies.google.com/terms
+      - text: apply.
+    - paragraph: © 2025, Costar Group Inc
+  - alert
+  - status

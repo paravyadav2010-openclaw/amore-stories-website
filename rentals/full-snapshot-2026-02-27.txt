@@ -1,0 +1,473 @@
+- document:
+  - banner:
+    - link "Domain homepage" [ref=e1]:
+      - /url: https://www.domain.com.au/
+      - img
+    - navigation:
+      - button "Log in" [ref=e2]
+      - list:
+        - listitem:
+          - button "Find a Property" [ref=e3]
+        - listitem:
+          - button "Research" [ref=e4]
+        - listitem:
+          - button "Find Agents" [ref=e5]
+        - listitem:
+          - button "For Owners" [ref=e6]
+        - listitem:
+          - button "News" [ref=e7]
+        - listitem:
+          - button "Commercial" [ref=e8]
+  - link "Skip to content . Contact Support 1300 799 109" [ref=e9]:
+    - /url: "#skip-link-target"
+  - button "Back to search results" [ref=e10]
+  - navigation "Breadcrumb" [ref=e11]:
+    - list:
+      - listitem: Home
+      - listitem:
+        - link "Rent" [ref=e12]:
+          - /url: /rent/
+      - listitem:
+        - link "VIC" [ref=e13]:
+          - /url: /rent/vic/
+      - listitem:
+        - link "Melbourne" [ref=e14]:
+          - /url: /rent/melbourne-vic-3000/
+      - listitem:
+        - link "Apartments" [ref=e15]:
+          - /url: /rent/melbourne-vic-3000/apartment-unit-flat/
+      - listitem:
+        - link "2-Bedrooms" [ref=e16]:
+          - /url: /rent/melbourne-vic-3000/apartment-unit-flat/2-bedrooms/
+      - listitem: Unit 2704/560 Lonsdale Street, Melbourne VIC 3000
+  - button "Inspect Saturday 11am" [ref=e17]:
+    - text: Inspect
+    - strong: Sat 11am
+  - button "Share" [ref=e18]
+  - button "Save" [ref=e19]
+  - button "Unit 2704/560 Lonsdale Street, Melbourne VIC 3000, Image 0" [ref=e20]:
+    - img "Unit 2704/560 Lonsdale Street, Melbourne VIC 3000, Image 0"
+  - list:
+    - listitem:
+      - button "Launch Photos" [ref=e21]: Photos 13
+    - listitem:
+      - button "Launch Video" [ref=e22]: Video
+    - listitem:
+      - button "Launch Floorplan" [ref=e23]: Floorplan
+    - listitem:
+      - button "Launch Virtual Tour" [ref=e24]: Virtual Tour
+  - complementary:
+    - link "Agent profile Image" [ref=e25]:
+      - /url: https://www.domain.com.au/real-estate-agent/wimpie-santoso-1759352
+    - link "Agency logo" [ref=e26]:
+      - /url: https://www.domain.com.au/real-estate-agencies/melbourneresidentialrealestate-22398/
+      - img "Agency logo"
+    - link "Wimpie Santoso" [ref=e27]:
+      - /url: https://www.domain.com.au/real-estate-agent/wimpie-santoso-1759352
+    - link "Melbourne Residential Real Estate" [ref=e28]:
+      - /url: https://www.domain.com.au/real-estate-agencies/melbourneresidentialrealestate-22398/
+    - button "View inspections" [ref=e29]
+    - button "Apply for this property" [ref=e30]: Apply
+    - button "Contact Agent" [ref=e31]: Contact
+  - text: $879 per week
+  - heading "Unit 2704/560 Lonsdale Street, Melbourne VIC 3000" [ref=e32] [level=1]
+  - button "copy text" [ref=e33]
+  - text: 2 Beds 1 Bath 1 Parking Apartment / Unit / Flat
+  - list:
+    - listitem:
+      - text: "Date Available:"
+      - strong: Available Now
+    - listitem:
+      - text: Bond
+      - strong: $3824
+  - heading "Property Description" [ref=e34] [level=2]
+  - heading "Amazing Two Bedroom Apartment so Modern and Convenient" [ref=e35] [level=3]
+  - paragraph: "This beautifully and modern designed two bedroom, one bathroom apartment is located in the fabulous Melbourne Grand building, conveniently located a short walk from Southern Cross and Flagstaff garden, major supermarkets, Queen Victoria Market. Endless dining and entertainment options at your doorstep, this secure and modern unit offers comfortable city living Apartment features: - Huge living"
+  - button "Read more" [ref=e36]
+  - button "Add notes" [ref=e37]
+  - heading "Domain Says" [ref=e38] [level=2]
+  - paragraph:
+    - text: First listed on 24 February, this unit has been on Domain for 3 days (last updated on 24 February). It was last sold in 2017 and
+    - button "1366 other 2 bedroom unit" [ref=e39]
+    - text: in Melbourne have recently been sold.
+  - button "Report Listing" [ref=e40]
+  - list:
+    - listitem:
+      - button "Street View - Changes map to street view" [ref=e41]: Street View
+    - listitem:
+      - link "Directions - Opens Google Maps for directions" [ref=e42]:
+        - /url: https://www.google.com/maps/dir/?api=1&destination=-37.8140154,144.955699
+        - text: Directions
+  - button "My Commutes - See how far your new property will be from the places you commute to." [ref=e43]: My commutes
+  - heading "Inspection times" [ref=e44] [level=2]
+  - heading "Inspections" [ref=e45] [level=3]
+  - text: Saturday, 28 Feb 11:00am - 11:15am
+  - button [ref=e46]
+  - button "Add all to planner" [ref=e47]
+  - button "Schedule a private inspection" [ref=e48]
+  - button "Request online inspection" [ref=e49]
+  - heading "School Catchment Zones for 560 Lonsdale Street" [ref=e50] [level=2]
+  - tablist:
+    - tab "All" [ref=e51] [selected]
+    - tab "Primary" [ref=e52]
+    - tab "Secondary" [ref=e53]
+    - tab "Private" [ref=e54]
+    - tab "Childcare" [ref=e55]
+  - heading "Government School Catchment" [ref=e56] [level=3]
+  - list:
+    - listitem:
+      - heading "Docklands Primary School" [ref=e57] [level=4]
+      - paragraph: 1.2 km away
+      - list:
+        - listitem: Prep-6
+        - listitem: CoEd
+        - listitem: Government
+      - link "View school profile for Docklands Primary School" [ref=e58]:
+        - /url: /school-catchment/docklands-primary-school-vic-3008-52915
+    - listitem:
+      - heading "University High School" [ref=e59] [level=4]
+      - paragraph: 1.9 km away
+      - list:
+        - listitem: 7-12
+        - listitem: CoEd
+        - listitem: Government
+      - link "View school profile for University High School" [ref=e60]:
+        - /url: /school-catchment/university-high-school-vic-3052-3946
+  - heading "Nearby Government Schools*" [ref=e61] [level=3]
+  - paragraph: "* Contact school to confirm"
+  - list:
+    - listitem:
+      - heading "Collingwood English Language School" [ref=e62] [level=4]
+      - paragraph: 2.6 km away
+      - list:
+        - listitem: Prep-12
+        - listitem: CoEd
+        - listitem: Government
+      - link "View school profile for Collingwood English Language School" [ref=e63]:
+        - /url: /school-catchment/collingwood-english-school-vic-3066-2212
+  - button "View more All schools" [ref=e64]: View more
+  - button "Expand disclaimer" [ref=e65]: Disclaimer
+  - group "report a problem with the following schools":
+    - checkbox "Docklands Primary School Haileybury College - City Girls Haileybury College - City Boys Eltham College - Lonsdale Street Campus River Nile School Saints College - North Melbourne Campus Ozford College" [ref=e66]
+    - text: Docklands Primary School
+    - checkbox "University High School" [ref=e67]
+    - text: University High School
+    - checkbox "Collingwood English Language School" [ref=e68]
+    - text: Collingwood English Language School
+    - checkbox "Port Phillip Specialist School" [ref=e69]
+    - text: Port Phillip Specialist School
+    - checkbox [ref=e70]
+    - text: Haileybury College - City Girls
+    - checkbox [ref=e71] [nth=1]
+    - text: Haileybury College - City Boys
+    - checkbox [ref=e72] [nth=2]
+    - text: Eltham College - Lonsdale Street Campus
+    - checkbox "Simonds Catholic College" [ref=e73]
+    - text: Simonds Catholic College
+    - checkbox [ref=e74] [nth=3]
+    - text: River Nile School
+    - checkbox [ref=e75] [nth=4]
+    - text: Saints College - North Melbourne Campus
+    - checkbox [ref=e76] [nth=5]
+    - text: Ozford College
+  - textbox "What's the problem?" [ref=e77]
+  - button "Submit report" [ref=e78]: Report
+  - heading "Neighbourhood Insights" [ref=e79] [level=2]
+  - heading "A little bit about who lives locally, as provided by government census data" [ref=e80] [level=4]
+  - button "View neighbourhood map here" [ref=e81]
+  - table:
+    - rowgroup:
+      - row "Age %":
+        - columnheader "Age" [ref=e82]
+        - columnheader "%" [ref=e83]
+    - rowgroup:
+      - row "under 20 6%":
+        - cell "under 20" [ref=e84]
+        - cell "6%" [ref=e85]
+      - row "20 - 39 83%":
+        - cell "20 - 39" [ref=e86]
+        - cell "83%" [ref=e87]
+      - row "40 - 59 10%":
+        - cell "40 - 59" [ref=e88]
+        - cell "10%" [ref=e89]
+      - row "60+ 1%":
+        - cell "60+" [ref=e90]
+        - cell "1%" [ref=e91]
+  - text: "Owner : 13% Renter : 87% Family : 29% Single : 71%"
+  - heading "Building & Street Profiles" [ref=e92] [level=2]
+  - tablist:
+    - tab "building" [ref=e93] [selected]
+    - tab "street" [ref=e94]
+  - text: 560 Lonsdale St, Melbourne VIC 3000
+  - heading "Properties" [ref=e95] [level=5]
+  - text: "1325"
+  - heading "Recently rented" [ref=e96] [level=5]
+  - text: "131"
+  - heading "Owner/Renter:" [ref=e97] [level=5]
+  - banner: "Owner : 85% Renter : 15%"
+  - text: How do we calculate this estimate?
+  - complementary:
+    - paragraph: We couldn’t find a recent sale of another apartment / unit / flat with 2 beds, 1 bath, 1 parking space in this building.
+  - link "View building profile" [ref=e98]:
+    - /url: https://www.domain.com.au/building-profile/560-lonsdale-street-melbourne-vic-3000
+  - heading "Insights for 2 bedroom units in Melbourne" [ref=e99] [level=2]
+  - heading "Market performance*" [ref=e100] [level=3]
+  - heading "Median price :" [ref=e101] [level=4]
+  - text: $580k
+  - heading "Auction clearance :" [ref=e102] [level=4]
+  - text: 57%
+  - heading "Sold this year :" [ref=e103] [level=4]
+  - text: "1366"
+  - heading "Avg days on market :" [ref=e104] [level=4]
+  - text: 58 *Based on 2 bedroom Units in Melbourne
+  - heading "Demographics*" [ref=e105] [level=3]
+  - heading "Population :" [ref=e106] [level=4]
+  - text: 47,279
+  - heading "Occupancy:" [ref=e107] [level=4]
+  - banner: "Owner : 30% Renter : 70%"
+  - heading "Average age :" [ref=e108] [level=4]
+  - text: 20 to 39
+  - heading "Household:" [ref=e109] [level=4]
+  - banner: "Family : 24% Single : 76%"
+  - text: "*Based on general data in Melbourne"
+  - link "View suburb profile" [ref=e110]:
+    - /url: /suburb-profile/melbourne-vic-3000
+  - img "Powered by Domain Insight"
+  - link "Disclaimer" [ref=e111]:
+    - /url: https://www.domain.com.au/group/copyright-notices-3rdparty-terms/
+  - heading "Other rental properties from Melbourne Residential Real Estate" [ref=e112] [level=2]
+  - text: $450 per week
+  - link "− 1 Bath − 21/131 Lonsdale St Melbourne" [ref=e113]:
+    - /url: https://domain.com.au/21-131-lonsdale-st-melbourne-vic-3000-18002191
+    - text: − 1 Bath −
+    - paragraph: 21/131 Lonsdale St Melbourne
+  - text: $330 per week
+  - link "− 1 Bath 1 Parking Unit 34/22-28 Canterbury St Flemington" [ref=e114]:
+    - /url: https://domain.com.au/unit-34-22-28-canterbury-st-flemington-vic-3031-18001720
+    - text: − 1 Bath 1 Parking
+    - paragraph: Unit 34/22-28 Canterbury St Flemington
+  - text: $700 per week
+  - link "2 Beds 1 Bath − Unit 1101/5 Sutherland St Melbourne" [ref=e115]:
+    - /url: https://domain.com.au/unit-1101-5-sutherland-st-melbourne-vic-3000-17950023
+    - text: 2 Beds 1 Bath −
+    - paragraph: Unit 1101/5 Sutherland St Melbourne
+  - text: $700 per week
+  - link "2 Beds 1 Bath − Unit 3601/5 Sutherland St Melbourne" [ref=e116]:
+    - /url: https://domain.com.au/unit-3601-5-sutherland-st-melbourne-vic-3000-17971167
+    - text: 2 Beds 1 Bath −
+    - paragraph: Unit 3601/5 Sutherland St Melbourne
+  - text: $750 per week
+  - link "2 Beds 1 Bath 1 Parking 1/39-47 Peel St West Melbourne" [ref=e117]:
+    - /url: https://domain.com.au/1-39-47-peel-st-west-melbourne-vic-3003-17937542
+    - text: 2 Beds 1 Bath 1 Parking
+    - paragraph: 1/39-47 Peel St West Melbourne
+  - text: $899 per week
+  - link "4 Beds 2 Baths 2 Parking 10 Jefferson Gr Doncaster East" [ref=e118]:
+    - /url: https://domain.com.au/10-jefferson-gr-doncaster-east-vic-3109-17932955
+    - text: 4 Beds 2 Baths 2 Parking
+    - paragraph: 10 Jefferson Gr Doncaster East
+  - text: $689 per week
+  - link "4 Beds 2 Baths 2 Parking 12 Moncrieff Pde Point Cook" [ref=e119]:
+    - /url: https://domain.com.au/12-moncrieff-pde-point-cook-vic-3030-12890481
+    - text: 4 Beds 2 Baths 2 Parking
+    - paragraph: 12 Moncrieff Pde Point Cook
+  - button "Show all" [ref=e120]
+  - heading "Property FAQs" [ref=e121] [level=2]
+  - button "What is the weekly rent for Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e122]:
+    - heading "What is the weekly rent for Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e123] [level=3]
+  - text: The weekly rent for Unit 2704/560 Lonsdale Street, Melbourne is $879 per week.
+  - button "When is Unit 2704/560 Lonsdale Street, Melbourne available to rent?" [ref=e124]:
+    - heading "When is Unit 2704/560 Lonsdale Street, Melbourne available to rent?" [ref=e125] [level=3]
+  - text: Unit 2704/560 Lonsdale Street, Melbourne is available to rent now.
+  - button "How much is the rental bond for Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e126]:
+    - heading "How much is the rental bond for Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e127] [level=3]
+  - text: The bond for Unit 2704/560 Lonsdale Street, Melbourne is $3824.
+  - button "How many bedrooms does Unit 2704/560 Lonsdale Street, Melbourne have?" [ref=e128]:
+    - heading "How many bedrooms does Unit 2704/560 Lonsdale Street, Melbourne have?" [ref=e129] [level=3]
+  - text: Unit 2704/560 Lonsdale Street, Melbourne is a 2 bedroom apartment.
+  - button "What are the key property features of Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e130]:
+    - heading "What are the key property features of Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e131] [level=3]
+  - text: To enquire about specific property features for Unit 2704/560 Lonsdale Street, Melbourne,
+  - link "contact the agent." [ref=e132]:
+    - /url: "#enquiry-form"
+  - button "What is the size of the property at Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e133]:
+    - heading "What is the size of the property at Unit 2704/560 Lonsdale Street, Melbourne?" [ref=e134] [level=3]
+  - text: The property size for Unit 2704/560 Lonsdale Street, Melbourne has not been disclosed. To find detailed information on property size,
+  - link "contact the agent." [ref=e135] [nth=1]:
+    - /url: "#enquiry-form"
+  - button "How many car spaces does Unit 2704/560 Lonsdale Street, Melbourne have?" [ref=e136]:
+    - heading "How many car spaces does Unit 2704/560 Lonsdale Street, Melbourne have?" [ref=e137] [level=3]
+  - text: Unit 2704/560 Lonsdale Street, Melbourne has 1 car space. Disclaimer
+  - contentinfo:
+    - link "Domain" [ref=e138]:
+      - /url: https://www.domain.com.au
+      - img
+    - navigation:
+      - list:
+        - listitem:
+          - link "Help" [ref=e139]:
+            - /url: https://help.domain.com.au/hc/en-us/categories/360001329253-Domain-For-Users
+        - listitem:
+          - link "Contact" [ref=e140]:
+            - /url: https://www.domain.com.au/group/contact-us/
+        - listitem:
+          - link "About" [ref=e141]:
+            - /url: https://www.domain.com.au/group/
+        - listitem:
+          - link "Careers" [ref=e142]:
+            - /url: https://www.domain.com.au/group/life-at-domain/careers/
+        - listitem:
+          - link "Mobile" [ref=e143]:
+            - /url: https://www.domain.com.au/app/
+      - list:
+        - listitem:
+          - link "Advertise on Domain" [ref=e144]:
+            - /url: https://agent.domain.com.au/contact-us/
+        - listitem:
+          - link "Agent Admin" [ref=e145]:
+            - /url: //admin.domain.com.au/
+    - heading "For Sale" [ref=e146] [level=4]
+    - list:
+      - listitem:
+        - link "Apartments & units for sale in Melbourne" [ref=e147]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/apartment-unit-flat/
+      - listitem:
+        - link "Studios for sale in Melbourne" [ref=e148]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/studio/
+      - listitem:
+        - link "Houses for sale in Melbourne" [ref=e149]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/house/
+      - listitem:
+        - link "Townhouses for sale in Melbourne" [ref=e150]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/town-house/
+    - heading "For Rent" [ref=e151] [level=4]
+    - list:
+      - listitem:
+        - link "Apartments & units for rent in Melbourne" [ref=e152]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/apartment-unit-flat/
+      - listitem:
+        - link "Studios for rent in Melbourne" [ref=e153]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/studio/
+      - listitem:
+        - link "Houses for rent in Melbourne" [ref=e154]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/house/
+      - listitem:
+        - link "Townhouses for rent in Melbourne" [ref=e155]:
+          - /url: https://www.domain.com.au/rent/melbourne-vic-3000/town-house/
+    - heading "Domain" [ref=e156] [level=4]
+    - list:
+      - listitem:
+        - link "Melbourne Suburb Profile" [ref=e157]:
+          - /url: https://www.domain.com.au/suburb-profile/melbourne-vic-3000
+      - listitem:
+        - link "Melbourne real estate agencies" [ref=e158]:
+          - /url: https://www.domain.com.au/real-estate-agencies/melbourne-vic-3000/
+      - listitem:
+        - link "Melbourne real estate agents" [ref=e159]:
+          - /url: https://www.domain.com.au/real-estate-agents/melbourne-vic-3000/
+      - listitem:
+        - link "Home Price Guide" [ref=e160]:
+          - /url: https://www.domain.com.au/property-profile
+      - listitem:
+        - link "Privacy policy" [ref=e161]:
+          - /url: https://www.domain.com.au/group/privacy-policy/
+      - listitem:
+        - link "Development Site" [ref=e162]:
+          - /url: https://www.domain.com.au/new-homes/melbourne-vic-3000/development-site/
+      - listitem:
+        - link "House and Land package in Melbourne" [ref=e163]:
+          - /url: https://www.domain.com.au/new-homes/melbourne-vic-3000/new-house-land/
+      - listitem:
+        - link "New & Off the plan apartments in Melbourne" [ref=e164]:
+          - /url: https://www.domain.com.au/new-homes/melbourne-vic-3000/new-apartments/
+      - listitem:
+        - link "New Home Designs" [ref=e165]:
+          - /url: https://www.domain.com.au/sale/melbourne-vic-3000/new-home-designs/
+    - heading "Surrounding Suburbs" [ref=e166] [level=4]
+    - list:
+      - listitem:
+        - link "West Melbourne" [ref=e167]:
+          - /url: https://www.domain.com.au/sale/west-melbourne-vic-3003/
+      - listitem:
+        - link "Victoria Harbour" [ref=e168]:
+          - /url: https://www.domain.com.au/sale/victoria-harbour-vic-3008/
+      - listitem:
+        - link "Docklands" [ref=e169]:
+          - /url: https://www.domain.com.au/sale/docklands-vic-3008/
+      - listitem:
+        - link "North Melbourne" [ref=e170]:
+          - /url: https://www.domain.com.au/sale/north-melbourne-vic-3051/
+      - listitem:
+        - link "Parkville" [ref=e171]:
+          - /url: https://www.domain.com.au/sale/parkville-vic-3052/
+      - listitem:
+        - link "South Wharf" [ref=e172]:
+          - /url: https://www.domain.com.au/sale/south-wharf-vic-3006/
+      - listitem:
+        - link "South Melbourne" [ref=e173]:
+          - /url: https://www.domain.com.au/sale/south-melbourne-vic-3205/
+      - listitem:
+        - link "Southbank" [ref=e174]:
+          - /url: https://www.domain.com.au/sale/southbank-vic-3006/
+      - listitem:
+        - link "Beacon Cove" [ref=e175]:
+          - /url: https://www.domain.com.au/sale/beacon-cove-vic-3206/
+      - listitem:
+        - link "Albert Park" [ref=e176]:
+          - /url: https://www.domain.com.au/sale/albert-park-vic-3206/
+      - listitem:
+        - link "Carlton South" [ref=e177]:
+          - /url: https://www.domain.com.au/sale/carlton-south-vic-3053/
+      - listitem:
+        - link "Carlton" [ref=e178]:
+          - /url: https://www.domain.com.au/sale/carlton-vic-3053/
+      - listitem:
+        - link "East Melbourne" [ref=e179]:
+          - /url: https://www.domain.com.au/sale/east-melbourne-vic-3002/
+      - listitem:
+        - link "St Kilda" [ref=e180]:
+          - /url: https://www.domain.com.au/sale/st-kilda-vic-3182/
+      - listitem:
+        - link "South Yarra" [ref=e181]:
+          - /url: https://www.domain.com.au/sale/south-yarra-vic-3141/
+      - listitem:
+        - link "Windsor" [ref=e182]:
+          - /url: https://www.domain.com.au/sale/windsor-vic-3181/
+      - listitem:
+        - link "Cremorne" [ref=e183]:
+          - /url: https://www.domain.com.au/sale/cremorne-vic-3121/
+      - listitem:
+        - link "Prahran East" [ref=e184]:
+          - /url: https://www.domain.com.au/sale/prahran-east-vic-3181/
+      - listitem:
+        - link "Prahran" [ref=e185]:
+          - /url: https://www.domain.com.au/sale/prahran-vic-3181/
+      - listitem:
+        - link "Richmond" [ref=e186]:
+          - /url: https://www.domain.com.au/sale/richmond-vic-3121/
+    - img
+    - paragraph: Domain acknowledges the Traditional Custodians of the lands throughout Australia, where we are privileged to live and operate.
+    - link "Read more about our Reconciliation Action Plan" [ref=e187]:
+      - /url: https://www.domain.com.au/group/reconciliation-action-plan/
+    - link "Facebook" [ref=e188]:
+      - /url: https://www.facebook.com/domain.com.au/
+    - link "Instagram" [ref=e189]:
+      - /url: https://www.instagram.com/domain.com.au/
+    - link "Pinterest" [ref=e190]:
+      - /url: https://www.pinterest.com.au/domaincomau/
+    - link "Youtube" [ref=e191]:
+      - /url: https://www.youtube.com/c/domaincomau/
+    - link "Tiktok" [ref=e192]:
+      - /url: https://www.tiktok.com/@domain.com.au/
+    - img
+    - combobox [ref=e193]: Commercial Real Estate
+    - paragraph:
+      - text: This site is protected by reCAPTCHA Enterprise and the Google
+      - link "Privacy Policy" [ref=e194]:
+        - /url: https://policies.google.com/privacy
+      - text: and
+      - link "Terms of Service" [ref=e195]:
+        - /url: https://policies.google.com/terms
+      - text: apply.
+    - paragraph: © 2025, Costar Group Inc
+  - alert
