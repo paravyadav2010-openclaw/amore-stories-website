@@ -38,15 +38,19 @@ Add whatever helps you do your job. This is your cheat sheet.
 - **Issue resolved:** Created new repo after old one was deleted (had exposed API keys)
 - **Last push:** 2026-02-25 22:47 PM NZT (workspace + Obsidian vault)
 
-## Obsidian Vault
+## Obsidian Vault (Primary)
+- **Location:** ~/Documents/Obsidian-OpenClaw
+- **Status:** ✅ Main vault, set up 2026-02-27, has .git repo
+- **Structure:** 10 folders (Dashboard, Journal, Inbox, Sources, Permanent Notes, Goals & Projects, Business, Home Life, Archive, Templates, Attachments)
+- **Workflow:** Capture (Inbox) → Process → Link (Permanent Notes) → Archive
+- **Sync Script:** `.obsidian-sync.sh` in vault root
+
+## Obsidian Vault (Legacy)
 - **Location:** ~/Documents/Obsidian Notes
-- **Status:** ✅ Synced to GitHub (initialized as git repository and pushed)
-- **Repository:** https://github.com/paravyadav2010-openclaw/openclaw-workspace.git (same as workspace)
-- **Sync Method:** Manual git sync (vault has own .git now, not part of workspace backup)
-- **Desktop:** Use standard git commands (add, commit, push)
-- **Mobile:** Install Obsidian Git plugin → Connect to repository
+- **Status:** Legacy vault, synced to GitHub (same repo as workspace)
+- **Repository:** https://github.com/paravyadav2010-openclaw/openclaw-workspace.git
+- **Sync Method:** Manual git commands, Obsidian Git plugin (mobile)
 - **Setup Guide:** `OBSIDIAN_SYNC_GUIDE.md` (step-by-step instructions)
-- **Note:** Workspace backup script no longer syncs Obsidian (vault has own git repo)
 
 ---
 
