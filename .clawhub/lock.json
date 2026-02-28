@@ -16,6 +16,10 @@
     "mac-tts": {
       "version": "1.0.0",
       "installedAt": 1771590256654
+    },
+    "landing-page-generator": {
+      "version": "1.0.0",
+      "installedAt": 1772275355387
     }
   }
 }
