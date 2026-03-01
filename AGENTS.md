@@ -12,8 +12,11 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read `MODEL-PREFERENCES.md` — model selection guidelines
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+
+**Default Model:** Start with `zai/glm-4.7-flash` for efficient responses. Upgrade to `zai/glm-4.7` for development tasks or deep analysis (see MODEL-PREFERENCES.md).
 
 Don't ask permission. Just do it.
 
