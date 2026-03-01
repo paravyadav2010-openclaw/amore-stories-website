@@ -4,7 +4,7 @@
     "suburbs": ["Lalor", "Epping", "Reservoir", "Wollert"],
     "bedrooms": 2,
     "bathrooms": 1,
-    "maxPrice": 600,
+    "maxPrice": 650,
     "propertyTypes": ["house", "townhouse", "unit"]
   },
   "filters": {

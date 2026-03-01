@@ -58,5 +58,10 @@
     "link": "https://domain.com.au/property-6",
     "scannedAt": "2026-02-27T18:00:00",
     "source": "domain.com.au"
+  },
+  "unknown_0": {
+    "bedrooms": "\u001b[2mhttps://www.domain.com.au/rent/?suburb=lalor%2cepping%2creservoir%2cwollert&price=0-650&bedrooms=2&sort=updated-desc\u001b[0m",
+    "scannedAt": "2026-03-02T10:09:37.586281",
+    "source": "domain.com.au"
   }
 }
