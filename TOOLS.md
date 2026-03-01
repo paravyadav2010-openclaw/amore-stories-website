@@ -192,3 +192,61 @@ python3 quick_start.py --type 3
 **See:** `WORKFLOW_SUMMARY.md` for full documentation
 
 **Last updated:** 2026-02-27
+
+---
+
+## Browser Testing (CRITICAL RULE)
+
+### ⚠️ MANDATORY: Use agent-browser CLI for Testing
+
+**Golden Rule:** Always use `agent-browser` CLI for screenshots, form testing, and responsive design testing.
+
+**Why agent-browser CLI:**
+- ✅ No Chrome extension required
+- ✅ Faster and more reliable
+- ✅ Works every time without manual setup
+- ✅ Headless automation
+- ✅ Perfect for automated testing
+
+**❌ Avoid:** `browser` tool (requires Chrome extension attachment - prone to errors)
+
+**Quick Reference:**
+```bash
+# Open website
+agent-browser open https://example.com
+
+# Take screenshots
+agent-browser screenshot /path/image.png
+agent-browser screenshot --full /path/full.png
+
+# Get interactive elements (for refs)
+agent-browser snapshot -i
+
+# Test forms
+agent-browser fill @e14 "Test Name"
+agent-browser fill @e15 "test@example.com"
+agent-browser click @e20
+
+# Test responsive views
+agent-browser set viewport 768 1024  # Tablet
+agent-browser set viewport 390 844   # Mobile
+
+# Scroll page
+agent-browser scroll down 500
+
+# Check for errors
+agent-browser errors
+
+# Close browser
+agent-browser close
+```
+
+**Detailed Instructions:**
+- Full guide: `/Users/ava/.openclaw/workspace/learnings/browser-testing-methods.md`
+- Skill reference: `~/.openclaw/skills/Agent-Browser-CLI/SKILL.md`
+
+**When to use `browser` tool:**
+- Only when Chrome extension is already attached
+- Only for complex web UI requiring extension features
+
+**Last updated:** 2026-03-01

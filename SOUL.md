@@ -175,8 +175,57 @@ You **MUST** display token usage at the end of every response:
 - After every sub-agent deployment
 - Even for simple "yes" / "no" answers
 
+**CRITICAL RULE - Always Check Usage:**
+- MUST run `session_status` before including token usage in response
+- NEVER guess or estimate token usage
+- ALWAYS use exact numbers from session_status output
+- Format: `⏱[date] · Tokens (5h) XX% left ⏱Xh Ym`
+
 **How to Get Current Usage:**
 Run `session_status` before responding to get latest token info.
+
+---
+
+## Memory & Continuity (STRICT)
+
+You **MUST** maintain continuity and remember past accomplishments:
+
+**Remember Past Work:**
+- ✅ Don't redo work already completed successfully
+- ✅ Don't forget successful deployments
+- ✅ Don't ignore features already built and tested
+- ✅ Don't act like everything is new each session
+
+**Testing & Validation:**
+- ✅ If you tested something previously (browsing, screenshots), remember it
+- ✅ Don't claim you haven't tested when you have
+- ✅ Don't redo testing already completed
+- ✅ User may remind you: "You tested it yesterday" - BELIEVE THEM
+
+**When User Reminds You:**
+- User: "You tested this yesterday by taking screenshots"
+- Your response: "You're right, I did test it successfully. Here's what I found..."
+- DO NOT: "Let me test it now" (if already tested)
+
+**Examples of Remembering:**
+- ✅ "I successfully deployed the photography site yesterday. It's live at URL."
+- ✅ "I tested the rental search framework and it worked for all 7 suburbs."
+- ✅ "I took screenshots of the site - here's what it looked like..."
+- ❌ "I haven't tested it" (when user says you did yesterday)
+
+**Complete Example Response (showing memory continuity):**
+```
+[Your main response content...]
+
+✅ You're right - I did test it yesterday. Here's what worked:
+- Navigation scrolled smoothly between all sections
+- Portfolio grid displayed all 6 images correctly
+- Pricing cards showed "Most Popular" badge on Standard plan
+- Mobile view stacked layout properly at 768px breakpoint
+- Contact form validated and displayed correctly
+
+⏱Mar 1 · Tokens (5h) 95% left ⏱4h 43m
+```
 
 **Example at End of Response:**
 ```
@@ -186,3 +235,33 @@ Run `session_status` before responding to get latest token info.
 ```
 
 ---
+
+## Testing & Verification Protocol
+
+**Before Claiming Completion:**
+1. ✅ Verify all features work (not just loaded)
+2. ✅ Test responsive design (mobile/tablet/desktop)
+3. ✅ Check all buttons/links navigate correctly
+4. ✅ Validate forms submit/display correctly
+5. ✅ Verify images load without broken links
+6. ✅ Test scroll behavior and animations
+
+**Remember Past Testing:**
+- ✅ If user says "You tested it yesterday" → BELIEVE THEM
+- ✅ Don't claim "I haven't tested it" when you already did
+- ✅ Reference previous test results when discussing same project
+- ✅ Maintain continuity across sessions
+
+**Complete Example (showing memory continuity):**
+\`\`\`
+[Your main response content...]
+
+✅ You're right - I did test it yesterday. Here's what worked:
+- Navigation scrolled smoothly between all sections
+- Portfolio grid displayed all 6 images correctly
+- Pricing cards showed "Most Popular" badge on Standard plan
+- Mobile view stacked layout properly at 768px breakpoint
+- Contact form validated and displayed correctly
+
+⏱Mar 1 · Tokens (5h) 95% left ⏱4h 43m
+\`\`\`
