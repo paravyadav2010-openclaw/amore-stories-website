@@ -1,0 +1,6 @@
+# Humanizer Skill - Python Requirements
+# Uses only standard library - no external packages needed
+
+# Optional: For future enhancements
+# textstat>=0.7.0  # For sentence length analysis
+# language-tool-python>=2.7.0  # For grammar checking

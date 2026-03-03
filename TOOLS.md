@@ -250,3 +250,302 @@ agent-browser close
 - Only for complex web UI requiring extension features
 
 **Last updated:** 2026-03-01
+
+---
+
+## Overnight Self-Maintenance (CRITICAL)
+
+### ⚠️ MANDATORY: Daily Overnight Jobs at 4:00 AM & 4:30 AM
+
+**System runs automated maintenance every night to keep OpenClaw healthy and backed up.**
+
+---
+
+### 4:00 AM Daily - Self-Maintenance
+
+**Script:** `~/.openclaw/workspace/maintenance-4am.sh`
+**Schedule:** 0 4 * * * (Pacific/Auckland)
+**Tasks:**
+1. ✏️  Update OpenClaw CLI, packages, and skills
+2. 🔄  Restart OpenClaw Gateway
+3. 📊  Report results to monitoring
+4. 🚨  Alert if anything fails
+
+**What gets updated:**
+- OpenClaw CLI (npm)
+- Python packages (requirements.txt)
+- All skills (skill requirements.txt)
+
+**Logs:** `~/.openclaw/workspace/maintenance-4am.log`
+
+---
+
+### 4:30 AM Daily - Backup & Secret Scan
+
+**Script:** `~/.openclaw/workspace/maintenance-430am.sh`
+**Schedule:** 30 4 * * * (Pacific/Auckland)
+**Tasks:**
+1. 📁  Identify all critical files (SOUL.md, MEMORY.md, configs, skills, workspace)
+2. 🔍  Scan for leaked secrets and replace with placeholders like [API_KEY]
+3. 📦  Commit with date and change summary
+4. 📤  Push to private backup repo on GitHub
+5. 🚨  Alert if anything fails
+
+**Critical Files Scanned:**
+- SOUL.md, USER.md, MEMORY.md
+- AGENTS.md, TOOLS.md, HEARTBEAT.md
+- MODEL-PREFERENCES.md, IDENTITY.md
+- rentals/, skills/, memory/
+- ~/.openclaw/cron/
+- ~/.openclaw/openclaw.json
+
+**Secret Patterns Detected:**
+- OpenAI API keys (sk-, pk-)
+- Anthropic API keys (gsk_)
+- Google API keys (AIza...)
+- AWS access keys (AKIA...)
+- GitHub tokens (ghp_)
+- Slack tokens (xoxb-)
+- Bearer tokens
+- API keys and passwords
+
+**Logs:** `~/.openclaw/workspace/maintenance-430am.log`
+
+---
+
+### How to Manually Run
+
+```bash
+# Run 4:00 AM maintenance
+~/.openclaw/workspace/maintenance-4am.sh
+
+# Run 4:30 AM backup
+~/.openclaw/workspace/maintenance-430am.sh
+
+# Check logs
+tail -f ~/.openclaw/workspace/maintenance-4am.log
+tail -f ~/.openclaw/workspace/maintenance-430am.log
+```
+
+---
+
+### How to Disable
+
+```bash
+# Edit cron jobs
+cd ~/.openclaw/cron
+jq '.jobs[] | select(.name | contains("Overnight") or contains("maintenance-4am")) | .enabled = false' jobs.json > jobs.tmp
+mv jobs.tmp jobs.json
+```
+
+---
+
+### Troubleshooting
+
+**Gateway fails to restart:**
+```bash
+# Manual restart
+openclaw gateway stop
+sleep 5
+openclaw gateway start
+openclaw gateway status
+```
+
+**Git push fails:**
+```bash
+# Check remote
+cd ~/.openclaw/workspace
+git remote -v
+
+# Add remote if missing
+git remote add origin https://github.com/paravyadav2010-openclaw/openclaw-workspace.git
+
+# Push manually
+git push origin main
+```
+
+**Secret scan finds false positives:**
+- Patterns are conservative
+- Review `maintenance-430am.log` for details
+- Whitelist patterns by editing script if needed
+
+---
+
+**Last updated:** 2026-03-04
+
+---
+
+## Humanizer Skill (CRITICAL)
+
+### ⚠️ MANDATORY: Apply Humanizer to All AI-Generated Content
+
+**Transform AI-written text to sound like YOU, not like a machine.**
+
+---
+
+### When to Use
+
+**ALWAYS apply humanizer before sending AI content to user:**
+
+- ✅ Emails
+- ✅ Social media posts
+- ✅ Scripts and copy
+- ✅ Blog posts
+- ✅ Any AI-generated text
+
+---
+
+### Usage
+
+**Command Line:**
+```bash
+cd ~/.openclaw/workspace/skills/humanizer
+
+# Humanize a file
+python3 humanizer.py input.txt
+
+# Humanize text string
+python3 humanizer.py --text "Your AI text here"
+
+# Learn from your writing style
+python3 humanizer.py --learn ~/Documents/Obsidian-OpenClaw/01-Journal/
+
+# Test with sample text
+python3 humanizer.py --test
+
+# Show before/after comparison
+python3 humanizer.py --compare
+```
+
+**Python Module:**
+```python
+from humanizer import Humanizer
+
+humanizer = Humanizer()
+humanized = humanizer.humanize("Your AI text here")
+```
+
+---
+
+### Rules Applied
+
+**1. Em Dashes** — Convert em dashes (—) to regular dashes (--) or rewrite sentence
+
+**2. AI Giveaway Words** — Remove:
+- certainly, indeed, delve, navigate, landscape
+- furthermore, moreover, consequently, additionally
+- utilize, leverage, optimize, enhance, streamline
+- seamlessly, comprehensive, robust, cutting-edge
+
+**3. Exclamation Marks** — Limit to 1-2 per paragraph max
+
+**4. Repetitive Starts** — Don't start multiple sentences/bullets with same word
+
+**5. Sentence Variety** — Mix short, medium, long sentences naturally
+
+**6. Formal Transitions** — Remove overly formal phrases (e.g., "Furthermore", "Moreover")
+
+**7. Style Matching** — Learn from user's writing examples
+
+---
+
+### Example
+
+**Before (AI-generated):**
+```
+Indeed, the solution—while complex—delves into navigating the
+landscape of modern productivity. Furthermore, it certainly leverages
+multiple strategies to optimize efficiency!
+
+Furthermore, you can implement this easily! Additionally, it's great for teams!
+```
+
+**After (Humanized):**
+```
+The solution, while complex, explores modern productivity. It uses multiple
+strategies to improve efficiency.
+
+You can implement this easily. It's also great for teams.
+```
+
+---
+
+### Configuration
+
+**Edit `~/.openclaw/workspace/skills/humanizer/config.json` to customize:**
+
+```json
+{
+  "rules": {
+    "max_exclamations_per_paragraph": 2,
+    "avoid_words": ["certainly", "indeed", "delve"],
+    "sentence_length_variety": true,
+    "avoid_repetitive_starts": true,
+    "formal_transitions": ["furthermore", "moreover"]
+  },
+  "style": {
+    "tone": "casual-professional",
+    "directness": 0.8,
+    "contractions": true,
+    "common_phrases": ["Here's what I found", "Let me break this down"]
+  }
+}
+```
+
+---
+
+### Learn Your Style
+
+**Create style profile from your writing:**
+
+```bash
+# Learn from your journal entries
+python3 humanizer.py --learn ~/Documents/Obsidian-OpenClaw/01-Journal/
+
+# View learned patterns
+python3 humanizer.py --profile
+```
+
+**Detected patterns:**
+- Common phrases: "Here's what I found", "Let me break this down"
+- Sentence length: Mixed, mostly 10-20 words
+- Tone: Direct, casual but professional
+- Transitions: Simple (and, also, but)
+
+---
+
+### Automatic Integration
+
+**OpenClaw should apply humanizer automatically:**
+
+```python
+from humanizer import Humanizer
+
+humanizer = Humanizer()
+
+# Before sending any AI content to user:
+email_content = humanizer.humanize(ai_generated_email)
+social_post = humanizer.humanize(ai_generated_post)
+script_content = humanizer.humanize(ai_generated_script)
+
+# Send humanized result to user
+```
+
+---
+
+### Goal
+
+**Output should sound like YOU, not like AI.**
+
+**Remove AI giveaways:**
+- No em dashes (—)
+- No "certainly", "indeed", "delve", "navigate", "landscape"
+- No excessive exclamation marks
+- No repetitive sentence starts
+- No overly formal transitions
+- Natural sentence length variety
+- YOUR voice and style
+
+---
+
+**Last updated:** 2026-03-04

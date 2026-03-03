@@ -1,0 +1,49 @@
+{
+  "rules": {
+    "max_exclamations_per_paragraph": 2,
+    "avoid_words": [
+      "certainly",
+      "indeed",
+      "delve",
+      "navigate",
+      "landscape",
+      "furthermore",
+      "moreover",
+      "consequently",
+      "notwithstanding",
+      "utilize",
+      "leverage",
+      "optimize",
+      "enhance",
+      "streamline",
+      "facilitate",
+      "seamlessly",
+      "comprehensive",
+      "robust",
+      "cutting-edge",
+      "state-of-the-art"
+    ],
+    "sentence_length_variety": true,
+    "avoid_repetitive_starts": true,
+    "formal_transitions": [
+      "furthermore",
+      "moreover",
+      "consequently",
+      "notwithstanding",
+      "additionally",
+      "moreover",
+      "nonetheless",
+      "nevertheless",
+      "therefore",
+      "thus",
+      "hence",
+      "whereby"
+    ]
+  },
+  "style": {
+    "tone": "casual-professional",
+    "directness": 0.8,
+    "contractions": true,
+    "common_phrases": []
+  }
+}
