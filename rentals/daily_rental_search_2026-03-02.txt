@@ -43,16 +43,7 @@ TOP 10 PROPERTIES (sorted by commute time)
    Commute: 28 min drive / 38 min PT to Abbotsford
    Inspections: Sat 28 Feb, 11:55am
 
-5. 40A Drysdale Street Reservoir
-   Suburb: Reservoir
-   Price: $550/week
-   Type: House - 3 Beds/1 Baths
-   URL: https://www.domain.com.au/40a-drysdale-street-reservoir-vic-3073-17996955
-   Transport: Reservoir train station (South Morang line)
-   Commute: 28 min drive / 38 min PT to Abbotsford
-   Inspections: Sat 28 Feb, 10:50am
-
-6. 5 8 Barton Street Reservoir
+5. 5 8 Barton Street Reservoir
    Suburb: Reservoir
    Price: $550/week
    Type: House - 5 Beds/2 Baths
@@ -61,7 +52,7 @@ TOP 10 PROPERTIES (sorted by commute time)
    Commute: 28 min drive / 38 min PT to Abbotsford
    Inspections: Sat 28 Feb, 12:20pm
 
-7. 1 6 8 Box Street Reservoir
+6. 1 6 8 Box Street Reservoir
    Suburb: Reservoir
    Price: $550/week
    Type: House - 2 Beds/1 Baths
@@ -69,6 +60,15 @@ TOP 10 PROPERTIES (sorted by commute time)
    Transport: Reservoir train station (South Morang line)
    Commute: 28 min drive / 38 min PT to Abbotsford
    Inspections: Sat 28 Feb, 11:20am
+
+7. 40A Drysdale Street Reservoir
+   Suburb: Reservoir
+   Price: $550/week
+   Type: House - 3 Beds/1 Baths
+   URL: https://www.domain.com.au/40a-drysdale-street-reservoir-vic-3073-17996955
+   Transport: Reservoir train station (South Morang line)
+   Commute: 28 min drive / 38 min PT to Abbotsford
+   Inspections: Sat 28 Feb, 10:50am
 
 8. 1 17 Compton Street Reservoir
    Suburb: Reservoir
